@@ -1,0 +1,98 @@
+; ProDOS Interrupt Handler
+; Compatible with EDASM assembler
+; This handler saves processor state, calls user routines, and restores state
+
+         ORG   $2000        ; Arbitrary location - modify as needed
+
+; ProDOS Interrupt Handler
+; System equates
+PROENTRY EQU   $BF00        ; ProDOS entry point
+INTADDR  EQU   $03FE        ; System interrupt vector
+
+; Zero page usage
+ZPSAVE   EQU   $19          ; Zero page save area (4 bytes)
+
+; Interrupt handler workspace
+ASAVE    DS    1            ; Storage for A register
+XSAVE    DS    1            ; Storage for X register
+YSAVE    DS    1            ; Storage for Y register
+PSAVE    DS    1            ; Storage for processor status
+
+; Handler entry point
+INTHAND  STA   ASAVE        ; Save A register
+         STX   XSAVE        ; Save X register
+         STY   YSAVE        ; Save Y register
+         PHP                ; Get processor status
+         PLA                ; Pull it to accumulator
+         STA   PSAVE        ; Save processor status
+
+         ; Save zero page locations if needed
+         LDA   $45          ; Example - save zero page locations
+         STA   ZPSAVE       ; that your routine will use
+         LDA   $46
+         STA   ZPSAVE+1
+         LDA   $47
+         STA   ZPSAVE+2
+         LDA   $48
+         STA   ZPSAVE+3
+
+         ; Process interrupt
+         JSR   USERINT      ; Call user interrupt routine
+
+         ; Restore zero page
+         LDA   ZPSAVE
+         STA   $45
+         LDA   ZPSAVE+1
+         STA   $46
+         LDA   ZPSAVE+2
+         STA   $47
+         LDA   ZPSAVE+3
+         STA   $48
+
+         ; Restore processor state
+         LDA   PSAVE        ; Get saved processor status
+         PHA                ; Push onto stack
+         LDY   YSAVE        ; Restore Y register
+         LDX   XSAVE        ; Restore X register
+         LDA   ASAVE        ; Restore A register
+         PLP                ; Restore processor status
+         RTI                ; Return from interrupt
+
+; User interrupt routine - replace with your actual code
+USERINT  NOP                ; Your code goes here
+         RTS                ; Return to handler
+
+; Installation routine - call once to hook interrupt
+INSTALL  PHP                ; Save processor status
+         SEI                ; Disable interrupts during install
+         
+         ; Save old interrupt vector
+         LDA   INTADDR      ; Get low byte of current vector
+         STA   OLDINT       ; Save it
+         LDA   INTADDR+1    ; Get high byte
+         STA   OLDINT+1     ; Save it
+         
+         ; Install new vector
+         LDA   #<INTHAND    ; Low byte of our handler
+         STA   INTADDR      ; Store in vector
+         LDA   #>INTHAND    ; High byte of our handler
+         STA   INTADDR+1    ; Store in vector
+         
+         PLP                ; Restore processor status
+         RTS                ; Return to caller
+
+; Uninstallation routine - restores original handler
+UNINSTL  PHP                ; Save processor status
+         SEI                ; Disable interrupts
+         
+         ; Restore original vector
+         LDA   OLDINT       ; Get saved low byte
+         STA   INTADDR      ; Restore it
+         LDA   OLDINT+1     ; Get saved high byte
+         STA   INTADDR+1    ; Restore it
+         
+         PLP                ; Restore processor status
+         RTS                ; Return to caller
+
+; Storage for original interrupt vector
+OLDINT   DS    2

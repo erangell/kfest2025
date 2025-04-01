@@ -1,0 +1,136 @@
+; ProDOS MLI Interrupt Handler
+; Compatible with EDASM assembler
+; Properly uses MLI calls for allocation/deallocation of interrupts
+; Handles decimal flag and carry flag according to ProDOS requirements
+
+         ORG   $2000        ; Arbitrary location - modify as needed
+
+; ProDOS MLI equates
+MLIADDR  EQU   $BF00        ; ProDOS MLI entry point
+ALLOC_INT EQU  $40          ; MLI Allocate Interrupt call number
+DEALLOC_INT EQU $41         ; MLI Deallocate Interrupt call number
+
+; System interrupt equates
+IRQ_VEC  EQU   $03FE        ; 6502 IRQ vector location
+BRK_VEC  EQU   $3F0         ; ProDOS BRK vector location
+
+; Zero page usage
+ZPSAVE   EQU   $19          ; Zero page save area (4 bytes)
+
+; Interrupt handler workspace
+ASAVE    DS    1            ; Storage for A register
+XSAVE    DS    1            ; Storage for X register
+YSAVE    DS    1            ; Storage for Y register
+PSAVE    DS    1            ; Storage for processor status
+
+; MLI parameter blocks
+INT_PARMS DS    3           ; Allocate/Deallocate interrupt parameter block
+         ; Structure: byte count, int_num, int_code address (2 bytes)
+
+; Handler entry point
+INTHAND  STA   ASAVE        ; Save A register
+         STX   XSAVE        ; Save X register
+         STY   YSAVE        ; Save Y register
+         PHP                ; Get processor status
+         PLA                ; Pull it to accumulator
+         STA   PSAVE        ; Save processor status
+
+         ; Clear decimal flag as required by ProDOS
+         CLD                ; Clear decimal mode
+
+         ; Save zero page locations if needed
+         LDA   $45          ; Example - save zero page locations
+         STA   ZPSAVE       ; that your routine will use
+         LDA   $46
+         STA   ZPSAVE+1
+         LDA   $47
+         STA   ZPSAVE+2
+         LDA   $48
+         STA   ZPSAVE+3
+
+         ; Process interrupt
+         JSR   USERINT      ; Call user interrupt routine
+         
+         ; Note: ProDOS requires the carry flag to be clear on exit
+         ; from interrupt handlers to indicate the interrupt was handled
+         CLC                ; Clear carry flag as required
+
+         ; Restore zero page
+         LDA   ZPSAVE
+         STA   $45
+         LDA   ZPSAVE+1
+         STA   $46
+         LDA   ZPSAVE+2
+         STA   $47
+         LDA   ZPSAVE+3
+         STA   $48
+
+         ; Restore processor state
+         LDA   PSAVE        ; Get saved processor status
+         PHA                ; Push onto stack
+         LDY   YSAVE        ; Restore Y register
+         LDX   XSAVE        ; Restore X register
+         LDA   ASAVE        ; Restore A register
+         PLP                ; Restore processor status
+         RTI                ; Return from interrupt
+
+; User interrupt routine - replace with your actual code
+USERINT  NOP                ; Your code goes here
+         RTS                ; Return to handler
+
+; Installation routine - uses MLI to properly allocate interrupt
+INSTALL  LDA   #2           ; Parameter count for Allocate_Interrupt
+         STA   INT_PARMS    ; Store in parameter block
+         LDA   #$00         ; Interrupt number 0 (system interrupt)
+         STA   INT_PARMS+1  ; Store in parameter block
+         LDA   #<INTHAND    ; Low byte of handler address
+         STA   INT_PARMS+2  ; Store in parameter block
+         LDA   #>INTHAND    ; High byte of handler address
+         STA   INT_PARMS+3  ; Store in parameter block
+
+         LDA   #ALLOC_INT   ; MLI Allocate_Interrupt call
+         LDX   #<INT_PARMS  ; Low byte of parameter list
+         LDY   #>INT_PARMS  ; High byte of parameter list
+         JSR   MLIADDR      ; Call ProDOS MLI
+         BCS   INSTALLERR   ; Branch if error
+
+         ; Save original BRK vector if needed
+         LDA   BRK_VEC      ; Get low byte of BRK vector
+         STA   OLDBRK       ; Save it
+         LDA   BRK_VEC+1    ; Get high byte
+         STA   OLDBRK+1     ; Save it
+         
+         RTS                ; Return to caller
+         
+INSTALLERR 
+         ; Handle installation error
+         ; A register contains error code
+         RTS                ; Return with error code in A
+
+; Uninstallation routine - uses MLI to properly deallocate interrupt
+UNINSTL  LDA   #1           ; Parameter count for Deallocate_Interrupt
+         STA   INT_PARMS    ; Store in parameter block
+         LDA   #$00         ; Interrupt number 0 (system interrupt)
+         STA   INT_PARMS+1  ; Store in parameter block
+
+         LDA   #DEALLOC_INT ; MLI Deallocate_Interrupt call
+         LDX   #<INT_PARMS  ; Low byte of parameter list
+         LDY   #>INT_PARMS  ; High byte of parameter list
+         JSR   MLIADDR      ; Call ProDOS MLI
+         BCS   UNINSTLERR   ; Branch if error
+         
+         ; Restore original BRK vector if needed
+         LDA   OLDBRK       ; Get saved low byte
+         STA   BRK_VEC      ; Restore it
+         LDA   OLDBRK+1     ; Get saved high byte
+         STA   BRK_VEC+1    ; Restore it
+         
+         RTS                ; Return to caller
+
+UNINSTLERR
+         ; Handle uninstallation error
+         ; A register contains error code
+         RTS                ; Return with error code in A
+
+; Storage for original vectors
+OLDBRK   DS    2           ; Original BRK vector

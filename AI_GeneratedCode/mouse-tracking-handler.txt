@@ -1,0 +1,210 @@
+; ===============================================
+; Apple IIGS Mouse Tracking Interrupt Handler
+; ProDOS Compliant for EDASM
+; ===============================================
+; Tracks mouse position via ADB and stores:
+; - X position (0-79) in zero page $06
+; - Y position (0-23) in zero page $07
+; ===============================================
+
+         EJECT ON       ; Enable page ejects
+         LST ON         ; Enable assembly listing
+
+; ===============================================
+; System Equates
+; ===============================================
+MLI      EQU $BF00      ; ProDOS MLI entry
+ALLOC_INT EQU $40       ; MLI Allocate Interrupt
+DEALLOC_INT EQU $41     ; MLI Deallocate Interrupt
+MOUSCLAMP EQU $10       ; Mouse clamping tool call
+
+; ADB Equates
+READMOUSE EQU $A2       ; Read mouse ADB command
+MOUSEID   EQU $03       ; ADB Mouse Device ID
+ADB_SR    EQU $C026     ; ADB Status Register
+ADB_CMD   EQU $C027     ; ADB Command Register
+ADB_BUFF  EQU $C029     ; ADB Buffer Register
+ADB_INTR  EQU $0700     ; ADB Interrupt Handler Vector
+
+; GS Environment
+E_REG    EQU $C029      ; Environment register
+SHADOW   EQU $01C029    ; Shadow register (bank $E1)
+MRESET   EQU $C021      ; Reset ADB mouse
+MBTN     EQU $C023      ; Mouse button reg
+MDATA    EQU $C024      ; Mouse data reg
+MSTATUS  EQU $C027      ; Mouse status reg
+
+; Zero Page storage
+XPOS     EQU $06        ; X position (0-79)
+YPOS     EQU $07        ; Y position (0-23)
+
+; Temporary storage
+XTEMP    EQU $FA        ; Temp X (internal scale)
+YTEMP    EQU $FB        ; Temp Y (internal scale)
+MFLAGS   EQU $FC        ; Mouse status flags
+
+         ORG $2000      ; Program origin
+
+; ===============================================
+; Main Interrupt Handler
+; ===============================================
+INTHAND  PHP            ; Save processor status
+         PHA            ; Save A
+         PHX            ; Save X (65816 instruction)
+         PHY            ; Save Y (65816 instruction)
+         
+         CLD            ; Clear decimal mode (ProDOS requirement)
+         
+         ; Switch to native mode if in emulation mode
+         LDA E_REG
+         PHA            ; Save current environment
+         AND #$30       ; Check native/emulation bit
+         BNE NATIVE     ; If already native, skip
+         REP #$30       ; Set native mode, 16-bit registers
+NATIVE   
+
+         ; Check if ADB interrupt is for mouse
+         LDA ADB_SR     ; Load ADB status
+         BIT #$08       ; Check if data available
+         BEQ EXIT_INT   ; Exit if no data
+         
+         LDA ADB_CMD    ; Get command register
+         AND #$FF       ; Mask device bits
+         CMP #MOUSEID   ; Is it mouse data?
+         BNE EXIT_INT   ; If not, exit
+         
+         ; Read mouse data - Mouse returns 2 bytes:
+         ; Byte 1: Button state + Y movement high bits
+         ; Byte 2: X movement
+         LDA #READMOUSE ; Set read mouse command
+         STA ADB_CMD    ; Send command
+         
+WAIT_ADB JSR POLL_ADB   ; Wait for ADB response
+         BCC WAIT_ADB   ; Keep waiting if not ready
+         
+         ; Process button state
+         LDA ADB_BUFF   ; Get first byte (button + Y movement)
+         STA MFLAGS     ; Store button state
+         
+         ; Get X movement
+         LDA ADB_BUFF+1 ; Get X movement byte
+         CLC
+         ADC XTEMP      ; Add to current position
+         STA XTEMP      ; Store raw position
+         
+         ; Get Y movement from high bits of first byte
+         LDA MFLAGS     ; Get Y movement high bits
+         AND #$7F       ; Mask button bit
+         ASL A          ; Shift to proper position
+         CLC
+         ADC YTEMP      ; Add to current Y position
+         STA YTEMP      ; Store raw position
+         
+         ; Clamp X position to 0-79
+         LDA XTEMP      ; Get raw X
+         CMP #80        ; Compare with max X
+         BMI X_OK       ; Branch if minus (less than 80)
+         LDA #79        ; Clamp to max
+X_OK     BPL X_POS      ; Branch if plus (greater than 0)
+         LDA #0         ; Clamp to min
+X_POS    STA XPOS       ; Store final X position
+        
+         ; Clamp Y position to 0-23
+         LDA YTEMP      ; Get raw Y
+         CMP #24        ; Compare with max Y
+         BMI Y_OK       ; Branch if minus (less than 24)
+         LDA #23        ; Clamp to max
+Y_OK     BPL Y_POS      ; Branch if plus (greater than 0)
+         LDA #0         ; Clamp to min
+Y_POS    STA YPOS       ; Store final Y position
+         
+EXIT_INT PLA            ; Restore environment register
+         STA E_REG      ; Restore native/emulation mode
+         
+         CLC            ; Clear carry (ProDOS requirement)
+         PLY            ; Restore Y
+         PLX            ; Restore X
+         PLA            ; Restore A
+         PLP            ; Restore processor status
+         RTI            ; Return from interrupt
+
+; ===============================================
+; Helper routines
+; ===============================================
+; Check if the ADB has data ready
+POLL_ADB LDA ADB_SR     ; Check status register
+         AND #$08       ; Data ready bit
+         BEQ NO_DATA    ; Branch if no data
+         SEC            ; Set carry if data ready
+         RTS
+NO_DATA  CLC            ; Clear carry if no data
+         RTS
+
+; ===============================================
+; Installation/Removal routines
+; ===============================================
+INSTALL  PHP            ; Save processor status
+         SEI            ; Disable interrupts during install
+         
+         ; Set up MLI parameter block
+         LDA #2         ; Parameter count
+         STA PARMS      ; Store in parameter block
+         LDA #$00       ; Interrupt number (system)
+         STA PARMS+1    ; Store in parameter block
+         LDA #<INTHAND  ; Low byte of handler address
+         STA PARMS+2    ; Store in parameter block
+         LDA #>INTHAND  ; High byte of handler address
+         STA PARMS+3    ; Store in parameter block
+         
+         ; Call MLI to allocate interrupt
+         LDA #ALLOC_INT ; Allocate interrupt call
+         LDX #<PARMS    ; Parameter block low byte
+         LDY #>PARMS    ; Parameter block high byte
+         JSR MLI        ; Call ProDOS MLI
+         BCS INST_ERR   ; Branch on error
+         
+         ; Initialize mouse vars
+         STZ XTEMP      ; Clear X temp (STZ = store zero)
+         STZ YTEMP      ; Clear Y temp
+         STZ XPOS       ; Clear X position
+         STZ YPOS       ; Clear Y position
+         
+         ; Enable ADB mouse interrupts
+         LDA #$00       ; Enable mouse interrupts
+         STA MSTATUS    ; Store to mouse status
+         
+         ; Initialize the ADB mouse
+         LDA #$D0       ; Reset mouse mode command
+         STA ADB_CMD    ; Send to ADB
+         
+         PLP            ; Restore processor status
+         CLC            ; Clear carry (success)
+         RTS
+         
+INST_ERR PLP            ; Restore processor status
+         SEC            ; Set carry (error)
+         RTS
+
+; Remove handler
+UNINSTALL PHP            ; Save processor status
+          SEI            ; Disable interrupts
+          
+          ; Set up MLI parameter block
+          LDA #1         ; Parameter count
+          STA PARMS      ; Store in parameter block
+          LDA #$00       ; Interrupt number (system)
+          STA PARMS+1    ; Store in parameter block
+          
+          ; Call MLI to deallocate interrupt
+          LDA #DEALLOC_INT ; Deallocate interrupt call
+          LDX #<PARMS    ; Parameter block low byte
+          LDY #>PARMS    ; Parameter block high byte
+          JSR MLI        ; Call ProDOS MLI
+          
+          PLP            ; Restore processor status
+          RTS
+
+; ===============================================
+; Data Storage
+; ===============================================
+PARMS    DS 4           ; MLI parameter block
