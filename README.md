@@ -8,4 +8,4 @@ Video: https://www.youtube.com/watch?v=pQg_N0toNLQ
 
 Useful References:
 - Line Processor article from AFIPS 1974, p.257-265: https://dl.acm.org/doi/pdf/10.1145/1500175.1500229
-- 
+- Technical Documents from the SRI Augmentation Research Center: https://bitsavers.org/pdf/sri/arc/
