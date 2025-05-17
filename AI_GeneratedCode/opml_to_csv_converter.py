@@ -62,6 +62,9 @@ def break_text(text: str, max_length: int = 64) -> List[str]:
     if not text:
         return [""]
     
+    # Replace quotes with &quot; before breaking text
+    text = text.replace('"', '&quot;')
+    
     # Use textwrap to handle line breaking at appropriate places
     lines = textwrap.wrap(text, width=max_length, break_long_words=True)
     
@@ -88,7 +91,8 @@ def opml_to_csv(input_file: str, output_file: str, max_line_length: int = 64) ->
     outlines = body.findall("outline")
     
     with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
-        csv_writer = csv.writer(csvfile, quoting=csv.QUOTE_MINIMAL)
+        # Configure CSV writer to always quote the text field (third column)
+        csv_writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
         
         # Write header row
         csv_writer.writerow(["Index", "Line Number", "Text"])
