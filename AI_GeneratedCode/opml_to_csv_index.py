@@ -94,8 +94,19 @@ def process_outline_element(element, current_path=None, result=None):
     
     # Process outline elements
     if element.tag == 'outline':
+
         # Get text attribute if it exists
         text = element.get('text', '')
+        prefix = '{http://www.hyperscope.org/hyperscope/opml/public/2006/05/09}'
+        pnid = prefix + 'nid'
+        pauthor = prefix + 'createdBy'
+        pdate = prefix + 'createdOn'
+
+        # get additional metadata for statements
+        #ekeys=element.keys()
+        nid= element.get(pnid, '')
+        author = element.get(pauthor, '')
+        dtcreated = element.get(pdate, '')
         
         # Only process if we're at level 2 or deeper
         # current_path will be empty for body element, length 1 for top level outlines
@@ -109,7 +120,7 @@ def process_outline_element(element, current_path=None, result=None):
             nls_format = convert_to_nls_format(nls_numeric)
             
             # Add to results
-            result.append((dotted_numeric, nls_format))
+            result.append((dotted_numeric, nls_format, nid, author, dtcreated))
     
     # Process children
     child_index = 0
@@ -148,9 +159,9 @@ def opml_to_csv(opml_file, csv_file):
         
         # Write results to CSV
         with open(csv_file, 'w', newline='', encoding='utf-8') as f:
-            writer = csv.writer(f)
+            writer = csv.writer(f, quoting=csv.QUOTE_ALL)
             # Write header
-            writer.writerow(["dotted_numeric", "dotted_alphanumeric"])
+            writer.writerow(["dotted_numeric", "dotted_alphanumeric", "nid", "author", "dtCreated"])
             # Write data
             for row in results:
                 writer.writerow(row)
