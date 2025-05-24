@@ -1,0 +1,6 @@
+"Index","Line Number","Text"
+"1","1","This node is from transclude.opml; the node below is transcluded"
+"1","2","from another document to illustrate recursive transclusions; it"
+"1","3","is actually from a remote, third-party webserver:"
+"2","1","INCLUDE BRANCH"
+"2","2","http://radio.weblogs.com/0001000/gems/publications.opml#1D"
