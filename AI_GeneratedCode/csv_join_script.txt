@@ -1,0 +1,31 @@
+Prompts to Claude Sonnet 4 to build python script for merging 2 CSV files
+
+Please write a python script to join 2 CSV files into one CSV file by matching on the first column.  In file A the first column is a unique primary key.  In file B there are multiple rows for each primary key in file A.  Both files are sorted in order of the primary key.
+
+--> csv_join_script.py
+
+modify the program such that the line from file A is printed first with an additional column appended indicating the count of the number of rows in file B that match the primary key of column A, then follow that row with each row in file B.  The intention is to reduce the amount of data from file A that is duplicated in the output file.
+
+--> csv_join_script (1)
+
+in the output file please remove the first column from file B and always quote all fields
+
+--> csv_join_script (2)
+*** This version is the one used in the OPML directory
+
+please modify the code so that any lines found in file B which do not have a matching primary key in file A are simply added to the CSV file.  Please also add a row with primary key "1" with all other fields blank as the first row of the output file.
+
+--> csv_join_script (3)
+
+What is the possible cause of this error: Error: cannot access local variable 'rows_written' where it is not associated with a value
+
+--> csv_join_script (4)
+
+THe script appears to be failing for the first orphan row
+
+--> csv_join_script (5)
+
+where can I find the debugging information?
+
+--> csv_join_script (6)
+

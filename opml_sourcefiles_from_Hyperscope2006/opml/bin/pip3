@@ -1,4 +1,4 @@
-#!/Users/ericrangell/Downloads/git/kfest2025/opml_sourcefiles_from_Hyperscope2006/opml/bin/python3.12
+#!/Users/ericrangell/Downloads/git/kfest2025/opml_sourcefiles_from_Hyperscope2006/opml/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

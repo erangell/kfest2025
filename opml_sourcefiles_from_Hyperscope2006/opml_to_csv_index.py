@@ -4,6 +4,7 @@ Script to process an OPML file and create a CSV with hierarchy levels.
 For each "text" element, generates both dotted numeric and NLS-style alphanumeric identifiers.
 
 Modified to exclude text from output CSV file so it becomes only a purple number index
+Modified to add dummy first line for use by CSV join program
 """
 
 import xml.etree.ElementTree as ET
@@ -155,6 +156,10 @@ def opml_to_csv(opml_file, csv_file):
         
         # Process all outline elements
         results = []
+
+	# Manually added first line to help CSV join algorithm
+        results.append(("1","","","",""))
+
         process_outline_element(body, [], results)
         
         # Write results to CSV

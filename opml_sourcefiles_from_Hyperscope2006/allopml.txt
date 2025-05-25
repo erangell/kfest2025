@@ -1,0 +1,144 @@
+Processed 26 outline elements
+Output written to alliance-1198index.csv
+Successfully converted alliance-1198.opml to alliance-1198lines.csv
+Successfully joined files. 105 rows written to alliance-1198join.csv
+Join completed successfully!
+Processed 116 outline elements
+Output written to augment-132082index.csv
+Successfully converted augment-132082.opml to augment-132082lines.csv
+Successfully joined files. 715 rows written to augment-132082join.csv
+Join completed successfully!
+Processed 199 outline elements
+Output written to augment-132811index.csv
+Successfully converted augment-132811.opml to augment-132811lines.csv
+Successfully joined files. 1556 rows written to augment-132811join.csv
+Join completed successfully!
+Processed 57 outline elements
+Output written to augment-133174index.csv
+Successfully converted augment-133174.opml to augment-133174lines.csv
+Successfully joined files. 319 rows written to augment-133174join.csv
+Join completed successfully!
+Processed 499 outline elements
+Output written to augmentinghumanintellectindex.csv
+Successfully converted augmentinghumanintellect.opml to augmentinghumanintellectlines.csv
+Warning: Key '1.2.3.4.2' from file B has no match in file A
+Warning: Key '1.2.3.4.10' from file B has no match in file A
+Warning: Key '1.3.1.5.7' from file B has no match in file A
+Successfully joined files. 5496 rows written to augmentinghumanintellectjoin.csv
+Join completed successfully!
+Processed 78 outline elements
+Output written to bi-2120index.csv
+Successfully converted bi-2120.opml to bi-2120lines.csv
+Successfully joined files. 378 rows written to bi-2120join.csv
+Join completed successfully!
+Processed 11 outline elements
+Output written to complex_htmlindex.csv
+Successfully converted complex_html.opml to complex_htmllines.csv
+Successfully joined files. 51 rows written to complex_htmljoin.csv
+Join completed successfully!
+Processed 38 outline elements
+Output written to example_addressesindex.csv
+Successfully converted example_addresses.opml to example_addresseslines.csv
+Successfully joined files. 89 rows written to example_addressesjoin.csv
+Join completed successfully!
+Processed 706 outline elements
+Output written to finalarchindex.csv
+Successfully converted finalarch.opml to finalarchlines.csv
+Successfully joined files. 1690 rows written to finalarchjoin.csv
+Join completed successfully!
+Processed 650 outline elements
+Output written to hyarchindex.csv
+Successfully converted hyarch.opml to hyarchlines.csv
+Warning: Key '1.3.2.4.2.1.1' from file B has no match in file A
+Warning: Key '1.3.2.4.4.1.1' from file B has no match in file A
+Warning: Key '1.3.2.5.1.1.1' from file B has no match in file A
+Warning: Key '1.3.2.5.4.1.1' from file B has no match in file A
+Warning: Key '1.5.7.2.1' from file B has no match in file A
+Warning: Key '1.5.7.2.2' from file B has no match in file A
+Warning: Key '1.5.7.2.3' from file B has no match in file A
+Warning: Key '1.5.7.2.4' from file B has no match in file A
+Warning: Key '1.5.7.3.1' from file B has no match in file A
+Warning: Key '1.5.8.2.1' from file B has no match in file A
+Warning: Key '1.5.8.4.1' from file B has no match in file A
+Warning: Key '1.5.8.4.1.1' from file B has no match in file A
+Warning: Key '1.5.8.4.1.1.1' from file B has no match in file A
+Warning: Key '1.5.8.4.1.1.2' from file B has no match in file A
+Warning: Key '1.5.8.4.1.2' from file B has no match in file A
+Warning: Key '1.5.8.4.2' from file B has no match in file A
+Successfully joined files. 1530 rows written to hyarchjoin.csv
+Join completed successfully!
+Processed 137 outline elements
+Output written to oad-2221index.csv
+Successfully converted oad-2221.opml to oad-2221lines.csv
+Successfully joined files. 680 rows written to oad-2221join.csv
+Join completed successfully!
+Processed 186 outline elements
+Output written to oad-2250index.csv
+Successfully converted oad-2250.opml to oad-2250lines.csv
+Successfully joined files. 1149 rows written to oad-2250join.csv
+Join completed successfully!
+Processed 79 outline elements
+Output written to opml1_0index.csv
+Successfully converted opml1_0.opml to opml1_0lines.csv
+Warning: Key '2' from file B has no match in file A
+Warning: Key '3' from file B has no match in file A
+Warning: Key '4' from file B has no match in file A
+Warning: Key '5' from file B has no match in file A
+Warning: Key '6' from file B has no match in file A
+Warning: Key '7' from file B has no match in file A
+Warning: Key '8' from file B has no match in file A
+Warning: Key '9' from file B has no match in file A
+Warning: Key '10' from file B has no match in file A
+Warning: Key '11' from file B has no match in file A
+Warning: Key '12' from file B has no match in file A
+Warning: Key '13' from file B has no match in file A
+Warning: Key '14' from file B has no match in file A
+Warning: Key '15' from file B has no match in file A
+Warning: Key '16' from file B has no match in file A
+Warning: Key '17' from file B has no match in file A
+Warning: Key '18' from file B has no match in file A
+Warning: Key '19' from file B has no match in file A
+Warning: Key '20' from file B has no match in file A
+Warning: Key '21' from file B has no match in file A
+Warning: Key '22' from file B has no match in file A
+Warning: Key '23' from file B has no match in file A
+Warning: Key '24' from file B has no match in file A
+Successfully joined files. 392 rows written to opml1_0join.csv
+Join completed successfully!
+Processed 1 outline elements
+Output written to opml2_0index.csv
+Successfully converted opml2_0.opml to opml2_0lines.csv
+Warning: 51 keys from file B had no matches in file A
+Successfully joined files. 2 rows written to opml2_0join.csv
+Join completed successfully!
+Processed 1 outline elements
+Output written to transcludeindex.csv
+Successfully converted transclude.opml to transcludelines.csv
+Warning: 2 keys from file B had no matches in file A
+Successfully joined files. 4 rows written to transcludejoin.csv
+Join completed successfully!
+Processed 80 outline elements
+Output written to tutor-browserindex.csv
+Successfully converted tutor-browser.opml to tutor-browserlines.csv
+Successfully joined files. 287 rows written to tutor-browserjoin.csv
+Join completed successfully!
+Processed 139 outline elements
+Output written to tutor-hyperscopeindex.csv
+Successfully converted tutor-hyperscope.opml to tutor-hyperscopelines.csv
+Successfully joined files. 537 rows written to tutor-hyperscopejoin.csv
+Join completed successfully!
+Processed 78 outline elements
+Output written to tutorindex.csv
+Successfully converted tutor.opml to tutorlines.csv
+Successfully joined files. 448 rows written to tutorjoin.csv
+Join completed successfully!
+Processed 107 outline elements
+Output written to tutor2index.csv
+Successfully converted tutor2.opml to tutor2lines.csv
+Successfully joined files. 544 rows written to tutor2join.csv
+Join completed successfully!
+Processed 296 outline elements
+Output written to tutor3index.csv
+Successfully converted tutor3.opml to tutor3lines.csv
+Successfully joined files. 1556 rows written to tutor3join.csv
+Join completed successfully!
