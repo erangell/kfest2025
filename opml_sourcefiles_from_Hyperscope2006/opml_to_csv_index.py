@@ -39,6 +39,18 @@ def convert_to_alpha(num):
     
     return first_letter + second_letter
 
+def calc_level(dotted_numeric):
+    if not dotted_numeric:
+        return ""
+    
+    parts = dotted_numeric.split('.')
+    level = 1
+ 
+    for i, part in enumerate(parts):
+        level += 1
+    return level
+
+
 def convert_to_nls_format(dotted_numeric):
     """
     Convert a dotted numeric string to NLS alternating alphanumeric format.
@@ -62,7 +74,7 @@ def convert_to_nls_format(dotted_numeric):
     
     parts = dotted_numeric.split('.')
     result = []
-    
+ 
     for i, part in enumerate(parts):
         # Convert to integer
         num = int(part)
@@ -118,10 +130,11 @@ def process_outline_element(element, current_path=None, result=None):
             # For the NLS format, we want to ignore the first level in the hierarchy
             # So we use current_path[1:] to get all but the first element
             nls_numeric = '.'.join(map(str, current_path[1:]))
+            level = calc_level(nls_numeric)
             nls_format = convert_to_nls_format(nls_numeric)
             
             # Add to results
-            result.append((dotted_numeric, nls_format, nid, author, dtcreated))
+            result.append((dotted_numeric, nls_format, nid, author, dtcreated, level))
     
     # Process children
     child_index = 0
@@ -158,7 +171,7 @@ def opml_to_csv(opml_file, csv_file):
         results = []
 
 	# Manually added first line to help CSV join algorithm
-        results.append(("1","","","",""))
+        results.append(("1","","","","","1"))
 
         process_outline_element(body, [], results)
         
@@ -166,7 +179,7 @@ def opml_to_csv(opml_file, csv_file):
         with open(csv_file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f, quoting=csv.QUOTE_ALL)
             # Write header
-            writer.writerow(["dotted_numeric", "dotted_alphanumeric", "nid", "author", "dtCreated"])
+            writer.writerow(["dotted_numeric", "dotted_alphanumeric", "nid", "author", "dtCreated", "level"])
             # Write data
             for row in results:
                 writer.writerow(row)
