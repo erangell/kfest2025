@@ -1,0 +1,1690 @@
+10000 DATA 1,3,"","","","",1
+10001 DATA 2,1,"<a href=&quot;#BI5, USER2:NEUBERG,"
+10002 DATA 2,2,"HYARCH.AUG.112,&quot;>&lt;BI5, USER2:NEUBERG,"
+10003 DATA 2,3,"HYARCH.AUG.112,&gt;</a>, 6-Dec-2006 21:47-PST BKN ;;;;"
+10004 DATA 1,2,"1","0594","BKN","Mon 15 May 2006 06:18:07 GMT+00:00",2
+10005 DATA 2,1,"Start:  <a"
+10006 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"
+10007 DATA 1,1,"2","0595","BKN","Thu 4 May 2006 04:04:12 GMT+00:00",2
+10008 DATA 2,1,"Overview"
+10009 DATA 1,2,"2a","0596","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",3
+10010 DATA 2,1,"Use the following links to gain various levels of detail and"
+10011 DATA 2,2,"information about the HyperScope design :"
+10012 DATA 1,2,"2a1","0598","BKN","Mon 15 May 2006 06:18:09 GMT+00:00",4
+10013 DATA 2,1,"View all modules :  <a"
+10014 DATA 2,2,"href=&quot;#04:gebbzA&quot;>&lt;04:gebbzA&gt;</a>"
+10015 DATA 1,2,"2a2","0599","BKN","Mon 15 May 2006 06:18:27 GMT+00:00",4
+10016 DATA 2,1,"View all classes and files:  <a"
+10017 DATA 2,2,"href=&quot;#04:gebbbbzA&quot;>&lt;04:gebbbbzA&gt;</a>"
+10018 DATA 1,2,"2a3","0602","BKN","Mon 15 May 2006 06:18:26 GMT+00:00",4
+10019 DATA 2,1,"View indepth class method information:  <a"
+10020 DATA 2,2,"href=&quot;#04:gwzA&quot;>&lt;04:gwzA&gt;</a>"
+10021 DATA 1,2,"2a4","0607","BKN","Mon 15 May 2006 06:18:27 GMT+00:00",4
+10022 DATA 2,1,"View control flow overview:  <a"
+10023 DATA 2,2,"href=&quot;#05:gnAzeb&quot;>&lt;05:gnAzeb&gt;</a>"
+10024 DATA 1,2,"2a5","0612","BKN","Mon 15 May 2006 06:18:28 GMT+00:00",4
+10025 DATA 2,1,"View full control flow section:  <a"
+10026 DATA 2,2,"href=&quot;#05:gnAzw&quot;>&lt;05:gnAzw&gt;</a>"
+10027 DATA 1,2,"2a6","0613","BKN","Mon 15 May 2006 06:44:17 GMT+00:00",4
+10028 DATA 2,1,"View file format information:  <a"
+10029 DATA 2,2,"href=&quot;#06:Anyw&quot;>&lt;06:Anyw&gt;</a>"
+10030 DATA 1,2,"2a7","0614","BKN","Mon 15 May 2006 06:18:29 GMT+00:00",4
+10031 DATA 2,1,"View third-party library information:  <a"
+10032 DATA 2,2,"href=&quot;#011:Anyw&quot;>&lt;011:Anyw&gt;</a>"
+10033 DATA 1,2,"2a8","0611","BKN","Mon 15 May 2006 06:18:29 GMT+00:00",4
+10034 DATA 2,1,"View all sections:  <a"
+10035 DATA 2,2,"href=&quot;#1:zAxnh&quot;>&lt;1:zAxnh&gt;</a>"
+10036 DATA 1,1,"3","04","BKN","Tue 9 May 2006 06:45:56 GMT+00:00",2
+10037 DATA 2,1,"Modules, Classes, and Files"
+10038 DATA 1,2,"3a","0601","BKN","Mon 15 May 2006 06:18:31 GMT+00:00",3
+10039 DATA 2,1,"Back to Overview :  <a"
+10040 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"
+10041 DATA 1,1,"3b","0624","BKN","Thu 11 May 2006 01:28:44 GMT+00:00",3
+10042 DATA 2,1,"Client"
+10043 DATA 1,1,"3b1","013","BKN","Mon 15 May 2006 06:19:57 GMT+00:00",4
+10044 DATA 2,1,"Module: hs.ui"
+10045 DATA 1,1,"3b1a","015","BKN","Tue 9 May 2006 06:46:00 GMT+00:00",5
+10046 DATA 2,1,"index.html"
+10047 DATA 1,1,"3b1a1","0133","BKN","Tue 9 May 2006 07:08:12 GMT+00:00",6
+10048 DATA 2,1,"Our main HTML file for the UI"
+10049 DATA 1,1,"3b1b","016","BKN","Tue 9 May 2006 06:48:33 GMT+00:00",5
+10050 DATA 2,1,"hs.ui"
+10051 DATA 1,1,"3b1b1","088","BKN","Tue 9 May 2006 06:55:16 GMT+00:00",6
+10052 DATA 2,1,"Main entry point for the UI; initializes system"
+10053 DATA 1,1,"3b1b1a","021","BKN","Thu 7 Dec 2006 01:27:53 GMT+00:00",7
+10054 DATA 2,1,"Stereotype: static singleton"
+10055 DATA 1,1,"3b1b1b","0135","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10056 DATA 2,1,"document : hs.model.Document"
+10057 DATA 1,1,"3b1b1c","0136","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10058 DATA 2,1,"status : hs.ui.StatusArea"
+10059 DATA 1,1,"3b1b1d","0137","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10060 DATA 2,1,"commandHelper : hs.ui.CommandHelper"
+10061 DATA 1,1,"3b1b1e","0848","BKN","Thu 7 Dec 2006 01:29:15 GMT+00:00",7
+10062 DATA 2,1,"currentHyDoc : hs.model.Document"
+10063 DATA 1,1,"3b1b1f","0897","BKN","Thu 7 Dec 2006 01:47:34 GMT+00:00",7
+10064 DATA 2,1,"commandBar : hs.ui.CommandBar"
+10065 DATA 1,1,"3b1b1g","0899","BKN","Thu 7 Dec 2006 01:47:55 GMT+00:00",7
+10066 DATA 2,1,"currentRenderedDoc : hs.ui.RenderedDocument"
+10067 DATA 1,1,"3b1b1h","0134","BKN","Tue 9 May 2006 07:08:18 GMT+00:00",7
+10068 DATA 2,1,"initialize()"
+10069 DATA 1,1,"3b1b1i","0849","BKN","Thu 7 Dec 2006 01:29:21 GMT+00:00",7
+10070 DATA 2,1,"printStatus(message : String)"
+10071 DATA 1,1,"3b1b1j","0850","BKN","Thu 7 Dec 2006 01:29:23 GMT+00:00",7
+10072 DATA 2,1,"clearStatus()"
+10073 DATA 1,1,"3b1b1k","0851","BKN","Thu 7 Dec 2006 01:29:24 GMT+00:00",7
+10074 DATA 2,1,"fadeStatus()"
+10075 DATA 1,1,"3b1b1l","0853","BKN","Thu 7 Dec 2006 01:30:26 GMT+00:00",7
+10076 DATA 2,1,"reportError(exception : Exception)"
+10077 DATA 1,1,"3b1b1m","0900","BKN","Thu 7 Dec 2006 01:48:09 GMT+00:00",7
+10078 DATA 2,1,"resolveLocation(url : String, customMethod : String)"
+10079 DATA 1,2,"3b1b1m1","0901","BKN","Thu 7 Dec 2006 01:48:17 GMT+00:00",8
+10080 DATA 2,1,"Note: 'customMethod' is a string to eval, such as a call to a"
+10081 DATA 2,2,"specific hs.command to execute"
+10082 DATA 1,1,"3b1c","019","BKN","Thu 7 Dec 2006 01:25:08 GMT+00:00",5
+10083 DATA 2,1,"hs.ui.JumpOverlay"
+10084 DATA 1,2,"3b1c1","024","BKN","Thu 7 Dec 2006 01:26:07 GMT+00:00",6
+10085 DATA 2,1,"A Dojo Widget that implements our jump overlay window that"
+10086 DATA 2,2,"appears when the user presses the Jump button in the toolbar"
+10087 DATA 1,1,"3b1c1a","091","BKN","Thu 7 Dec 2006 01:27:57 GMT+00:00",7
+10088 DATA 2,1,"Stereotype: Dojo widget"
+10089 DATA 1,1,"3b1d","0823","BKN","Thu 7 Dec 2006 01:23:41 GMT+00:00",5
+10090 DATA 2,1,"hs.ui.HyperScopeToolbar"
+10091 DATA 1,1,"3b1d1","0828","BKN","Thu 7 Dec 2006 01:26:15 GMT+00:00",6
+10092 DATA 2,1,"A Dojo Widget that implements our toolbar"
+10093 DATA 1,1,"3b1d1a","0912","BKN","Thu 7 Dec 2006 01:53:09 GMT+00:00",7
+10094 DATA 2,1,"initializePowerUserSettings()"
+10095 DATA 1,1,"3b1e","0826","BKN","Thu 7 Dec 2006 01:23:47 GMT+00:00",5
+10096 DATA 2,1,"hs.ui.RenderedDocument"
+10097 DATA 1,1,"3b1e1","0832","BKN","Thu 7 Dec 2006 01:24:54 GMT+00:00",6
+10098 DATA 2,1,"A class that renders our result hs.model.Document"
+10099 DATA 1,1,"3b1e1a","0845","BKN","Thu 7 Dec 2006 01:27:18 GMT+00:00",7
+10100 DATA 2,1,"focusContextNode()"
+10101 DATA 1,1,"3b1e1b","0846","BKN","Thu 7 Dec 2006 01:27:22 GMT+00:00",7
+10102 DATA 2,1,"write(doc : hs.model.Document)"
+10103 DATA 1,2,"3b1e1c","0847","BKN","Thu 7 Dec 2006 01:27:26 GMT+00:00",7
+10104 DATA 2,1,"displayDocument(iframe : DOMDocument, contextNodeNumber :"
+10105 DATA 2,2,"String)"
+10106 DATA 1,1,"3b1e1d","0898","BKN","Thu 7 Dec 2006 01:47:42 GMT+00:00",7
+10107 DATA 2,1,"clearSelection()"
+10108 DATA 1,1,"3b1f","0824","BKN","Thu 7 Dec 2006 01:23:44 GMT+00:00",5
+10109 DATA 2,1,"hs.ui.ResultWriter"
+10110 DATA 1,2,"3b1f1","0830","BKN","Thu 7 Dec 2006 01:24:22 GMT+00:00",6
+10111 DATA 2,1,"Writes our HTML results after XSLT to display to the user in a"
+10112 DATA 2,2,"fast way"
+10113 DATA 1,1,"3b1f1a","0852","BKN","Thu 7 Dec 2006 01:29:32 GMT+00:00",7
+10114 DATA 2,1,"hasScrollBars() : Boolean"
+10115 DATA 1,1,"3b1g","0825","BKN","Thu 7 Dec 2006 01:23:45 GMT+00:00",5
+10116 DATA 2,1,"hs.ui.Mark"
+10117 DATA 1,2,"3b1g1","0831","BKN","Thu 7 Dec 2006 01:24:30 GMT+00:00",6
+10118 DATA 2,1,"Dereferences a mouse mark click into an hs.address.Address that"
+10119 DATA 2,2,"can be worked with"
+10120 DATA 1,1,"3b1g1a","0844","BKN","Thu 7 Dec 2006 01:27:10 GMT+00:00",7
+10121 DATA 2,1,"new hs.ui.Mark(evt : DOMEvent)"
+10122 DATA 1,1,"3b1g1b","0841","BKN","Thu 7 Dec 2006 01:27:01 GMT+00:00",7
+10123 DATA 2,1,"row : DOMRow"
+10124 DATA 1,1,"3b1g1c","0842","BKN","Thu 7 Dec 2006 01:27:02 GMT+00:00",7
+10125 DATA 2,1,"address : hs.address.Address"
+10126 DATA 1,1,"3b1g1d","0843","BKN","Thu 7 Dec 2006 01:27:03 GMT+00:00",7
+10127 DATA 2,1,"invalidMark : Boolean"
+10128 DATA 1,1,"3b1h","020","BKN","Thu 7 Dec 2006 01:25:14 GMT+00:00",5
+10129 DATA 2,1,"hs.ui.ViewspecOverlay"
+10130 DATA 1,1,"3b1h1","025","BKN","Thu 7 Dec 2006 01:26:21 GMT+00:00",6
+10131 DATA 2,1,"A Dojo Widget that implements our viewspec overlay"
+10132 DATA 1,1,"3b1h1a","0839","BKN","Thu 7 Dec 2006 01:28:05 GMT+00:00",7
+10133 DATA 2,1,"Stereotype: dojo widget"
+10134 DATA 1,1,"3b1h1b","0913","BKN","Thu 7 Dec 2006 01:53:17 GMT+00:00",7
+10135 DATA 2,1,"reset()"
+10136 DATA 1,1,"3b1i","0833","BKN","Thu 7 Dec 2006 01:25:18 GMT+00:00",5
+10137 DATA 2,1,"hs.ui.LineClipper"
+10138 DATA 1,1,"3b1i1","0834","BKN","Thu 7 Dec 2006 01:25:22 GMT+00:00",6
+10139 DATA 2,1,"A class that performs line clipping on a rendered document"
+10140 DATA 1,2,"3b1i1a","0879","BKN","Thu 7 Dec 2006 01:44:48 GMT+00:00",7
+10141 DATA 2,1,"applyChunk(doc : hs.model.Document, iframeDoc : IFrameDoc,"
+10142 DATA 2,2,"container : DOMElement, rowChunk : TR[])"
+10143 DATA 1,2,"3b1i1a1","0880","BKN","Thu 7 Dec 2006 01:44:57 GMT+00:00",8
+10144 DATA 2,1,"Note: iframeDoc - The document object for the iframe our results"
+10145 DATA 2,2,"were written into"
+10146 DATA 1,2,"3b1i1a2","0881","BKN","Thu 7 Dec 2006 01:45:01 GMT+00:00",8
+10147 DATA 2,1,"Note: container - The DOM object for our container that has our"
+10148 DATA 2,2,"rendered node rows"
+10149 DATA 1,1,"3b1i1a3","0882","BKN","Thu 7 Dec 2006 01:45:05 GMT+00:00",8
+10150 DATA 2,1,"Note: rowChunk - Array of TR rows - our rows to line clip"
+10151 DATA 1,1,"3b1j","0837","BKN","Thu 7 Dec 2006 01:25:55 GMT+00:00",5
+10152 DATA 2,1,"hs.ui.CommandBar"
+10153 DATA 1,1,"3b1j1","0838","BKN","Thu 7 Dec 2006 01:25:57 GMT+00:00",6
+10154 DATA 2,1,"Implements our Augment-style command bar"
+10155 DATA 1,1,"3b1j1a","0908","BKN","Thu 7 Dec 2006 01:52:55 GMT+00:00",7
+10156 DATA 2,1,"visible : Boolean"
+10157 DATA 1,1,"3b1j1b","0902","BKN","Thu 7 Dec 2006 01:48:31 GMT+00:00",7
+10158 DATA 2,1,"reset()"
+10159 DATA 1,1,"3b1j1c","0909","BKN","Thu 7 Dec 2006 01:52:58 GMT+00:00",7
+10160 DATA 2,1,"isShowing() : Boolean"
+10161 DATA 1,1,"3b1j1d","0910","BKN","Thu 7 Dec 2006 01:52:58 GMT+00:00",7
+10162 DATA 2,1,"show()"
+10163 DATA 1,1,"3b1j1e","0911","BKN","Thu 7 Dec 2006 01:52:59 GMT+00:00",7
+10164 DATA 2,1,"hide()"
+10165 DATA 1,3,"3b1j1f","0896","BKN","Thu 7 Dec 2006 01:47:24 GMT+00:00",7
+10166 DATA 2,1,"Note: This class is driven by the file commands.xml, which"
+10167 DATA 2,2,"contains a special XML formatted description of our commands"
+10168 DATA 2,3,"that is machine processable"
+10169 DATA 1,1,"3b1k","0835","BKN","Thu 7 Dec 2006 01:25:28 GMT+00:00",5
+10170 DATA 2,1,"hs.ui.HelpOverlay"
+10171 DATA 1,2,"3b1k1","0836","BKN","Thu 7 Dec 2006 01:25:33 GMT+00:00",6
+10172 DATA 2,1,"Implements the help dialog displayed when the Help button is"
+10173 DATA 2,2,"pressed on the main toolbar"
+10174 DATA 1,1,"3b1k1a","0840","BKN","Thu 7 Dec 2006 01:28:08 GMT+00:00",7
+10175 DATA 2,1,"Stereotype: dojo widget"
+10176 DATA 1,1,"3b2","028","BKN","Mon 15 May 2006 06:19:57 GMT+00:00",4
+10177 DATA 2,1,"Module: hs.commands"
+10178 DATA 1,1,"3b2a","029","BKN","Tue 9 May 2006 06:49:04 GMT+00:00",5
+10179 DATA 2,1,"hs.commands"
+10180 DATA 1,2,"3b2a1","095","BKN","Tue 9 May 2006 07:12:21 GMT+00:00",6
+10181 DATA 2,1,"Singleton facade that exposes all of our commands as simple"
+10182 DATA 2,2,"methods"
+10183 DATA 1,1,"3b2a1a","030","BKN","Thu 7 Dec 2006 01:28:12 GMT+00:00",7
+10184 DATA 2,1,"Stereotype: static singleton"
+10185 DATA 1,3,"3b2a1b","0145","BKN","Thu 7 Dec 2006 01:49:15 GMT+00:00",7
+10186 DATA 2,1,"jumpItem(readyHandler : Function, address : hs.address.Address,"
+10187 DATA 2,2,"relativeTo : hs.model.Document, viewspecs : String) throws"
+10188 DATA 2,3,"hs.exception.Jump"
+10189 DATA 1,1,"3b2a1b1","0163","BKN","Fri 19 May 2006 07:47:39 GMT+00:00",8
+10190 DATA 2,1,"Notes:"
+10191 DATA 1,2,"3b2a1b1a","0146","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",9
+10192 DATA 2,1,"readyHandler = function(address : hs.address.Address, document :"
+10193 DATA 2,2,"hs.model.Document, error : InvalidAddressException)"
+10194 DATA 1,2,"3b2a1b1b","0164","BKN","Tue 9 May 2006 07:11:15 GMT+00:00",9
+10195 DATA 2,1,"All jump methods should filter out the parts of Location they"
+10196 DATA 2,2,"need and throw the rest away"
+10197 DATA 1,3,"3b2a1c","0147","BKN","Thu 7 Dec 2006 01:49:35 GMT+00:00",7
+10198 DATA 2,1,"jumpFile(readyHandler : Function, file : hs.address.FileInfo,"
+10199 DATA 2,2,"relativeTo : hs.model.Document, typein : String (URL address),"
+10200 DATA 2,3,"viewspecs : String) throws hs.exception.Jump"
+10201 DATA 1,3,"3b2a1d","0149","BKN","Thu 7 Dec 2006 01:49:47 GMT+00:00",7
+10202 DATA 2,1,"jumpOrigin(readyHandler : Function, address :"
+10203 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document, viewspecs :"
+10204 DATA 2,3,"String) throws hs.exception.Jump"
+10205 DATA 1,3,"3b2a1e","0689","BKN","Thu 7 Dec 2006 01:50:22 GMT+00:00",7
+10206 DATA 2,1,"jumpEndBranch(readyHandler : Function, address :"
+10207 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document, viewspecs :"
+10208 DATA 2,3,"String) throws hs.exception.Jump"
+10209 DATA 1,3,"3b2a1f","0690","BKN","Thu 7 Dec 2006 01:50:33 GMT+00:00",7
+10210 DATA 2,1,"jumpEndPlex(readyHandler : Function, address :"
+10211 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document) throws"
+10212 DATA 2,3,"hs.exception.Jump"
+10213 DATA 1,3,"3b2a1g","0151","BKN","Thu 7 Dec 2006 01:50:47 GMT+00:00",7
+10214 DATA 2,1,"jumpNext(readyHandler : Function, address : hs.address.Address,"
+10215 DATA 2,2,"relativeTo : hs.model.Document, viewspecs : String) throws"
+10216 DATA 2,3,"hs.exception.Jump"
+10217 DATA 1,3,"3b2a1h","0152","BKN","Thu 7 Dec 2006 01:50:54 GMT+00:00",7
+10218 DATA 2,1,"jumpBack(readyHandler : Function, address : hs.address.Address,"
+10219 DATA 2,2,"relativeTo : hs.model.Document, viewspecs : String) throws"
+10220 DATA 2,3,"hs.exception.Jump"
+10221 DATA 1,3,"3b2a1i","0153","BKN","Thu 7 Dec 2006 01:50:58 GMT+00:00",7
+10222 DATA 2,1,"jumpSuccessor(readyHandler : Function, address :"
+10223 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document, viewspecs :"
+10224 DATA 2,3,"String) throws hs.exception.Jump"
+10225 DATA 1,3,"3b2a1j","0154","BKN","Thu 7 Dec 2006 01:51:07 GMT+00:00",7
+10226 DATA 2,1,"jumpPredecessor(readyHandler : Function, address :"
+10227 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document, viewspecs :"
+10228 DATA 2,3,"String) throws hs.exception.Jump"
+10229 DATA 1,3,"3b2a1k","0155","BKN","Thu 7 Dec 2006 01:51:11 GMT+00:00",7
+10230 DATA 2,1,"jumpUp(readyHandler : Function, address : hs.address.Address,"
+10231 DATA 2,2,"relativeTo : hs.model.Document, viewspecs : String) throws"
+10232 DATA 2,3,"hs.exception.Jump"
+10233 DATA 1,3,"3b2a1l","0156","BKN","Thu 7 Dec 2006 01:51:14 GMT+00:00",7
+10234 DATA 2,1,"jumpDown(readyHandler : Function, address : hs.address.Address,"
+10235 DATA 2,2,"relativeTo : hs.model.Document, viewspecs : String) throws"
+10236 DATA 2,3,"hs.exception.Jump"
+10237 DATA 1,3,"3b2a1m","0157","BKN","Thu 7 Dec 2006 01:51:16 GMT+00:00",7
+10238 DATA 2,1,"jumpHead(readyHandler : Function, address : hs.address.Address,"
+10239 DATA 2,2,"relativeTo : hs.model.Document, viewspecs : String) throws"
+10240 DATA 2,3,"hs.exception.Jump"
+10241 DATA 1,3,"3b2a1n","0158","BKN","Thu 7 Dec 2006 01:51:19 GMT+00:00",7
+10242 DATA 2,1,"jumpTail(readyHandler : Function, address : hs.address.Address,"
+10243 DATA 2,2,"relativeTo : hs.model.Document, viewspecs : String) throws"
+10244 DATA 2,3,"hs.exception.Jump"
+10245 DATA 1,3,"3b2a1o","0159","BKN","Thu 7 Dec 2006 01:51:26 GMT+00:00",7
+10246 DATA 2,1,"jumpLink(readyHandler : Function, address : hs.address.Address,"
+10247 DATA 2,2,"relativeTo : hs.model.Document, typein : String) throws"
+10248 DATA 2,3,"hs.exception.Jump"
+10249 DATA 1,4,"3b2a1p","0162","BKN","Thu 7 Dec 2006 01:52:32 GMT+00:00",7
+10250 DATA 2,1,"jumpLabel(readyHandler : Function, address : hs.address.Address,"
+10251 DATA 2,2,"relativeTo : hs.model.Document, typein : String, viewspecs :"
+10252 DATA 2,3,"String, jumpType : hs.commands.JumpConstants) throws"
+10253 DATA 2,4,"hs.exception.Jump"
+10254 DATA 1,3,"3b2a1q","0160","BKN","Thu 7 Dec 2006 01:51:54 GMT+00:00",7
+10255 DATA 2,1,"jumpContent(readyHandler : Function, address :"
+10256 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document, jumpType :"
+10257 DATA 2,3,"hs.commands.JumpConstants) throws hs.exception.Jump"
+10258 DATA 1,4,"3b2a1r","0161","BKN","Thu 7 Dec 2006 01:52:07 GMT+00:00",7
+10259 DATA 2,1,"jumpWord(readyHandler : Function, address : hs.address.Address,"
+10260 DATA 2,2,"relativeTo : hs.model.Document, typein : String, viewspecs :"
+10261 DATA 2,3,"String, jumpType : hs.commands.JumpConstants) throws"
+10262 DATA 2,4,"hs.exception.Jump"
+10263 DATA 1,2,"3b2a1s","0892","BKN","Thu 7 Dec 2006 01:46:40 GMT+00:00",7
+10264 DATA 2,1,"resetViewspecs(readyHandler : Function, address :"
+10265 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document)"
+10266 DATA 1,3,"3b2a1t","0894","BKN","Thu 7 Dec 2006 01:52:18 GMT+00:00",7
+10267 DATA 2,1,"setViewspecs(readyHandler : Function, address :"
+10268 DATA 2,2,"hs.address.Address, relativeTo : hs.model.Document, viewspecs :"
+10269 DATA 2,3,"String)"
+10270 DATA 1,1,"3b2b","031","BKN","Thu 11 May 2006 00:07:58 GMT+00:00",5
+10271 DATA 2,1,"hs.commands.JumpConstants"
+10272 DATA 1,2,"3b2b1","096","BKN","Tue 9 May 2006 06:56:30 GMT+00:00",6
+10273 DATA 2,1,"Constants that can be used with hs.commands to control commands,"
+10274 DATA 2,2,"such as for jumping"
+10275 DATA 1,1,"3b2b1a","0165","BKN","Tue 9 May 2006 07:12:26 GMT+00:00",7
+10276 DATA 2,1,"FIRST"
+10277 DATA 1,1,"3b2b1b","0166","BKN","Tue 9 May 2006 07:12:29 GMT+00:00",7
+10278 DATA 2,1,"NEXT"
+10279 DATA 1,1,"3b2b1c","0167","BKN","Tue 9 May 2006 07:12:30 GMT+00:00",7
+10280 DATA 2,1,"LAST"
+10281 DATA 1,1,"3b2b1d","0168","BKN","Tue 9 May 2006 07:12:30 GMT+00:00",7
+10282 DATA 2,1,"ANY"
+10283 DATA 1,1,"3b3","0619","BKN","Mon 15 May 2006 06:19:58 GMT+00:00",4
+10284 DATA 2,1,"Module: hs.model"
+10285 DATA 1,1,"3b3a","0800","BKN","Thu 7 Dec 2006 01:09:36 GMT+00:00",5
+10286 DATA 2,1,"hs.model"
+10287 DATA 1,1,"3b3a1","0797","BKN","Thu 7 Dec 2006 01:08:58 GMT+00:00",6
+10288 DATA 2,1,"Package level methods"
+10289 DATA 1,1,"3b3a1a","0798","BKN","Thu 7 Dec 2006 01:09:04 GMT+00:00",7
+10290 DATA 2,1,"addOnLoad(myListener : Function)"
+10291 DATA 1,1,"3b3b","034","BKN","Thu 11 May 2006 00:02:06 GMT+00:00",5
+10292 DATA 2,1,"hs.model.Node"
+10293 DATA 1,1,"3b3b1","099","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",6
+10294 DATA 2,1,"Represents a node in an hs.model.Document"
+10295 DATA 1,1,"3b3b1a","0772","BKN","Sat 10 Jun 2006 01:13:54 GMT+00:00",7
+10296 DATA 2,1,"new hs.model.Node(domNode : DOMNode, doc : hs.model.Document)"
+10297 DATA 1,1,"3b3b1b","0190","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10298 DATA 2,1,"doc : hs.model.Document"
+10299 DATA 1,1,"3b3b1c","0191","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10300 DATA 2,1,"number : String"
+10301 DATA 1,1,"3b3b1d","0192","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10302 DATA 2,1,"ID : String"
+10303 DATA 1,1,"3b3b1e","0193","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10304 DATA 2,1,"level : Integer"
+10305 DATA 1,1,"3b3b1f","0206","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10306 DATA 2,1,"cursor : hs.model.NodeCursor"
+10307 DATA 1,1,"3b3b1g","0778","BKN","Thu 15 Jun 2006 07:05:05 GMT+00:00",7
+10308 DATA 2,1,"data : Object"
+10309 DATA 1,2,"3b3b1g1","0779","BKN","Thu 15 Jun 2006 07:05:10 GMT+00:00",8
+10310 DATA 2,1,"Note: This is the data of this node; for right now it is always"
+10311 DATA 2,2,"text because that is what we currently support."
+10312 DATA 1,1,"3b3b1h","0195","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10313 DATA 2,1,"domNode : DOMNode"
+10314 DATA 1,1,"3b3b1i","0194","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10315 DATA 2,1,"getChildNodes() : hs.model.Node[]"
+10316 DATA 1,2,"3b3b1j","0196","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10317 DATA 2,1,"jumpUp(offset : Integer) : hs.model.Node throws"
+10318 DATA 2,2,"hs.exception.Jump"
+10319 DATA 1,2,"3b3b1k","0197","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10320 DATA 2,1,"jumpDown(offset : Integer) : hs.model.Node throws"
+10321 DATA 2,2,"hs.exception.Jump"
+10322 DATA 1,2,"3b3b1l","0198","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10323 DATA 2,1,"jumpBack(offset : Integer) : hs.model.Node throws"
+10324 DATA 2,2,"hs.exception.Jump"
+10325 DATA 1,2,"3b3b1m","0199","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10326 DATA 2,1,"jumpNext(offset : Integer) : hs.model.Node throws"
+10327 DATA 2,2,"hs.exception.Jump"
+10328 DATA 1,1,"3b3b1n","0201","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10329 DATA 2,1,"jumpBranchEnd() : hs.model.Node throws hs.exception.Jump"
+10330 DATA 1,1,"3b3b1o","0202","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10331 DATA 2,1,"jumpPlexHead() : hs.model.Node throws hs.exception.Jump"
+10332 DATA 1,1,"3b3b1p","0203","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10333 DATA 2,1,"jumpPlexTail() : hs.model.Node throws hs.exception.Jump"
+10334 DATA 1,2,"3b3b1q","0204","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10335 DATA 2,1,"jumpSuccessor(offset : Integer) : hs.model.Node throws"
+10336 DATA 2,2,"hs.exception.Jump"
+10337 DATA 1,2,"3b3b1r","0205","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10338 DATA 2,1,"jumpPredecessor(offset : Integer) : hs.model.Node throws"
+10339 DATA 2,2,"hs.exception.Jump"
+10340 DATA 1,2,"3b3b1s","0200","BKN","Thu 7 Dec 2006 00:32:44 GMT+00:00",7
+10341 DATA 2,1,"jumpBranchSearch(label : String) : hs.model.Node throws"
+10342 DATA 2,2,"hs.exception.Jump"
+10343 DATA 1,2,"3b3b1t","0781","BKN","Thu 7 Dec 2006 00:32:34 GMT+00:00",7
+10344 DATA 2,1,"jumpOffset(number : String) : hs.model.Node throws"
+10345 DATA 2,2,"hs.exception.Jump"
+10346 DATA 1,1,"3b3b1u","0207","BKN","Thu 7 Dec 2006 00:35:42 GMT+00:00",7
+10347 DATA 2,1,"test(expression : RegExp or String) : Boolean"
+10348 DATA 1,2,"3b3b1u1","0782","BKN","Thu 7 Dec 2006 00:35:53 GMT+00:00",8
+10349 DATA 2,1,"Note: 'expression' can be a JavaScript regular expression or a"
+10350 DATA 2,2,"String"
+10351 DATA 1,1,"3b3b1v","0858","BKN","Thu 7 Dec 2006 01:31:27 GMT+00:00",7
+10352 DATA 2,1,"getParent() : hs.model.Node"
+10353 DATA 1,1,"3b3c","032","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",5
+10354 DATA 2,1,"hs.model.Document"
+10355 DATA 1,2,"3b3c1","097","BKN","Tue 9 May 2006 06:56:37 GMT+00:00",6
+10356 DATA 2,1,"Represents a HyperScope outline document that can be interacted"
+10357 DATA 2,2,"with and jumped through"
+10358 DATA 1,1,"3b3c1a","0771","BKN","Sat 10 Jun 2006 00:52:07 GMT+00:00",7
+10359 DATA 2,1,"new hs.model.Document(address, dom)"
+10360 DATA 1,1,"3b3c1b","0696","BKN","Thu 18 May 2006 07:29:05 GMT+00:00",7
+10361 DATA 2,1,"DEFAULT_FILE_EXTENSION: &quot;opml&quot;"
+10362 DATA 1,1,"3b3c1b1","0697","BKN","Thu 18 May 2006 07:29:12 GMT+00:00",8
+10363 DATA 2,1,"Note: The default file extension for document's of this type"
+10364 DATA 1,1,"3b3c1c","0169","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10365 DATA 2,1,"address : hs.address.Address"
+10366 DATA 1,1,"3b3c1c1","0170","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",8
+10367 DATA 2,1,"Note: This address is unexpanded"
+10368 DATA 1,1,"3b3c1d","0171","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10369 DATA 2,1,"dom : XMLDOM"
+10370 DATA 1,1,"3b3c1e","0172","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10371 DATA 2,1,"origDom : XMLDom"
+10372 DATA 1,1,"3b3c1f","0174","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10373 DATA 2,1,"nodeCtxt : hs.model.Node"
+10374 DATA 1,1,"3b3c1g","0184","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10375 DATA 2,1,"currentViewspecs : hs.filter.CurrentViewspecs"
+10376 DATA 1,1,"3b3c1h","0186","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10377 DATA 2,1,"renderedHtml : String"
+10378 DATA 1,1,"3b3c1i","0801","BKN","Thu 7 Dec 2006 01:09:59 GMT+00:00",7
+10379 DATA 2,1,"renderedHtmlDom : DOM"
+10380 DATA 1,1,"3b3c1j","0173","BKN","Thu 11 May 2006 00:07:44 GMT+00:00",7
+10381 DATA 2,1,"normalize() throws hs.exception.Filter"
+10382 DATA 1,1,"3b3c1k","0175","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10383 DATA 2,1,"jumpOrigin() : hs.model.Node throws hs.exception.Jump"
+10384 DATA 1,2,"3b3c1l","0176","BKN","Wed 21 Jun 2006 06:10:41 GMT+00:00",7
+10385 DATA 2,1,"jumpNumber(number : String, isOffset : Boolean) : hs.model.Node"
+10386 DATA 2,2,"throws hs.exception.Jump"
+10387 DATA 1,1,"3b3c1l1","0780","BKN","Wed 21 Jun 2006 06:10:44 GMT+00:00",8
+10388 DATA 2,1,"Note: isOffset is optional and defaults to false."
+10389 DATA 1,1,"3b3c1m","0177","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10390 DATA 2,1,"jumpId(id : String) : hs.model.Node throws hs.exception.Jump"
+10391 DATA 1,2,"3b3c1n","0178","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10392 DATA 2,1,"jumpMarker(marker : String) : hs.model.Node throws"
+10393 DATA 2,2,"hs.exception.Jump"
+10394 DATA 1,2,"3b3c1o","0179","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10395 DATA 2,1,"jumpLabel(label : String,jumpType : hs.commands.JumpConstants) :"
+10396 DATA 2,2,"hs.model.Node throws hs.exception.Jump"
+10397 DATA 1,2,"3b3c1p","0182","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10398 DATA 2,1,"jumpWord(word : String, jumpType : hs.commands.JumpConstants) :"
+10399 DATA 2,2,"hs.model.Node throws hs.exception.Jump"
+10400 DATA 1,3,"3b3c1q","0183","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10401 DATA 2,1,"jumpContent(content : String, jumpType :"
+10402 DATA 2,2,"hs.commands.JumpConstants) : hs.model.Node throws"
+10403 DATA 2,3,"hs.exception.Jump"
+10404 DATA 1,2,"3b3c1r","0786","BKN","Thu 7 Dec 2006 00:37:55 GMT+00:00",7
+10405 DATA 2,1,"jumpExternal(label : String) : hs.model.Node throws"
+10406 DATA 2,2,"hs.exception.Jump"
+10407 DATA 1,1,"3b3c1r1","0788","BKN","Thu 7 Dec 2006 00:37:58 GMT+00:00",8
+10408 DATA 2,1,"Note: External labels are not supported yet"
+10409 DATA 1,1,"3b3c1s","0785","BKN","Thu 7 Dec 2006 00:37:39 GMT+00:00",7
+10410 DATA 2,1,"render() : String throws hs.exception.Render"
+10411 DATA 1,1,"3b3c1t","0815","BKN","Thu 7 Dec 2006 01:15:43 GMT+00:00",7
+10412 DATA 2,1,"getRenderXSLT() : XSLTProcessor"
+10413 DATA 1,1,"3b3c1t1","0816","BKN","Thu 7 Dec 2006 01:15:49 GMT+00:00",8
+10414 DATA 2,1,"Note: XSLTProcessor is this platform's XSLT processor"
+10415 DATA 1,1,"3b3c1u","0819","BKN","Thu 7 Dec 2006 01:22:46 GMT+00:00",7
+10416 DATA 2,1,"toURL() : String"
+10417 DATA 1,1,"3b3c1v","0915","BKN","Thu 7 Dec 2006 01:54:08 GMT+00:00",7
+10418 DATA 2,1,"getOriginDomNode() : DOMNode"
+10419 DATA 1,1,"3b3c1v1","0916","BKN","Thu 7 Dec 2006 01:54:22 GMT+00:00",8
+10420 DATA 2,1,"Note: Returns the DOMNode of the origin; used by some filters"
+10421 DATA 1,1,"3b3d","035","BKN","Thu 11 May 2006 00:02:06 GMT+00:00",5
+10422 DATA 2,1,"hs.model.NodeCursor"
+10423 DATA 1,3,"3b3d1","0100","BKN","Thu 11 May 2006 00:02:06 GMT+00:00",6
+10424 DATA 2,1,"A 'cursor' in an hs.model.Node that can jump through the textual"
+10425 DATA 2,2,"contents of a node to perform string positioning by character,"
+10426 DATA 2,3,"word, link, etc."
+10427 DATA 1,1,"3b3d1a","0875","BKN","Thu 7 Dec 2006 01:36:11 GMT+00:00",7
+10428 DATA 2,1,"new hs.model.NodeCursor(node : hs.model.Node)"
+10429 DATA 1,1,"3b3d1a1","0876","BKN","Thu 7 Dec 2006 01:36:14 GMT+00:00",8
+10430 DATA 2,1,"Note: This is the node to apply the cursor to"
+10431 DATA 1,1,"3b3d1b","0208","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10432 DATA 2,1,"position : Integer"
+10433 DATA 1,1,"3b3d1b1","0209","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",8
+10434 DATA 2,1,"Note: Starts at zero by default"
+10435 DATA 1,1,"3b3d1c","0210","BKN","Tue 9 May 2006 07:19:02 GMT+00:00",7
+10436 DATA 2,1,"toEnd()"
+10437 DATA 1,1,"3b3d1d","0211","BKN","Tue 9 May 2006 07:19:03 GMT+00:00",7
+10438 DATA 2,1,"toBeginning()"
+10439 DATA 1,1,"3b3d1e","0212","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10440 DATA 2,1,"jumpWords(numWords : Integer) throws hs.exception.Jump"
+10441 DATA 1,2,"3b3d1e1","0213","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",8
+10442 DATA 2,1,"Note: all jump* methods in this class can take either positive"
+10443 DATA 2,2,"or negative values"
+10444 DATA 1,1,"3b3d1f","0214","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10445 DATA 2,1,"jumpCharacters(numChars : Integer) throws hs.exception.Jump"
+10446 DATA 1,1,"3b3d1g","0215","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10447 DATA 2,1,"jumpVisible(numVisible : Integer) throws hs.exception.Jump"
+10448 DATA 1,1,"3b3d1h","0216","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10449 DATA 2,1,"jumpInvisible(numInvisible : Integer) throws hs.exception.Jump"
+10450 DATA 1,1,"3b3d1i","0217","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10451 DATA 2,1,"jumpLink(numLinks : Integer) throws hs.exception.Jump"
+10452 DATA 1,1,"3b3d1j","0218","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10453 DATA 2,1,"getCharacter() : Character"
+10454 DATA 1,2,"3b3d1j1","0219","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",8
+10455 DATA 2,1,"Note: Scans from position until it finds returnable character"
+10456 DATA 2,2,"(i.e. no HTML or XML tags); returns null if none found"
+10457 DATA 1,1,"3b3d1k","0220","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10458 DATA 2,1,"getRest() : String"
+10459 DATA 1,1,"3b3d1k1","0221","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",8
+10460 DATA 2,1,"Note: Returns everything forwards from current position"
+10461 DATA 1,1,"3b3d1l","0222","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10462 DATA 2,1,"getWord() : String"
+10463 DATA 1,1,"3b3d1m","0223","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10464 DATA 2,1,"getLink() : String"
+10465 DATA 1,1,"3b3d1m1","0224","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",8
+10466 DATA 2,1,"Note: Returns just link text"
+10467 DATA 1,1,"3b3d1n","0225","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10468 DATA 2,1,"getAnchor() : String"
+10469 DATA 1,1,"3b3d1n1","0226","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",8
+10470 DATA 2,1,"Note: Returns full A HREF anchor including link text"
+10471 DATA 1,1,"3b4","0622","BKN","Mon 15 May 2006 06:19:58 GMT+00:00",4
+10472 DATA 2,1,"Module: hs.address"
+10473 DATA 1,1,"3b4a","038","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",5
+10474 DATA 2,1,"hs.address.Address"
+10475 DATA 1,1,"3b4a1","0103","BKN","Wed 10 May 2006 07:48:03 GMT+00:00",6
+10476 DATA 2,1,"A HyperScope address that can be resolved and manipulated"
+10477 DATA 1,2,"3b4a1a","0235","BKN","Thu 11 May 2006 00:10:49 GMT+00:00",7
+10478 DATA 2,1,"new hs.address.Address(URL : String) throws"
+10479 DATA 2,2,"hs.exception.InvalidAddress"
+10480 DATA 1,1,"3b4a1b","0250","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10481 DATA 2,1,"fileInfo : hs.address.FileInfo"
+10482 DATA 1,1,"3b4a1c","0251","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10483 DATA 2,1,"nodeAddresses : hs.address.NodeAddress[]"
+10484 DATA 1,1,"3b4a1d","0252","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10485 DATA 2,1,"viewspecs : hs.address.Viewspecs[]"
+10486 DATA 1,1,"3b4a1e","0253","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10487 DATA 2,1,"contentFilter : hs.address.ContentFilter"
+10488 DATA 1,2,"3b4a1f","0236","BKN","Thu 7 Dec 2006 01:33:28 GMT+00:00",7
+10489 DATA 2,1,"resolve(handler : Function, replacePage : Boolean, relativeTo :"
+10490 DATA 2,2,"hs.model.Document, inclusion : Boolean)"
+10491 DATA 1,1,"3b4a1f1","0237","BKN","Fri 19 May 2006 07:47:39 GMT+00:00",8
+10492 DATA 2,1,"Notes:"
+10493 DATA 1,2,"3b4a1f1a","0238","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",9
+10494 DATA 2,1,"handler = function(address : hs.address.Address, document :"
+10495 DATA 2,2,"hs.model.Document, error : hs.exception.InvalidAddress)"
+10496 DATA 1,3,"3b4a1f1b","0865","BKN","Thu 7 Dec 2006 01:33:44 GMT+00:00",9
+10497 DATA 2,1,"'inclusion' is an optional parameter that indicates that we are"
+10498 DATA 2,2,"doing a resolution for a file that we be included; defaults to"
+10499 DATA 2,3,"false"
+10500 DATA 1,1,"3b4a1g","0241","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10501 DATA 2,1,"equals(address : hs.address.Address) : Boolean"
+10502 DATA 1,1,"3b4a1h","0242","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10503 DATA 2,1,"equals(address : String) : Boolean"
+10504 DATA 1,1,"3b4a1i","0245","BKN","Tue 9 May 2006 07:21:42 GMT+00:00",7
+10505 DATA 2,1,"toString()"
+10506 DATA 1,3,"3b4a1i1","0246","BKN","Thu 7 Dec 2006 01:21:49 GMT+00:00",8
+10507 DATA 2,1,"Note: Our address turned into a string; if relative, returns"
+10508 DATA 2,2,"relative; if a full address, returns the full address as a"
+10509 DATA 2,3,"string"
+10510 DATA 1,1,"3b4a1j","0764","BKN","Wed 7 Jun 2006 00:08:36 GMT+00:00",7
+10511 DATA 2,1,"clone() : hs.address.Address"
+10512 DATA 1,1,"3b4a1k","0768","BKN","Thu 7 Dec 2006 01:20:51 GMT+00:00",7
+10513 DATA 2,1,"isRelative() : Boolean"
+10514 DATA 1,3,"3b4a1k1","0769","BKN","Thu 7 Dec 2006 01:22:01 GMT+00:00",8
+10515 DATA 2,1,"Note: Whether this address is a full, non-relative address, such"
+10516 DATA 2,2,"as http://foobar.com, or whether it is just relative with no"
+10517 DATA 2,3,"scheme, host, path, etc., such as #2A:x or foobar.com/"
+10518 DATA 1,2,"3b4a1l","0877","BKN","Thu 7 Dec 2006 01:36:37 GMT+00:00",7
+10519 DATA 2,1,"replaceResolution(newAddr : hs.address.Address, doc :"
+10520 DATA 2,2,"hs.model.Document)"
+10521 DATA 1,3,"3b4a1l1","0878","BKN","Thu 7 Dec 2006 01:36:47 GMT+00:00",8
+10522 DATA 2,1,"Note: Causes one address resolution to stop, passing on its"
+10523 DATA 2,2,"callback for the new address which begins its own resolution to"
+10524 DATA 2,3,"take over - needed for indirect links"
+10525 DATA 1,1,"3b4b","039","BKN","Thu 11 May 2006 00:03:53 GMT+00:00",5
+10526 DATA 2,1,"hs.address.Piece"
+10527 DATA 1,3,"3b4b1","0104","BKN","Thu 11 May 2006 00:02:38 GMT+00:00",6
+10528 DATA 2,1,"Abstract superclass for all of the kinds of components that can"
+10529 DATA 2,2,"make up an hs.address.Address, such as file information"
+10530 DATA 2,3,"(hs.address.FileInfo), addressing (hs.address.NodeAddress), etc."
+10531 DATA 1,1,"3b4b1a","040","BKN","Thu 7 Dec 2006 01:28:21 GMT+00:00",7
+10532 DATA 2,1,"Stereotype: abstract"
+10533 DATA 1,1,"3b4b1b","0254","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10534 DATA 2,1,"abstract toString() : String"
+10535 DATA 1,1,"3b4b1c","0255","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10536 DATA 2,1,"abstract isPieceType(className : String) : Boolean"
+10537 DATA 1,1,"3b4c","041","BKN","Thu 11 May 2006 00:02:30 GMT+00:00",5
+10538 DATA 2,1,"hs.address.FileInfo"
+10539 DATA 1,2,"3b4c1","0105","BKN","Thu 11 May 2006 00:08:54 GMT+00:00",6
+10540 DATA 2,1,"An hs.address.Piece that holds the file information for this"
+10541 DATA 2,2,"Location, such as the path, port, URL scheme, etc."
+10542 DATA 1,1,"3b4c1a","042","BKN","Thu 11 May 2006 00:10:16 GMT+00:00",7
+10543 DATA 2,1,"extends hs.address.Piece"
+10544 DATA 1,1,"3b4c1b","0259","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10545 DATA 2,1,"scheme : String"
+10546 DATA 1,1,"3b4c1c","0260","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10547 DATA 2,1,"host : String"
+10548 DATA 1,1,"3b4c1d","0261","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10549 DATA 2,1,"port : Integer"
+10550 DATA 1,1,"3b4c1e","0262","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10551 DATA 2,1,"path : String"
+10552 DATA 1,1,"3b4c1e1","0750","BKN","Thu 25 May 2006 07:21:27 GMT+00:00",8
+10553 DATA 2,1,"Note: Contains both path and file"
+10554 DATA 1,1,"3b4c1f","0264","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10555 DATA 2,1,"query : String"
+10556 DATA 1,1,"3b4c1g","0698","BKN","Thu 18 May 2006 07:30:33 GMT+00:00",7
+10557 DATA 2,1,"hasFullPath() : Boolean"
+10558 DATA 1,3,"3b4c1g1","0699","BKN","Thu 18 May 2006 07:30:42 GMT+00:00",8
+10559 DATA 2,1,"Note: This returns whether there is a full, non-relative path,"
+10560 DATA 2,2,"such as /neuberg/arch.opml, rather than a relative one, such as"
+10561 DATA 2,3,"foobar/arch.opml"
+10562 DATA 1,2,"3b4c1h","0700","BKN","Thu 7 Dec 2006 01:22:23 GMT+00:00",7
+10563 DATA 2,1,"expand(relativeTo : hs.address.FileInfo)  : hs.address.FileInfo"
+10564 DATA 2,2,"throws hs.exception.InvalidAddress"
+10565 DATA 1,2,"3b4c1h1","0701","BKN","Thu 18 May 2006 07:31:03 GMT+00:00",8
+10566 DATA 2,1,"Note: Expands and makes this FileInfo be non-relative, relative"
+10567 DATA 2,2,"to the given document."
+10568 DATA 1,1,"3b4c1i","0271","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10569 DATA 2,1,"toString() : String"
+10570 DATA 1,1,"3b4c1i1","0702","BKN","Thu 18 May 2006 07:33:53 GMT+00:00",8
+10571 DATA 2,1,"Note: Unexpanded string version of this FileInfo."
+10572 DATA 1,1,"3b4c1j","0705","BKN","Thu 18 May 2006 07:34:00 GMT+00:00",7
+10573 DATA 2,1,"clone() : hs.address.FileInfo"
+10574 DATA 1,1,"3b4c1k","0765","BKN","Thu 7 Dec 2006 01:22:15 GMT+00:00",7
+10575 DATA 2,1,"isRelative() : Boolean"
+10576 DATA 1,2,"3b4c1k1","0766","BKN","Thu 7 Dec 2006 01:22:30 GMT+00:00",8
+10577 DATA 2,1,"Note: Returns whether we have a fully non-relative FileInfo,"
+10578 DATA 2,2,"with scheme, port, host, path, etc."
+10579 DATA 1,1,"3b4c1l","0767","BKN","Thu 8 Jun 2006 01:13:40 GMT+00:00",7
+10580 DATA 2,1,"equals(obj : Object) : Boolean"
+10581 DATA 1,1,"3b4c1m","0820","BKN","Thu 7 Dec 2006 01:23:08 GMT+00:00",7
+10582 DATA 2,1,"consolidateRelativeDots()"
+10583 DATA 1,3,"3b4c1m1","0821","BKN","Thu 7 Dec 2006 01:23:26 GMT+00:00",8
+10584 DATA 2,1,"Note: Consolidates .. and . dots that might be in the address"
+10585 DATA 2,2,"into their non-relative paths. For example,"
+10586 DATA 2,3,"dir1/dir2/../foobar.html would become dir1/foobar.html"
+10587 DATA 1,1,"3b4d","043","BKN","Thu 11 May 2006 00:02:38 GMT+00:00",5
+10588 DATA 2,1,"hs.address.NodeAddress"
+10589 DATA 1,3,"3b4d1","0106","BKN","Wed 10 May 2006 07:52:18 GMT+00:00",6
+10590 DATA 2,1,"The abstract superclass of all node addressing types, which can"
+10591 DATA 2,2,"address specific portions of a document either directly or"
+10592 DATA 2,3,"indirectly"
+10593 DATA 1,1,"3b4d1a","0107","BKN","Thu 7 Dec 2006 01:28:24 GMT+00:00",7
+10594 DATA 2,1,"Stereotype: abstract"
+10595 DATA 1,1,"3b4d1b","044","BKN","Wed 17 May 2006 07:39:22 GMT+00:00",7
+10596 DATA 2,1,"extends hs.address.Piece, mixes in hs.filter.Filter"
+10597 DATA 1,1,"3b4e","045","BKN","Thu 11 May 2006 00:02:41 GMT+00:00",5
+10598 DATA 2,1,"hs.address.Viewspec"
+10599 DATA 1,1,"3b4e1","0108","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",6
+10600 DATA 2,1,"Represents a specific viewspec letter in an hs.address.Address"
+10601 DATA 1,1,"3b4e1a","046","BKN","Thu 11 May 2006 00:10:16 GMT+00:00",7
+10602 DATA 2,1,"extends hs.address.Piece"
+10603 DATA 1,1,"3b4e1b","0273","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10604 DATA 2,1,"letter : String"
+10605 DATA 1,1,"3b4f","047","BKN","Thu 11 May 2006 00:02:53 GMT+00:00",5
+10606 DATA 2,1,"hs.address.ContentFilter"
+10607 DATA 1,2,"3b4f1","0109","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",6
+10608 DATA 2,1,"Represents a content filter at the end of an hs.address.Address,"
+10609 DATA 2,2,"such as ;&quot;foobar&quot;;"
+10610 DATA 1,1,"3b4f1a","048","BKN","Wed 17 May 2006 07:39:22 GMT+00:00",7
+10611 DATA 2,1,"extends hs.address.Piece, mixes in hs.filter.Filter"
+10612 DATA 1,1,"3b4f1b","0688","BKN","Mon 15 May 2006 06:42:28 GMT+00:00",7
+10613 DATA 2,1,"search : String"
+10614 DATA 1,1,"3b4f1c","0280","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10615 DATA 2,1,"toString() : String"
+10616 DATA 1,1,"3b4f1d","0914","BKN","Thu 7 Dec 2006 01:53:48 GMT+00:00",7
+10617 DATA 2,1,"clone() : hs.address.ContentFilter"
+10618 DATA 1,1,"3b4g","051","BKN","Thu 11 May 2006 00:04:05 GMT+00:00",5
+10619 DATA 2,1,"hs.address.NodeNumber"
+10620 DATA 1,1,"3b4g1","0110","BKN","Thu 11 May 2006 00:10:34 GMT+00:00",6
+10621 DATA 2,1,"An hs.address.NodeAddress that is a node number, such as 2A3"
+10622 DATA 1,1,"3b4g1a","059","BKN","Thu 11 May 2006 00:10:40 GMT+00:00",7
+10623 DATA 2,1,"extends hs.address.NodeAddress"
+10624 DATA 1,2,"3b4g1b","0286","BKN","Fri 19 May 2006 07:27:41 GMT+00:00",7
+10625 DATA 2,1,"new hs.address.NodeNumber(number : String, isOffset : Boolean)"
+10626 DATA 2,2,"throws hs.exception.InvalidAddress"
+10627 DATA 1,1,"3b4g1c","0287","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10628 DATA 2,1,"number : String"
+10629 DATA 1,1,"3b4g1c1","0288","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+10630 DATA 2,1,"Example :  2A"
+10631 DATA 1,1,"3b4g1d","0706","BKN","Fri 19 May 2006 07:27:36 GMT+00:00",7
+10632 DATA 2,1,"isOffset : Boolean"
+10633 DATA 1,1,"3b4g1d1","0291","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+10634 DATA 2,1,"Example :  !2A"
+10635 DATA 1,2,"3b4g1e","0773","BKN","Tue 13 Jun 2006 07:15:56 GMT+00:00",7
+10636 DATA 2,1,"static toNodeNumber(parentNodeNumber : String, nodeOffset :"
+10637 DATA 2,2,"Integer)"
+10638 DATA 1,4,"3b4g1e1","0774","BKN","Tue 13 Jun 2006 07:14:56 GMT+00:00",8
+10639 DATA 2,1,"Note: Factory method that takes a parent node number, such as"
+10640 DATA 2,2,"&quot;2A5BB2&quot; and a node offset, and returns a NodeNumber"
+10641 DATA 2,3,"initialized to be the correct node number child with this"
+10642 DATA 2,4,"number, such as &quot;2A5BB2C&quot; if the node offset were 3."
+10643 DATA 1,1,"3b4h","052","BKN","Thu 11 May 2006 00:04:09 GMT+00:00",5
+10644 DATA 2,1,"hs.address.NodeID"
+10645 DATA 1,1,"3b4h1","0111","BKN","Thu 11 May 2006 00:10:34 GMT+00:00",6
+10646 DATA 2,1,"An hs.address.NodeAddress that is a node ID, such as 023"
+10647 DATA 1,1,"3b4h1a","060","BKN","Thu 11 May 2006 00:10:40 GMT+00:00",7
+10648 DATA 2,1,"extends hs.address.NodeAddress"
+10649 DATA 1,2,"3b4h1b","0292","BKN","Thu 11 May 2006 00:10:59 GMT+00:00",7
+10650 DATA 2,1,"new hs.address.NodeID(id : String) throws"
+10651 DATA 2,2,"hs.exception.InvalidAddress"
+10652 DATA 1,1,"3b4h1c","0293","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10653 DATA 2,1,"id : String"
+10654 DATA 1,1,"3b4i","053","BKN","Thu 11 May 2006 00:04:13 GMT+00:00",5
+10655 DATA 2,1,"hs.address.NodeLabel"
+10656 DATA 1,1,"3b4i1","0113","BKN","Thu 11 May 2006 00:10:34 GMT+00:00",6
+10657 DATA 2,1,"An hs.address.NodeAddress that is a node label, such as foobar"
+10658 DATA 1,1,"3b4i1a","061","BKN","Thu 11 May 2006 00:10:40 GMT+00:00",7
+10659 DATA 2,1,"extends hs.address.NodeAddress"
+10660 DATA 1,2,"3b4i1b","0304","BKN","Thu 11 May 2006 00:11:01 GMT+00:00",7
+10661 DATA 2,1,"new hs.address.NodeLabel(label : String) throws"
+10662 DATA 2,2,"hs.exception.InvalidAddress"
+10663 DATA 1,1,"3b4i1c","0298","BKN","Tue 30 May 2006 07:33:08 GMT+00:00",7
+10664 DATA 2,1,"static START_AT_FIRST : String"
+10665 DATA 1,1,"3b4i1c1","0299","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+10666 DATA 2,1,"Example :  label"
+10667 DATA 1,1,"3b4i1d","0295","BKN","Tue 30 May 2006 07:33:27 GMT+00:00",7
+10668 DATA 2,1,"static BRANCH_SEARCH : String"
+10669 DATA 1,1,"3b4i1d1","0296","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+10670 DATA 2,1,"Example :  !label"
+10671 DATA 1,1,"3b4i1e","0300","BKN","Tue 30 May 2006 07:33:31 GMT+00:00",7
+10672 DATA 2,1,"static MOVE_TO_NEXT : String"
+10673 DATA 1,1,"3b4i1e1","0301","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+10674 DATA 2,1,"Example :  *label"
+10675 DATA 1,1,"3b4i1f","0302","BKN","Tue 30 May 2006 07:33:33 GMT+00:00",7
+10676 DATA 2,1,"static EXTERNAL : String"
+10677 DATA 1,1,"3b4i1f1","0303","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+10678 DATA 2,1,"Example :  $label"
+10679 DATA 1,1,"3b4i1g","0294","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10680 DATA 2,1,"label : String"
+10681 DATA 1,1,"3b4i1h","0751","BKN","Tue 30 May 2006 07:32:42 GMT+00:00",7
+10682 DATA 2,1,"type"
+10683 DATA 1,2,"3b4i1h1","0752","BKN","Tue 30 May 2006 07:32:52 GMT+00:00",8
+10684 DATA 2,1,"Note: One of the constants defined on hs.address.NodeLabel, such"
+10685 DATA 2,2,"as hs.address.NodeLabel.START_AT_FIRST"
+10686 DATA 1,1,"3b4j","054","BKN","Thu 11 May 2006 00:03:19 GMT+00:00",5
+10687 DATA 2,1,"hs.address.Marker"
+10688 DATA 1,1,"3b4j1","0114","BKN","Thu 11 May 2006 00:10:34 GMT+00:00",6
+10689 DATA 2,1,"An hs.address.NodeAddress that is a marker, such as @someMarker"
+10690 DATA 1,1,"3b4j1a","062","BKN","Thu 11 May 2006 00:10:40 GMT+00:00",7
+10691 DATA 2,1,"extends hs.address.NodeAddress"
+10692 DATA 1,2,"3b4j1b","0305","BKN","Thu 11 May 2006 00:11:08 GMT+00:00",7
+10693 DATA 2,1,"new hs.address.NodeMarker(marker : String) throws"
+10694 DATA 2,2,"hs.exception.InvalidAddress"
+10695 DATA 1,1,"3b4j1c","0306","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10696 DATA 2,1,"name : String"
+10697 DATA 1,1,"3b4j1c1","0307","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+10698 DATA 2,1,"Example :  @marker"
+10699 DATA 1,1,"3b4k","055","BKN","Thu 11 May 2006 00:03:23 GMT+00:00",5
+10700 DATA 2,1,"hs.address.Relative"
+10701 DATA 1,2,"3b4k1","0115","BKN","Thu 11 May 2006 00:10:34 GMT+00:00",6
+10702 DATA 2,1,"An hs.address.NodeAddress that is a single relative address,"
+10703 DATA 2,2,"such as .2u"
+10704 DATA 1,1,"3b4k1a","063","BKN","Thu 11 May 2006 00:10:40 GMT+00:00",7
+10705 DATA 2,1,"extends hs.address.NodeAddress"
+10706 DATA 1,1,"3b4k1b","0713","BKN","Fri 19 May 2006 07:36:54 GMT+00:00",7
+10707 DATA 2,1,"new hs.address.Relative(type, offset : Integer)"
+10708 DATA 1,2,"3b4k1b1","0714","BKN","Fri 19 May 2006 07:36:58 GMT+00:00",8
+10709 DATA 2,1,"Note: 'type' is one of the constants defined on this class,"
+10710 DATA 2,2,"hs.address.Relative"
+10711 DATA 1,1,"3b4k1c","0715","BKN","Fri 19 May 2006 07:37:03 GMT+00:00",7
+10712 DATA 2,1,"NODE_NEXT"
+10713 DATA 1,1,"3b4k1d","0716","BKN","Fri 19 May 2006 07:37:04 GMT+00:00",7
+10714 DATA 2,1,"NODE_BACK"
+10715 DATA 1,1,"3b4k1e","0717","BKN","Fri 19 May 2006 07:37:05 GMT+00:00",7
+10716 DATA 2,1,"NODE_UP"
+10717 DATA 1,1,"3b4k1f","0718","BKN","Fri 19 May 2006 07:37:06 GMT+00:00",7
+10718 DATA 2,1,"NODE_DOWN"
+10719 DATA 1,1,"3b4k1g","0719","BKN","Fri 19 May 2006 07:37:07 GMT+00:00",7
+10720 DATA 2,1,"ORIGIN"
+10721 DATA 1,1,"3b4k1h","0720","BKN","Fri 19 May 2006 07:37:08 GMT+00:00",7
+10722 DATA 2,1,"BRANCH_END"
+10723 DATA 1,1,"3b4k1i","0721","BKN","Fri 19 May 2006 07:37:09 GMT+00:00",7
+10724 DATA 2,1,"PLEX_HEAD"
+10725 DATA 1,1,"3b4k1j","0722","BKN","Fri 19 May 2006 07:37:11 GMT+00:00",7
+10726 DATA 2,1,"PLEX_TAIL"
+10727 DATA 1,1,"3b4k1k","0723","BKN","Fri 19 May 2006 07:37:11 GMT+00:00",7
+10728 DATA 2,1,"NODE_SUCCESSOR"
+10729 DATA 1,1,"3b4k1l","0724","BKN","Fri 19 May 2006 07:37:13 GMT+00:00",7
+10730 DATA 2,1,"NODE_PREDECESSOR"
+10731 DATA 1,1,"3b4k1m","0725","BKN","Fri 19 May 2006 07:37:14 GMT+00:00",7
+10732 DATA 2,1,"CONTENT_SEARCH"
+10733 DATA 1,1,"3b4k1n","0726","BKN","Fri 19 May 2006 07:37:15 GMT+00:00",7
+10734 DATA 2,1,"RETURN_NODE"
+10735 DATA 1,1,"3b4k1o","0727","BKN","Fri 19 May 2006 07:37:21 GMT+00:00",7
+10736 DATA 2,1,"RETURN_FILE"
+10737 DATA 1,1,"3b4k1p","0728","BKN","Fri 19 May 2006 07:37:23 GMT+00:00",7
+10738 DATA 2,1,"type"
+10739 DATA 1,1,"3b4k1q","0321","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10740 DATA 2,1,"offset : Integer"
+10741 DATA 1,1,"3b4l","056","BKN","Thu 11 May 2006 00:03:28 GMT+00:00",5
+10742 DATA 2,1,"hs.address.IndirectLink"
+10743 DATA 1,1,"3b4l1","0116","BKN","Thu 11 May 2006 00:10:34 GMT+00:00",6
+10744 DATA 2,1,"An hs.address.NodeAddress that is an indirect link, such as .l"
+10745 DATA 1,1,"3b4l1a","064","BKN","Thu 11 May 2006 00:10:40 GMT+00:00",7
+10746 DATA 2,1,"extends hs.address.NodeAddress"
+10747 DATA 1,1,"3b4l1b","0337","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10748 DATA 2,1,"offset : Integer"
+10749 DATA 1,1,"3b4m","057","BKN","Thu 11 May 2006 00:03:39 GMT+00:00",5
+10750 DATA 2,1,"hs.address.StringSearch"
+10751 DATA 1,3,"3b4m1","0117","BKN","Fri 19 May 2006 07:40:26 GMT+00:00",6
+10752 DATA 2,1,"An hs.address.NodeAddress that is a string search forwards from"
+10753 DATA 2,2,"the present location through the following nodes, such as"
+10754 DATA 2,3,"&quot;foobar&quot;"
+10755 DATA 1,1,"3b4m1a","0678","BKN","Mon 15 May 2006 06:42:39 GMT+00:00",7
+10756 DATA 2,1,"extends hs.address.NodeAddress"
+10757 DATA 1,1,"3b4m1b","0686","BKN","Mon 15 May 2006 06:42:32 GMT+00:00",7
+10758 DATA 2,1,"search : String"
+10759 DATA 1,2,"3b4m1b1","0687","BKN","Mon 15 May 2006 06:42:03 GMT+00:00",8
+10760 DATA 2,1,"Note: We have normalized string searches to look like content"
+10761 DATA 2,2,"filters"
+10762 DATA 1,1,"3b4m1c","0685","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10763 DATA 2,1,"toString() : String"
+10764 DATA 1,1,"3b4n","058","BKN","Thu 11 May 2006 00:03:45 GMT+00:00",5
+10765 DATA 2,1,"hs.address.StringPosition"
+10766 DATA 1,2,"3b4n1","0118","BKN","Thu 11 May 2006 00:10:34 GMT+00:00",6
+10767 DATA 2,1,"An hs.address.NodeAddress that jumps through a single node's"
+10768 DATA 2,2,"textual contents, such as -2w"
+10769 DATA 1,1,"3b4n1a","066","BKN","Thu 11 May 2006 00:10:40 GMT+00:00",7
+10770 DATA 2,1,"extends hs.address.NodeAddress"
+10771 DATA 1,2,"3b4n1b","0737","BKN","Fri 19 May 2006 07:47:54 GMT+00:00",7
+10772 DATA 2,1,"new hs.address.StringPosition(type, offset : Integer) throws"
+10773 DATA 2,2,"hs.exception.InvalidAddress"
+10774 DATA 1,1,"3b4n1c","0348","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10775 DATA 2,1,"offset : Integer"
+10776 DATA 1,1,"3b4n1c1","0349","BKN","Fri 19 May 2006 07:47:31 GMT+00:00",8
+10777 DATA 2,1,"Note: Can be negative"
+10778 DATA 1,1,"3b4n1d","0735","BKN","Fri 19 May 2006 07:47:19 GMT+00:00",7
+10779 DATA 2,1,"type"
+10780 DATA 1,2,"3b4n1d1","0736","BKN","Fri 19 May 2006 07:47:25 GMT+00:00",8
+10781 DATA 2,1,"Note: One of the constants defined on hs.address.StringPosition,"
+10782 DATA 2,2,"such as LAST_CHAR"
+10783 DATA 1,1,"3b4n1e","0729","BKN","Fri 19 May 2006 07:47:10 GMT+00:00",7
+10784 DATA 2,1,"LAST_CHAR"
+10785 DATA 1,1,"3b4n1f","0730","BKN","Fri 19 May 2006 07:47:13 GMT+00:00",7
+10786 DATA 2,1,"FIRST_CHAR"
+10787 DATA 1,1,"3b4n1g","0731","BKN","Fri 19 May 2006 07:47:14 GMT+00:00",7
+10788 DATA 2,1,"CHARACTER"
+10789 DATA 1,1,"3b4n1h","0732","BKN","Fri 19 May 2006 07:47:15 GMT+00:00",7
+10790 DATA 2,1,"WORD"
+10791 DATA 1,1,"3b4n1i","0733","BKN","Fri 19 May 2006 07:47:15 GMT+00:00",7
+10792 DATA 2,1,"VISIBLE"
+10793 DATA 1,1,"3b4n1j","0734","BKN","Fri 19 May 2006 07:47:16 GMT+00:00",7
+10794 DATA 2,1,"INVISIBLE"
+10795 DATA 1,1,"3b5","0621","BKN","Mon 15 May 2006 06:19:59 GMT+00:00",4
+10796 DATA 2,1,"Module: hs.filter"
+10797 DATA 1,1,"3b5a","067","BKN","Thu 11 May 2006 00:04:18 GMT+00:00",5
+10798 DATA 2,1,"hs.filter.Filter"
+10799 DATA 1,4,"3b5a1","0121","BKN","Thu 11 May 2006 00:11:20 GMT+00:00",6
+10800 DATA 2,1,"A consistent API for applying filters and transformers to an"
+10801 DATA 2,2,"hs.model.Document, changing the underlying hs.model.Document in"
+10802 DATA 2,3,"some filter specific way; many objects are filters, including"
+10803 DATA 2,4,"the hs.address.NodeAddress."
+10804 DATA 1,1,"3b5a1a","068","BKN","Thu 7 Dec 2006 01:28:30 GMT+00:00",7
+10805 DATA 2,1,"Stereotype: mixin"
+10806 DATA 1,2,"3b5a1b","0363","BKN","Thu 7 Dec 2006 01:44:19 GMT+00:00",7
+10807 DATA 2,1,"apply(document : hs.model.Document, readyHandler : Function,"
+10808 DATA 2,2,"address : hs.address.Address) throws hs.exception.Filter"
+10809 DATA 1,1,"3b5a1b1","0692","BKN","Wed 17 May 2006 07:39:48 GMT+00:00",8
+10810 DATA 2,1,"Notes"
+10811 DATA 1,2,"3b5a1b1a","0693","BKN","Wed 17 May 2006 07:39:48 GMT+00:00",9
+10812 DATA 2,1,"readyHandler is optional, and only needs to be given if this"
+10813 DATA 2,2,"filter is asychronous (i.e. isAsynch() returns true)"
+10814 DATA 1,2,"3b5a1b1b","0694","BKN","Wed 17 May 2006 07:39:59 GMT+00:00",9
+10815 DATA 2,1,"readyHandler = function(document : hs.model.Document, error :"
+10816 DATA 2,2,"hs.exception.Filter)"
+10817 DATA 1,1,"3b5a1c","0691","BKN","Wed 17 May 2006 07:39:30 GMT+00:00",7
+10818 DATA 2,1,"isAsynch() : Boolean"
+10819 DATA 1,1,"3b5b","069","BKN","Thu 11 May 2006 00:04:21 GMT+00:00",5
+10820 DATA 2,1,"hs.filter.Normalizer"
+10821 DATA 1,4,"3b5b1","0122","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",6
+10822 DATA 2,1,"A Filter that normalizes an hs.model.Document into a consistent"
+10823 DATA 2,2,"form before working with it; specifically, the Normalizer strips"
+10824 DATA 2,3,"out everything but DOM Elements from the underlying"
+10825 DATA 2,4,"hs.model.Document, and adds in node number information"
+10826 DATA 1,1,"3b5b1a","070","BKN","Wed 17 May 2006 07:40:12 GMT+00:00",7
+10827 DATA 2,1,"mixes in hs.filter.Filter"
+10828 DATA 1,1,"3b5b1b","0364","BKN","Thu 11 May 2006 00:11:42 GMT+00:00",7
+10829 DATA 2,1,"new hs.filter.Normalizer()"
+10830 DATA 1,1,"3b5c","071","BKN","Thu 11 May 2006 00:04:31 GMT+00:00",5
+10831 DATA 2,1,"hs.filter.CurrentViewspecs"
+10832 DATA 1,3,"3b5c1","0123","BKN","Tue 9 May 2006 07:07:00 GMT+00:00",6
+10833 DATA 2,1,"A Filter that holds our currently applied viewspecs; reduces"
+10834 DATA 2,2,"them into a form that can be worked with; and applies them in"
+10835 DATA 2,3,"the final rendering phase"
+10836 DATA 1,1,"3b5c1a","072","BKN","Wed 17 May 2006 07:39:22 GMT+00:00",7
+10837 DATA 2,1,"mixes in hs.filter.Filter"
+10838 DATA 1,2,"3b5c1b","0365","BKN","Thu 11 May 2006 00:11:39 GMT+00:00",7
+10839 DATA 2,1,"new hs.filter.CurrentViewspecs(letters : String, docCtxt :"
+10840 DATA 2,2,"hs.model.Document) throws hs.exception.Filter"
+10841 DATA 1,3,"3b5c1c","0367","BKN","Thu 11 May 2006 00:11:39 GMT+00:00",7
+10842 DATA 2,1,"new hs.filter.CurrentViewspecs(viewspecs :"
+10843 DATA 2,2,"hs.address.Viewspecs[], docCtxt : hs.model.Document) throws"
+10844 DATA 2,3,"hs.exception.Filter"
+10845 DATA 1,1,"3b5c1d","0366","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10846 DATA 2,1,"toString() : String"
+10847 DATA 1,1,"3b5c1e","0368","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10848 DATA 2,1,"add(view : String) throws hs.exception.Filter"
+10849 DATA 1,1,"3b5c1f","0369","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10850 DATA 2,1,"add(view : Viewspec) throws hs.exception.Filter"
+10851 DATA 1,1,"3b5c1g","0809","BKN","Thu 7 Dec 2006 01:14:13 GMT+00:00",7
+10852 DATA 2,1,"getLevelClipping() : int"
+10853 DATA 1,2,"3b5c1g1","0810","BKN","Thu 7 Dec 2006 01:13:51 GMT+00:00",8
+10854 DATA 2,1,"Note: Returns from 0 to"
+10855 DATA 2,2,"hs.filter.ViewspecConstants.MAX_LEVEL_CLIPPING"
+10856 DATA 1,1,"3b5c1h","0811","BKN","Thu 7 Dec 2006 01:14:13 GMT+00:00",7
+10857 DATA 2,1,"getLineClipping() : int"
+10858 DATA 1,2,"3b5c1h1","0812","BKN","Thu 7 Dec 2006 01:14:09 GMT+00:00",8
+10859 DATA 2,1,"Note: Returns from 1 to"
+10860 DATA 2,2,"hs.filter.ViewspecConstants.MAX_LINE_CLIPPING"
+10861 DATA 1,1,"3b5c1i","0813","BKN","Thu 7 Dec 2006 01:14:27 GMT+00:00",7
+10862 DATA 2,1,"getStructuralClippingType() : hs.filter.ViewspecConstants"
+10863 DATA 1,1,"3b5c1j","0372","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10864 DATA 2,1,"showBlankLines() : Boolean"
+10865 DATA 1,1,"3b5c1k","0373","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10866 DATA 2,1,"showNodeAddressing() : Boolean"
+10867 DATA 1,1,"3b5c1l","0374","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10868 DATA 2,1,"getNodeAddressingPlacement() : hs.filter.ViewspecConstants"
+10869 DATA 1,1,"3b5c1m","0375","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10870 DATA 2,1,"getNodeAddressingType() : hs.filter.ViewspecConstants"
+10871 DATA 1,1,"3b5c1n","0376","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10872 DATA 2,1,"showNodeLabels() : Boolean"
+10873 DATA 1,1,"3b5c1o","0379","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10874 DATA 2,1,"getContentFilterType() : hs.filter.ViewspecConstants"
+10875 DATA 1,1,"3b5c1p","0380","BKN","Thu 7 Dec 2006 01:14:41 GMT+00:00",7
+10876 DATA 2,1,"getLevelIndentingType() : hs.filter.ViewspecConstants"
+10877 DATA 1,1,"3b5c1q","0381","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10878 DATA 2,1,"showFrozenNodes() : Boolean"
+10879 DATA 1,1,"3b5c1r","0382","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10880 DATA 2,1,"showNodeSignatures() : Boolean"
+10881 DATA 1,1,"3b5c1s","0383","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10882 DATA 2,1,"runSequenceGenerators() : Boolean"
+10883 DATA 1,1,"3b5d","073","BKN","Thu 11 May 2006 00:04:37 GMT+00:00",5
+10884 DATA 2,1,"hs.filter.ViewspecConstants"
+10885 DATA 1,2,"3b5d1","0124","BKN","Thu 11 May 2006 00:04:31 GMT+00:00",6
+10886 DATA 2,1,"Viewspec constants useful for working with"
+10887 DATA 2,2,"hs.filter.CurrentViewspecs"
+10888 DATA 1,1,"3b5d1a","074","BKN","Thu 7 Dec 2006 01:28:35 GMT+00:00",7
+10889 DATA 2,1,"Stereotype: static"
+10890 DATA 1,1,"3b5d1b","0804","BKN","Thu 7 Dec 2006 01:12:11 GMT+00:00",7
+10891 DATA 2,1,"static DEFAULT_VIEWSPECS =&quot;hjmpuwyACHJLP&quot;"
+10892 DATA 1,1,"3b5d1c","0386","BKN","Tue 9 May 2006 07:34:42 GMT+00:00",7
+10893 DATA 2,1,"static LEFT = &quot;left&quot;"
+10894 DATA 1,1,"3b5d1d","0387","BKN","Tue 9 May 2006 07:34:54 GMT+00:00",7
+10895 DATA 2,1,"static RIGHT = &quot;right&quot;"
+10896 DATA 1,1,"3b5d1e","0388","BKN","Tue 9 May 2006 07:35:07 GMT+00:00",7
+10897 DATA 2,1,"static SHOW_NODE_ID = &quot;id&quot;"
+10898 DATA 1,1,"3b5d1f","0389","BKN","Tue 9 May 2006 07:35:21 GMT+00:00",7
+10899 DATA 2,1,"static SHOW_NODE_NUMBER = &quot;number&quot;"
+10900 DATA 1,1,"3b5d1g","0390","BKN","Tue 9 May 2006 07:35:34 GMT+00:00",7
+10901 DATA 2,1,"static BRANCH_ONLY = &quot;branch&quot;"
+10902 DATA 1,1,"3b5d1h","0391","BKN","Tue 9 May 2006 07:36:04 GMT+00:00",7
+10903 DATA 2,1,"static PLEX_ONLY = &quot;plex&quot;"
+10904 DATA 1,1,"3b5d1i","0814","BKN","Thu 7 Dec 2006 01:15:01 GMT+00:00",7
+10905 DATA 2,1,"static NO_STRUCTURAL_CLIPPING = &quot;none&quot;"
+10906 DATA 1,1,"3b5d1j","0392","BKN","Tue 9 May 2006 07:36:18 GMT+00:00",7
+10907 DATA 2,1,"static NO_FILTERING = &quot;none&quot;"
+10908 DATA 1,1,"3b5d1k","0393","BKN","Tue 9 May 2006 07:36:21 GMT+00:00",7
+10909 DATA 2,1,"static FILTER_ALL = &quot;all&quot;"
+10910 DATA 1,1,"3b5d1l","0394","BKN","Tue 9 May 2006 07:36:24 GMT+00:00",7
+10911 DATA 2,1,"static NEXT_FILTERED_NODE = &quot;next_node&quot;"
+10912 DATA 1,1,"3b5d1m","0395","BKN","Tue 9 May 2006 07:36:27 GMT+00:00",7
+10913 DATA 2,1,"static INDENT_ON = &quot;on&quot;"
+10914 DATA 1,1,"3b5d1n","0396","BKN","Tue 9 May 2006 07:36:30 GMT+00:00",7
+10915 DATA 2,1,"static INDENT_OFF = &quot;off&quot;"
+10916 DATA 1,1,"3b5d1o","0397","BKN","Tue 9 May 2006 07:36:35 GMT+00:00",7
+10917 DATA 2,1,"static INDENT_TO_CONTENT = &quot;to_context_node&quot;"
+10918 DATA 1,1,"3b5d1p","0805","BKN","Thu 7 Dec 2006 01:12:33 GMT+00:00",7
+10919 DATA 2,1,"static MAX_LEVEL_CLIPPING = 63"
+10920 DATA 1,1,"3b5d1q","0806","BKN","Thu 7 Dec 2006 01:12:37 GMT+00:00",7
+10921 DATA 2,1,"static MAX_LINE_CLIPPING = 63"
+10922 DATA 1,1,"3b5d1r","0807","BKN","Thu 7 Dec 2006 01:12:40 GMT+00:00",7
+10923 DATA 2,1,"static DEFAULT_LEVEL_CLIPPING = 1"
+10924 DATA 1,1,"3b5d1s","0808","BKN","Thu 7 Dec 2006 01:12:43 GMT+00:00",7
+10925 DATA 2,1,"static DEFAULT_LINE_CLIPPING = 1"
+10926 DATA 1,1,"3b5d1t","0859","BKN","Thu 7 Dec 2006 01:31:47 GMT+00:00",7
+10927 DATA 2,1,"static NO_PLEX_PARENT = &quot;none&quot;"
+10928 DATA 1,1,"3b5d1t1","0860","BKN","Thu 7 Dec 2006 01:31:57 GMT+00:00",8
+10929 DATA 2,1,"Note: Used for structural plexing"
+10930 DATA 1,1,"3b5e","075","BKN","Thu 11 May 2006 00:04:44 GMT+00:00",5
+10931 DATA 2,1,"hs.filter.Transcluder"
+10932 DATA 1,2,"3b5e1","0125","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",6
+10933 DATA 2,1,"A Filter that walks the hs.model.Document tree, replacing"
+10934 DATA 2,2,"INCLUDE statements with their resolved locations"
+10935 DATA 1,1,"3b5e1a","076","BKN","Wed 17 May 2006 07:39:22 GMT+00:00",7
+10936 DATA 2,1,"mixes in hs.filter.Filter"
+10937 DATA 1,1,"3b5e1b","0398","BKN","Tue 9 May 2006 07:36:45 GMT+00:00",7
+10938 DATA 2,1,"static INCLUDE_NODE"
+10939 DATA 1,1,"3b5e1c","0399","BKN","Tue 9 May 2006 07:36:47 GMT+00:00",7
+10940 DATA 2,1,"static INCLUDE_BRANCH"
+10941 DATA 1,1,"3b5e1d","0400","BKN","Tue 9 May 2006 07:36:49 GMT+00:00",7
+10942 DATA 2,1,"static INCLUDE_PLEX"
+10943 DATA 1,1,"3b5e1e","0869","BKN","Thu 7 Dec 2006 01:34:42 GMT+00:00",7
+10944 DATA 2,1,"new hs.filter.Transcluder(parentAddress : hs.address.Address)"
+10945 DATA 1,3,"3b5e1e1","0870","BKN","Thu 7 Dec 2006 01:34:49 GMT+00:00",8
+10946 DATA 2,1,"Note: 'parentAddress' is the parent address that is running this"
+10947 DATA 2,2,"transclusion; this is the address of the root document that is"
+10948 DATA 2,3,"being displayed to the end user"
+10949 DATA 1,1,"3b5e1f","0401","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10950 DATA 2,1,"currentNode : hs.model.Node"
+10951 DATA 1,1,"3b5e1g","0402","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10952 DATA 2,1,"nodeWalker : hs.util.NodeWalker"
+10953 DATA 1,1,"3b5e1h","0867","BKN","Thu 7 Dec 2006 01:34:27 GMT+00:00",7
+10954 DATA 2,1,"metadataDirty : Boolean"
+10955 DATA 1,2,"3b5e1h1","0868","BKN","Thu 7 Dec 2006 01:34:31 GMT+00:00",8
+10956 DATA 2,1,"Note: Whether our metadata is dirty; if so, we must renormalize"
+10957 DATA 2,2,"our document"
+10958 DATA 1,1,"3b6","0623","BKN","Mon 15 May 2006 06:19:59 GMT+00:00",4
+10959 DATA 2,1,"Module: hs.exception"
+10960 DATA 1,1,"3b6a","078","BKN","Thu 11 May 2006 00:05:29 GMT+00:00",5
+10961 DATA 2,1,"hs.exception.Jump"
+10962 DATA 1,2,"3b6a1","0127","BKN","Tue 9 May 2006 07:07:30 GMT+00:00",6
+10963 DATA 2,1,"Thrown if an error occurs during jumping; thrown by all jump*"
+10964 DATA 2,2,"commands and methods"
+10965 DATA 1,1,"3b6a1a","0738","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10966 DATA 2,1,"message : String"
+10967 DATA 1,1,"3b6a1b","0739","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10968 DATA 2,1,"document : hs.model.Document"
+10969 DATA 1,1,"3b6a1c","0740","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10970 DATA 2,1,"address : hs.address.Address"
+10971 DATA 1,1,"3b6b","080","BKN","Thu 11 May 2006 00:05:30 GMT+00:00",5
+10972 DATA 2,1,"hs.exception.Filter"
+10973 DATA 1,2,"3b6b1","0128","BKN","Tue 9 May 2006 07:07:38 GMT+00:00",6
+10974 DATA 2,1,"Thrown if an error occurs during a filter process; thrown by all"
+10975 DATA 2,2,"Filter.apply() methods"
+10976 DATA 1,1,"3b6b1a","0741","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10977 DATA 2,1,"message : String"
+10978 DATA 1,1,"3b6b1b","0742","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10979 DATA 2,1,"document : hs.model.Document"
+10980 DATA 1,1,"3b6b1c","0743","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10981 DATA 2,1,"address : hs.address.Address"
+10982 DATA 1,1,"3b6c","081","BKN","Thu 11 May 2006 00:05:35 GMT+00:00",5
+10983 DATA 2,1,"hs.exception.InvalidAddress"
+10984 DATA 1,1,"3b6c1","0129","BKN","Tue 9 May 2006 07:07:45 GMT+00:00",6
+10985 DATA 2,1,"Thrown if an error occurs while Location parsing or resolution"
+10986 DATA 1,1,"3b6c1a","0744","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10987 DATA 2,1,"message : String"
+10988 DATA 1,1,"3b6c1b","0745","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10989 DATA 2,1,"document : hs.model.Document"
+10990 DATA 1,1,"3b6c1c","0746","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10991 DATA 2,1,"address : hs.address.Address"
+10992 DATA 1,1,"3b6d","082","BKN","Thu 11 May 2006 00:05:31 GMT+00:00",5
+10993 DATA 2,1,"hs.exception.Render"
+10994 DATA 1,1,"3b6d1","0130","BKN","Tue 9 May 2006 07:07:51 GMT+00:00",6
+10995 DATA 2,1,"Thrown if an error occurs during the rendering phase"
+10996 DATA 1,1,"3b6d1a","0747","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10997 DATA 2,1,"message : String"
+10998 DATA 1,1,"3b6d1b","0748","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+10999 DATA 2,1,"document : hs.model.Document"
+11000 DATA 1,1,"3b6d1c","0749","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11001 DATA 2,1,"address : hs.address.Address"
+11002 DATA 1,1,"3b7","0620","BKN","Mon 15 May 2006 06:20:00 GMT+00:00",4
+11003 DATA 2,1,"Module: hs.util"
+11004 DATA 1,1,"3b7a","049","BKN","Thu 11 May 2006 00:05:41 GMT+00:00",5
+11005 DATA 2,1,"hs.util.AddressSerializer"
+11006 DATA 1,1,"3b7a1","0119","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",6
+11007 DATA 2,1,"Can serialize an hs.address.Address into a string or URL"
+11008 DATA 1,2,"3b7a1a","0281","BKN","Thu 11 May 2006 00:12:09 GMT+00:00",7
+11009 DATA 2,1,"new hs.util.AddressSerializer(address : hs.address.Address)"
+11010 DATA 2,2,"throws hs.exception.InvalidAddress"
+11011 DATA 1,1,"3b7a1b","0282","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11012 DATA 2,1,"serialize() : String"
+11013 DATA 1,1,"3b7b","050","BKN","Thu 11 May 2006 00:05:47 GMT+00:00",5
+11014 DATA 2,1,"hs.util.AddressTokenizer"
+11015 DATA 1,2,"3b7b1","0120","BKN","Thu 11 May 2006 00:03:53 GMT+00:00",6
+11016 DATA 2,1,"Parses a string or URL into a collection of hs.address.Pieces"
+11017 DATA 2,2,"and can return them one by one, left to right"
+11018 DATA 1,2,"3b7b1a","0283","BKN","Thu 11 May 2006 00:12:16 GMT+00:00",7
+11019 DATA 2,1,"new hs.util.AddressTokenizer(pageURL : String) throws"
+11020 DATA 2,2,"hs.exception.InvalidAddress"
+11021 DATA 1,1,"3b7b1b","0284","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11022 DATA 2,1,"hasNext() : Boolean"
+11023 DATA 1,1,"3b7b1c","0285","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11024 DATA 2,1,"next() : hs.address.Piece"
+11025 DATA 1,1,"3b7c","033","BKN","Sat 10 Jun 2006 00:40:07 GMT+00:00",5
+11026 DATA 2,1,"hs.util.XMLFetcher"
+11027 DATA 1,2,"3b7c1","098","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",6
+11028 DATA 2,1,"Returns an hs.model.Document for the given address, either"
+11029 DATA 2,2,"fetched remotely or from it's local cache"
+11030 DATA 1,1,"3b7c1a","0866","BKN","Thu 7 Dec 2006 01:34:10 GMT+00:00",7
+11031 DATA 2,1,"static PROXY_URL = &quot;/get/&quot;"
+11032 DATA 1,1,"3b7c1b","0187","BKN","Sat 20 May 2006 00:08:45 GMT+00:00",7
+11033 DATA 2,1,"load(URL : String or hs.address.Address, handler : Function)"
+11034 DATA 1,1,"3b7c1b1","0188","BKN","Fri 19 May 2006 07:47:30 GMT+00:00",8
+11035 DATA 2,1,"Note:"
+11036 DATA 1,2,"3b7c1b1a","0189","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",9
+11037 DATA 2,1,"handler = function(address : hs.address.Address, document :"
+11038 DATA 2,2,"hs.model.Document, error : InvalidAddressException"
+11039 DATA 1,1,"3b7d","036","BKN","Thu 11 May 2006 00:05:55 GMT+00:00",5
+11040 DATA 2,1,"hs.util.NodeWalker"
+11041 DATA 1,2,"3b7d1","0101","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",6
+11042 DATA 2,1,"Walks the tree of hs.model.Nodes in an hs.model.Document,"
+11043 DATA 2,2,"performing some action or test on each node"
+11044 DATA 1,2,"3b7d1a","0229","BKN","Thu 7 Dec 2006 00:34:03 GMT+00:00",7
+11045 DATA 2,1,"new hs.util.NodeWalker(ctxtNode : hs.model.Node, includeCtxt :"
+11046 DATA 2,2,"Boolean)"
+11047 DATA 1,3,"3b7d1b","0783","BKN","Thu 7 Dec 2006 00:36:23 GMT+00:00",7
+11048 DATA 2,1,"Note: 'includeCtxt' is optional, and controls whether to include"
+11049 DATA 2,2,"the context node in the walk; defaults to true, which means we"
+11050 DATA 2,3,"include the ctxtNode in the walk."
+11051 DATA 1,1,"3b7d1c","0230","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11052 DATA 2,1,"hasNext() : Boolean"
+11053 DATA 1,1,"3b7d1d","0231","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11054 DATA 2,1,"next() : hs.model.Node"
+11055 DATA 1,1,"3b7e","037","BKN","Thu 11 May 2006 00:05:59 GMT+00:00",5
+11056 DATA 2,1,"hs.util.NodeNumberTokenizer"
+11057 DATA 1,3,"3b7e1","0102","BKN","Tue 9 May 2006 07:01:56 GMT+00:00",6
+11058 DATA 2,1,"Tokenizes a node number, such as 1B22C2A, and returns each level"
+11059 DATA 2,2,"as a single number to easily step through a hierarchical node"
+11060 DATA 2,3,"number"
+11061 DATA 1,2,"3b7e1a","0232","BKN","Thu 11 May 2006 00:12:27 GMT+00:00",7
+11062 DATA 2,1,"new hs.util.NodeNumberTokenizer(nodeNumber : String) throws"
+11063 DATA 2,2,"hs.exception.InvalidAddress"
+11064 DATA 1,1,"3b7e1b","0233","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11065 DATA 2,1,"hasNext() : Boolean"
+11066 DATA 1,1,"3b7e1c","0234","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",7
+11067 DATA 2,1,"next() : Integer"
+11068 DATA 1,1,"3b7f","0789","BKN","Thu 7 Dec 2006 00:42:08 GMT+00:00",5
+11069 DATA 2,1,"hs.util.XSLTLoader"
+11070 DATA 1,3,"3b7f1","0790","BKN","Thu 7 Dec 2006 00:42:32 GMT+00:00",6
+11071 DATA 2,1,"Will asychronously load a set of XSLT files, tell you when they"
+11072 DATA 2,2,"are loaded, transform them into XML DOMs, and return them by"
+11073 DATA 2,3,"name"
+11074 DATA 1,2,"3b7f1a","0791","BKN","Thu 7 Dec 2006 00:43:06 GMT+00:00",7
+11075 DATA 2,1,"new hs.util.XSLTLoader(files : Object[], loadedHandler :"
+11076 DATA 2,2,"Function)"
+11077 DATA 1,3,"3b7f1a1","0792","BKN","Thu 7 Dec 2006 00:43:17 GMT+00:00",8
+11078 DATA 2,1,"Note: 'files' is an Array of Object literals, where each object"
+11079 DATA 2,2,"has a member named 'name' that has the unique name of this XSLT,"
+11080 DATA 2,3,"and 'url' is a member which has the URL to this XSLT file."
+11081 DATA 1,3,"3b7f1a2","0793","BKN","Thu 7 Dec 2006 00:43:35 GMT+00:00",8
+11082 DATA 2,1,"Note: 'loadedHandler' is a Function pointer to a JavaScript"
+11083 DATA 2,2,"function that will receive two arguments: function(success :"
+11084 DATA 2,3,"Boolean, error : hs.util.InvalidAddress)"
+11085 DATA 1,1,"3b7f1b","0794","BKN","Thu 7 Dec 2006 00:44:10 GMT+00:00",7
+11086 DATA 2,1,"load()"
+11087 DATA 1,1,"3b7f1c","0795","BKN","Thu 7 Dec 2006 00:44:20 GMT+00:00",7
+11088 DATA 2,1,"getXSLT(name : String) : XSLTProcessor"
+11089 DATA 1,2,"3b7f1c1","0796","BKN","Thu 7 Dec 2006 00:44:24 GMT+00:00",8
+11090 DATA 2,1,"Note: XSLTProcessor is the particular platform's underlying XSLT"
+11091 DATA 2,2,"processor"
+11092 DATA 1,1,"3b8","0131","BKN","Mon 15 May 2006 06:20:00 GMT+00:00",4
+11093 DATA 2,1,"Module: Rendering"
+11094 DATA 1,1,"3b8a","083","BKN","Thu 7 Dec 2006 00:40:42 GMT+00:00",5
+11095 DATA 2,1,"render.xsl"
+11096 DATA 1,2,"3b8a1","0132","BKN","Tue 9 May 2006 07:08:08 GMT+00:00",6
+11097 DATA 2,1,"XSLT file that renders our final, processed OPML into HTML"
+11098 DATA 2,2,"suitable for displaying"
+11099 DATA 1,3,"3b8a1a","0817","BKN","Thu 7 Dec 2006 01:19:02 GMT+00:00",7
+11100 DATA 2,1,"Our JavaScript code invokes render.xsl with a number of XSLT"
+11101 DATA 2,2,"parameters using XSLTProcessor.setParameter; these are"
+11102 DATA 2,3,"documented here:"
+11103 DATA 1,1,"3b8a1a1","0802","BKN","Thu 7 Dec 2006 01:10:39 GMT+00:00",8
+11104 DATA 2,1,"hs-internal:context-node-number"
+11105 DATA 1,1,"3b8a1a1a","0803","BKN","Thu 7 Dec 2006 01:10:52 GMT+00:00",9
+11106 DATA 2,1,"Possible Values: string node number, such as 2A"
+11107 DATA 1,1,"3b8a1a2","0432","BKN","Thu 7 Dec 2006 01:11:01 GMT+00:00",8
+11108 DATA 2,1,"hs-internal:lineClipping"
+11109 DATA 1,1,"3b8a1a2a","0446","BKN","Mon 15 May 2006 06:32:16 GMT+00:00",9
+11110 DATA 2,1,"Possible Values:  none or number"
+11111 DATA 1,1,"3b8a1a3","0433","BKN","Thu 7 Dec 2006 01:11:01 GMT+00:00",8
+11112 DATA 2,1,"hs-internal:levelClipping"
+11113 DATA 1,1,"3b8a1a3a","0447","BKN","Mon 15 May 2006 06:32:17 GMT+00:00",9
+11114 DATA 2,1,"Possible Values:  none or number"
+11115 DATA 1,1,"3b8a1a4","0435","BKN","Thu 7 Dec 2006 01:11:02 GMT+00:00",8
+11116 DATA 2,1,"hs-internal:show-blank-lines"
+11117 DATA 1,1,"3b8a1a4a","0457","BKN","Mon 15 May 2006 06:32:17 GMT+00:00",9
+11118 DATA 2,1,"Possible Values:  true, false"
+11119 DATA 1,1,"3b8a1a5","0436","BKN","Thu 7 Dec 2006 01:11:03 GMT+00:00",8
+11120 DATA 2,1,"hs-internal:show-node-addressing"
+11121 DATA 1,1,"3b8a1a5a","0456","BKN","Mon 15 May 2006 06:32:18 GMT+00:00",9
+11122 DATA 2,1,"Possible Values:  true, false"
+11123 DATA 1,1,"3b8a1a6","0437","BKN","Thu 7 Dec 2006 01:11:03 GMT+00:00",8
+11124 DATA 2,1,"hs-internal:node-addressing-placement"
+11125 DATA 1,1,"3b8a1a6a","0455","BKN","Mon 15 May 2006 06:32:26 GMT+00:00",9
+11126 DATA 2,1,"Possible Values:  left, right"
+11127 DATA 1,1,"3b8a1a7","0438","BKN","Thu 7 Dec 2006 01:11:04 GMT+00:00",8
+11128 DATA 2,1,"hs-internal:show-node-signatures"
+11129 DATA 1,1,"3b8a1a7a","0454","BKN","Mon 15 May 2006 06:32:26 GMT+00:00",9
+11130 DATA 2,1,"Possible Values:  true, false"
+11131 DATA 1,1,"3b8a1a8","0439","BKN","Thu 7 Dec 2006 01:11:05 GMT+00:00",8
+11132 DATA 2,1,"hs-internal:show-frozen-nodes"
+11133 DATA 1,1,"3b8a1a8a","0453","BKN","Mon 15 May 2006 06:32:27 GMT+00:00",9
+11134 DATA 2,1,"Possible Values:  true, false"
+11135 DATA 1,1,"3b8a1a9","0440","BKN","Thu 7 Dec 2006 01:11:05 GMT+00:00",8
+11136 DATA 2,1,"hs-internal:node-addressing-type"
+11137 DATA 1,1,"3b8a1a9a","0452","BKN","Mon 15 May 2006 06:32:27 GMT+00:00",9
+11138 DATA 2,1,"Possible Values:  id, number"
+11139 DATA 1,1,"3b8a1a10","0441","BKN","Thu 7 Dec 2006 01:11:11 GMT+00:00",8
+11140 DATA 2,1,"hs-internal:show-node-labels"
+11141 DATA 1,1,"3b8a1a10a","0451","BKN","Thu 7 Dec 2006 01:11:10 GMT+00:00",9
+11142 DATA 2,1,"Possible Values:  true, false"
+11143 DATA 1,1,"3b8a1a11","0442","BKN","Thu 7 Dec 2006 01:11:12 GMT+00:00",8
+11144 DATA 2,1,"hs-internal:structure-clipping"
+11145 DATA 1,1,"3b8a1a11a","0450","BKN","Thu 7 Dec 2006 01:16:32 GMT+00:00",9
+11146 DATA 2,1,"Possible Values:  none, branch, plex"
+11147 DATA 1,1,"3b8a1a12","0443","BKN","Thu 7 Dec 2006 01:11:12 GMT+00:00",8
+11148 DATA 2,1,"hs-internal:content-filtering-type"
+11149 DATA 1,1,"3b8a1a12a","0449","BKN","Mon 15 May 2006 06:32:28 GMT+00:00",9
+11150 DATA 2,1,"Possible Values:  none, all, next_node"
+11151 DATA 1,1,"3b8a1a13","0444","BKN","Thu 7 Dec 2006 01:11:13 GMT+00:00",8
+11152 DATA 2,1,"hs-internal:level-indenting-type"
+11153 DATA 1,1,"3b8a1a13a","0448","BKN","Mon 15 May 2006 06:32:29 GMT+00:00",9
+11154 DATA 2,1,"Possible Values:  on, off, to_context_node"
+11155 DATA 1,1,"3b8a1a14","0854","BKN","Thu 7 Dec 2006 01:30:47 GMT+00:00",8
+11156 DATA 2,1,"hs-internal:plex-parent-number"
+11157 DATA 1,1,"3b8a1a14a","0856","BKN","Thu 7 Dec 2006 01:31:04 GMT+00:00",9
+11158 DATA 2,1,"Possible Values: a number (ex: 2A) or &quot;none&quot;"
+11159 DATA 1,2,"3b8a1a14b","0857","BKN","Thu 7 Dec 2006 01:31:09 GMT+00:00",9
+11160 DATA 2,1,"Note: Used to record the parent of our branch that we want to"
+11161 DATA 2,2,"plex to"
+11162 DATA 1,1,"3b8a1a15","0871","BKN","Thu 7 Dec 2006 01:35:20 GMT+00:00",8
+11163 DATA 2,1,"hs-internal:included-from"
+11164 DATA 1,1,"3b8a1a15a","0872","BKN","Thu 7 Dec 2006 01:35:22 GMT+00:00",9
+11165 DATA 2,1,"Possible Values: String URL"
+11166 DATA 1,1,"3b8a1a16","0873","BKN","Thu 7 Dec 2006 01:35:25 GMT+00:00",8
+11167 DATA 2,1,"hs-internal:included-type"
+11168 DATA 1,1,"3b8a1a16a","0874","BKN","Thu 7 Dec 2006 01:35:29 GMT+00:00",9
+11169 DATA 2,1,"Possible Values: node, plex, branches"
+11170 DATA 1,1,"3b9","0753","BKN","Tue 6 Jun 2006 07:15:32 GMT+00:00",4
+11171 DATA 2,1,"Module: External Links"
+11172 DATA 1,1,"3b9a","0754","BKN","Thu 7 Dec 2006 00:39:41 GMT+00:00",5
+11173 DATA 2,1,"bootstrap.xsl"
+11174 DATA 1,5,"3b9a1","0755","BKN","Thu 7 Dec 2006 00:39:44 GMT+00:00",6
+11175 DATA 2,1,"All OPML files include a single line, <a href=&quot;#?xml-"
+11176 DATA 2,2,"stylesheet type=&quot;test/xsl&quot;"
+11177 DATA 2,3,"href=&quot;bootstrap.xsl&quot;?&quot;>&lt;?xml-stylesheet"
+11178 DATA 2,4,"type=&quot;test/xsl&quot;"
+11179 DATA 2,5,"href=&quot;bootstrap.xsl&quot;?&gt;</a>"
+11180 DATA 1,2,"3b9a2","0756","BKN","Thu 7 Dec 2006 00:40:06 GMT+00:00",6
+11181 DATA 2,1,"This line will load the bootstrap.xsl stylesheet, which will"
+11182 DATA 2,2,"cause the opml to load in our UI chrome."
+11183 DATA 1,3,"3b9a3","0757","BKN","Tue 6 Jun 2006 07:17:37 GMT+00:00",6
+11184 DATA 2,1,"This means a user can give an OPML url, such as"
+11185 DATA 2,2,"http://foobar.com/hydesign.opml, and instead of returning XML we"
+11186 DATA 2,3,"will transform it into an HTML file with our Ajax UI."
+11187 DATA 1,1,"3b9a4","0758","BKN","Tue 6 Jun 2006 07:17:41 GMT+00:00",6
+11188 DATA 2,1,"This allows us to not need a server side for phase 1."
+11189 DATA 1,1,"3c","0883","BKN","Thu 7 Dec 2006 01:45:11 GMT+00:00",3
+11190 DATA 2,1,"Server"
+11191 DATA 1,1,"3c1","0884","BKN","Thu 7 Dec 2006 01:45:16 GMT+00:00",4
+11192 DATA 2,1,"Module: proxy.php"
+11193 DATA 1,1,"3c1a","0886","BKN","Thu 7 Dec 2006 01:45:29 GMT+00:00",5
+11194 DATA 2,1,"PHP file that does cross-host inclusions"
+11195 DATA 1,4,"3c1a1","0891","BKN","Thu 7 Dec 2006 01:46:15 GMT+00:00",6
+11196 DATA 2,1,"This is a simple PHP file that securely proxies requests to"
+11197 DATA 2,2,"third party hosts when fetching foreign OPML files - an optional"
+11198 DATA 2,3,"file, HyperScope will run without this, it just can not do"
+11199 DATA 2,4,"cross-host inclusions."
+11200 DATA 1,1,"3c2","0885","BKN","Thu 7 Dec 2006 01:45:24 GMT+00:00",4
+11201 DATA 2,1,"Module: Mod_Rewrite"
+11202 DATA 1,2,"3c2a","0887","BKN","Thu 7 Dec 2006 01:45:45 GMT+00:00",5
+11203 DATA 2,1,"An Apache module that can create 'friendlier' URLs on a website,"
+11204 DATA 2,2,"versus their logical locations"
+11205 DATA 1,1,"3c2a1","0888","BKN","Thu 7 Dec 2006 01:45:50 GMT+00:00",6
+11206 DATA 2,1,"We use mod_rewrite in two cases:"
+11207 DATA 1,2,"3c2a1a","0889","BKN","Thu 7 Dec 2006 01:45:58 GMT+00:00",7
+11208 DATA 2,1,"/get/ - We rewrite the proxy.php URL to be at /get/ so it is at"
+11209 DATA 2,2,"a cleaner address and independent of the backend technology"
+11210 DATA 1,2,"3c2a1b","0890","BKN","Thu 7 Dec 2006 01:46:05 GMT+00:00",7
+11211 DATA 2,1,"/hyperscope/ - We 'host' hyperscope at this address to have a"
+11212 DATA 2,2,"consistent URL for getting hyperscope resources"
+11213 DATA 1,1,"4","05","BKN","Tue 9 May 2006 06:44:54 GMT+00:00",2
+11214 DATA 2,1,"Control Flow"
+11215 DATA 1,2,"4a","0608","BKN","Mon 15 May 2006 06:19:43 GMT+00:00",3
+11216 DATA 2,1,"Back to Overview:  <a"
+11217 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"
+11218 DATA 1,3,"4b","0770","BKN","Sat 10 Jun 2006 00:40:23 GMT+00:00",3
+11219 DATA 2,1,"Note: This section will not be maintained as the system is"
+11220 DATA 2,2,"developed; only the class area, the file format info, and so on"
+11221 DATA 2,3,"will be maintained."
+11222 DATA 1,1,"4c","0462","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",3
+11223 DATA 2,1,"User action is transformed into an address (hs.address.Address)"
+11224 DATA 1,1,"4c1","0465","BKN","Tue 9 May 2006 07:46:29 GMT+00:00",4
+11225 DATA 2,1,"if page just loaded"
+11226 DATA 1,1,"4c1a","0466","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",5
+11227 DATA 2,1,"var address = new hs.address.Address(window.location.href)"
+11228 DATA 1,1,"4c1a1","0483","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",6
+11229 DATA 2,1,"inside hs.address.Address constructor"
+11230 DATA 1,1,"4c1a1a","0484","BKN","Tue 9 May 2006 07:49:00 GMT+00:00",7
+11231 DATA 2,1,"tokenize the URL we've been given"
+11232 DATA 1,1,"4c1a1a1","0485","BKN","Thu 11 May 2006 00:05:47 GMT+00:00",8
+11233 DATA 2,1,"var tk = new hs.util.AddressTokenizer(url)"
+11234 DATA 1,1,"4c1a1a1a","0486","BKN","Thu 11 May 2006 00:05:47 GMT+00:00",9
+11235 DATA 2,1,"inside hs.util.AddressTokenizer constructor"
+11236 DATA 1,2,"4c1a1a1a1","0487","BKN","Thu 11 May 2006 00:03:53 GMT+00:00",10
+11237 DATA 2,1,"parse url from left to right, building up internal"
+11238 DATA 2,2,"hs.address.Pieces as we do so"
+11239 DATA 1,1,"4c1a1a2","0488","BKN","Tue 9 May 2006 07:48:43 GMT+00:00",8
+11240 DATA 2,1,"while tk.hasNext()"
+11241 DATA 1,1,"4c1a1a2a","0489","BKN","Tue 9 May 2006 07:48:44 GMT+00:00",9
+11242 DATA 2,1,"var piece = tk.next()"
+11243 DATA 1,1,"4c1a1a2b","0490","BKN","Tue 9 May 2006 07:48:47 GMT+00:00",9
+11244 DATA 2,1,"if piece.isPieceType(&quot;FileInfo&quot;)"
+11245 DATA 1,1,"4c1a1a2b1","0491","BKN","Tue 9 May 2006 07:48:49 GMT+00:00",10
+11246 DATA 2,1,"set our fileInfo value"
+11247 DATA 1,1,"4c1a1a2c","0492","BKN","Thu 11 May 2006 00:02:38 GMT+00:00",9
+11248 DATA 2,1,"else if we are an hs.address.NodeAddress"
+11249 DATA 1,1,"4c1a1a2c1","0493","BKN","Wed 10 May 2006 07:51:28 GMT+00:00",10
+11250 DATA 2,1,"add to our nodeAddresses array"
+11251 DATA 1,1,"4c1a1a2d","0494","BKN","Thu 11 May 2006 00:03:53 GMT+00:00",9
+11252 DATA 2,1,"etc. for other hs.address.Piece parts"
+11253 DATA 1,1,"4c2","0467","BKN","Tue 9 May 2006 07:46:30 GMT+00:00",4
+11254 DATA 2,1,"if jump command"
+11255 DATA 1,1,"4c2a","0468","BKN","Tue 9 May 2006 07:45:35 GMT+00:00",5
+11256 DATA 2,1,"get a location"
+11257 DATA 1,1,"4c2a1","0469","BKN","Tue 9 May 2006 07:46:31 GMT+00:00",6
+11258 DATA 2,1,"if mouse marks with click of button"
+11259 DATA 1,1,"4c2a1a","0470","BKN","Wed 10 May 2006 07:53:28 GMT+00:00",7
+11260 DATA 2,1,"var address = hs.ui.Marker.toAddress(evt)"
+11261 DATA 1,1,"4c2a2","0471","BKN","Tue 9 May 2006 07:46:31 GMT+00:00",6
+11262 DATA 2,1,"if text entry into jump field"
+11263 DATA 1,1,"4c2a2a","0472","BKN","Wed 10 May 2006 07:53:27 GMT+00:00",7
+11264 DATA 2,1,"create address from field text"
+11265 DATA 1,1,"4c2b","0474","BKN","Tue 9 May 2006 07:45:52 GMT+00:00",5
+11266 DATA 2,1,"call correct hs.commands facade method"
+11267 DATA 1,1,"4c2b1","0475","BKN","Tue 9 May 2006 07:46:45 GMT+00:00",6
+11268 DATA 2,1,"for jumping up"
+11269 DATA 1,1,"4c2b1a","0476","BKN","Wed 10 May 2006 07:50:23 GMT+00:00",7
+11270 DATA 2,1,"hs.commands.jumpUp(address)"
+11271 DATA 1,2,"4c2b1a1","0477","BKN","Tue 9 May 2006 07:46:55 GMT+00:00",8
+11272 DATA 2,1,"internally, all commands are transformed into form suitable for"
+11273 DATA 2,2,"hs.commands.jumpItem"
+11274 DATA 1,1,"4c3","0478","BKN","Tue 9 May 2006 07:47:09 GMT+00:00",4
+11275 DATA 2,1,"if Set Viewspecs"
+11276 DATA 1,1,"4c3a","0480","BKN","Tue 9 May 2006 07:47:18 GMT+00:00",5
+11277 DATA 2,1,"get viewspecs and content filter from viewspec text field"
+11278 DATA 1,1,"4c3b","0481","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",5
+11279 DATA 2,1,"turn them into hs.address.Addresses"
+11280 DATA 1,1,"4c3c","0482","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",5
+11281 DATA 2,1,"call hs.commands.jumpItem with the hs.address.Address"
+11282 DATA 1,1,"4d","0463","BKN","Wed 10 May 2006 07:50:26 GMT+00:00",3
+11283 DATA 2,1,"Resolve the address"
+11284 DATA 1,1,"4d1","0495","BKN","Wed 10 May 2006 07:50:29 GMT+00:00",4
+11285 DATA 2,1,"execute address.resolve(handler, replacePage, relativeTo)"
+11286 DATA 1,1,"4d1a","0499","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",5
+11287 DATA 2,1,"inside hs.address.Address.resolve"
+11288 DATA 1,1,"4d1a1","0496","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",6
+11289 DATA 2,1,"fully expand this hs.address.Address first"
+11290 DATA 1,1,"4d1a1a","0497","BKN","Tue 9 May 2006 07:50:00 GMT+00:00",7
+11291 DATA 2,1,"this.expandFileInfo(relativeTo)"
+11292 DATA 1,3,"4d1a1a1","0502","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",8
+11293 DATA 2,1,"fully expands out our file information so it is no longer"
+11294 DATA 2,2,"relative, using the hs.model.Document given by relativeTo to do"
+11295 DATA 2,3,"so"
+11296 DATA 1,1,"4d1a1b","0500","BKN","Wed 10 May 2006 07:51:23 GMT+00:00",7
+11297 DATA 2,1,"this.expandNodeAddress()"
+11298 DATA 1,1,"4d1a1b1","0503","BKN","Tue 9 May 2006 07:50:23 GMT+00:00",8
+11299 DATA 2,1,"Adds a default address if one is not given (which is 0)"
+11300 DATA 1,1,"4d1a1c","0501","BKN","Tue 9 May 2006 07:50:09 GMT+00:00",7
+11301 DATA 2,1,"this.expandViewspecs(relativeTo)"
+11302 DATA 1,3,"4d1a1c1","0504","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",8
+11303 DATA 2,1,"expands our viewspecs, adding in the default and current"
+11304 DATA 2,2,"viewspecs before this hs.address.Addresses viewspecs so they are"
+11305 DATA 2,3,"parsed when we get to the rendering phase"
+11306 DATA 1,2,"4d1a2","0505","BKN","Tue 9 May 2006 07:51:18 GMT+00:00",6
+11307 DATA 2,1,"should we fully reload the page (if replacePage is true and we"
+11308 DATA 2,2,"are not an address working with the current visible page)?"
+11309 DATA 1,1,"4d1a2a","0506","BKN","Tue 9 May 2006 07:51:10 GMT+00:00",7
+11310 DATA 2,1,"reload the page"
+11311 DATA 1,1,"4d1a2a1","0508","BKN","Tue 9 May 2006 07:51:09 GMT+00:00",8
+11312 DATA 2,1,"window.location.href = this.toURL()"
+11313 DATA 1,1,"4d1a3","0507","BKN","Sat 10 Jun 2006 00:40:07 GMT+00:00",6
+11314 DATA 2,1,"else ask the hs.util.XMLFetcher for this page"
+11315 DATA 1,1,"4d1a3a","0509","BKN","Sat 10 Jun 2006 00:40:07 GMT+00:00",7
+11316 DATA 2,1,"hs.util.XMLFetcher.load(url, handler)"
+11317 DATA 1,2,"4d1a3a1","0510","BKN","Sat 10 Jun 2006 00:40:07 GMT+00:00",8
+11318 DATA 2,1,"hs.util.XMLFetcher either remotely retrieves the document if not"
+11319 DATA 2,2,"seen before, or it fetches it from its cache"
+11320 DATA 1,2,"4d1a3a2","0511","BKN","Tue 9 May 2006 07:51:48 GMT+00:00",8
+11321 DATA 2,1,"when the document is returned, it transforms it into an XML"
+11322 DATA 2,2,"document using Sarissa"
+11323 DATA 1,1,"4d1a3a3","0512","BKN","Tue 9 May 2006 07:51:52 GMT+00:00",8
+11324 DATA 2,1,"it also asserts that the document is OPML and OPML version 2"
+11325 DATA 1,2,"4d1a3a4","0513","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",8
+11326 DATA 2,1,"it then creates an hs.model.Document and returns it to the"
+11327 DATA 2,2,"handler function passed into load()"
+11328 DATA 1,2,"4d1a4","0514","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",6
+11329 DATA 2,1,"when the hs.model.Document is loaded and returned to our"
+11330 DATA 2,2,"hs.address.Address..."
+11331 DATA 1,1,"4d1a4a","0515","BKN","Tue 9 May 2006 07:52:19 GMT+00:00",7
+11332 DATA 2,1,"normalize the document"
+11333 DATA 1,1,"4d1a4a1","0516","BKN","Tue 9 May 2006 07:52:23 GMT+00:00",8
+11334 DATA 2,1,"document.normalize()"
+11335 DATA 1,1,"4d1a4a1a","0517","BKN","Thu 11 May 2006 00:12:50 GMT+00:00",9
+11336 DATA 2,1,"internally calls new hs.filter.Normalizer().apply(document)"
+11337 DATA 1,2,"4d1a4a1a1","0518","BKN","Thu 11 May 2006 00:12:52 GMT+00:00",10
+11338 DATA 2,1,"hs.filter.Normalizer strips out all elements except for DOM"
+11339 DATA 2,2,"nodes, and adds in numbering metadata"
+11340 DATA 1,1,"4d1a4b","0519","BKN","Tue 9 May 2006 07:52:44 GMT+00:00",7
+11341 DATA 2,1,"setup our starting context node"
+11342 DATA 1,1,"4d1a4b1","0520","BKN","Tue 9 May 2006 07:52:48 GMT+00:00",8
+11343 DATA 2,1,"document.jumpOrigin()"
+11344 DATA 1,1,"4d1a4c","0521","BKN","Tue 9 May 2006 07:52:52 GMT+00:00",7
+11345 DATA 2,1,"resolve each of our infile addresses"
+11346 DATA 1,1,"4d1a4c1","0522","BKN","Thu 11 May 2006 00:02:38 GMT+00:00",8
+11347 DATA 2,1,"for each hs.address.NodeAddress"
+11348 DATA 1,1,"4d1a4c1a","0523","BKN","Tue 9 May 2006 07:52:58 GMT+00:00",9
+11349 DATA 2,1,"call its apply() method"
+11350 DATA 1,1,"4d1a4c1a1","0524","BKN","Tue 9 May 2006 07:53:00 GMT+00:00",10
+11351 DATA 2,1,"currentAddress[i].apply(this)"
+11352 DATA 1,4,"4d1a4c1a1a","0525","BKN","Thu 11 May 2006 00:02:38 GMT+00:00",11
+11353 DATA 2,1,"internally, each hs.address.NodeAddress works differently and"
+11354 DATA 2,2,"uses the hs.model.Document to jump to that node, then sets the"
+11355 DATA 2,3,"hs.model.Documents nodeCtxt to this new hs.model.Node that we"
+11356 DATA 2,4,"have at the top of the screen (our context)"
+11357 DATA 1,1,"4d1a4c1b","0526","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",9
+11358 DATA 2,1,"examples :"
+11359 DATA 1,1,"4d1a4c1b1","0527","BKN","Thu 11 May 2006 00:13:01 GMT+00:00",10
+11360 DATA 2,1,"hs.address.NodeNumber.apply - 2A4C"
+11361 DATA 1,1,"4d1a4c1b1a","0528","BKN","Wed 10 May 2006 00:00:13 GMT+00:00",11
+11362 DATA 2,1,"doc.jumpNumber(this.number)"
+11363 DATA 1,1,"4d1a4c1b1a1","0529","BKN","Thu 11 May 2006 00:02:13 GMT+00:00",12
+11364 DATA 2,1,"inside hs.model.Document.jumpNumber()"
+11365 DATA 1,2,"4d1a4c1b1a1a","0530","BKN","Tue 9 May 2006 07:53:32 GMT+00:00",13
+11366 DATA 2,1,"uses XPath to resolve desired node number (most jumps uses"
+11367 DATA 2,2,"XPath)"
+11368 DATA 1,1,"4d1a4c1b2","0531","BKN","Thu 11 May 2006 00:13:13 GMT+00:00",10
+11369 DATA 2,1,"hs.address.Label.apply - *label"
+11370 DATA 1,1,"4d1a4c1b2a","0532","BKN","Thu 11 May 2006 00:07:58 GMT+00:00",11
+11371 DATA 2,1,"doc.jumpLabel(this.label, hs.commands.JumpConstants.NEXT)"
+11372 DATA 1,1,"4d1a4c1b2a1","0533","BKN","Tue 9 May 2006 07:53:46 GMT+00:00",12
+11373 DATA 2,1,"inside jumpLabel uses XPath"
+11374 DATA 1,1,"4d1a4c1b3","0534","BKN","Thu 11 May 2006 00:13:14 GMT+00:00",10
+11375 DATA 2,1,"hs.address.Relative.apply - .2u"
+11376 DATA 1,1,"4d1a4c1b3a","0535","BKN","Tue 9 May 2006 07:53:54 GMT+00:00",11
+11377 DATA 2,1,"doc.nodeCtxt.jumpUp(2)"
+11378 DATA 1,1,"4d1a4c1b4","0536","BKN","Thu 11 May 2006 00:13:15 GMT+00:00",10
+11379 DATA 2,1,"hs.address.IndirectLink.apply - .l"
+11380 DATA 1,1,"4d1a4c1b4a","0537","BKN","Wed 10 May 2006 00:00:18 GMT+00:00",11
+11381 DATA 2,1,"doc.nodeCtxt.cursor.jumpLink(this.offset)"
+11382 DATA 1,1,"4d1a4c1b4b","0538","BKN","Wed 10 May 2006 00:00:19 GMT+00:00",11
+11383 DATA 2,1,"var link = doc.nodeCtxt.cursor.getLink()"
+11384 DATA 1,1,"4d1a4c1b4c","0539","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",11
+11385 DATA 2,1,"link = new hs.address.Address(link)"
+11386 DATA 1,2,"4d1a4c1b4d","0540","BKN","Tue 9 May 2006 07:54:18 GMT+00:00",11
+11387 DATA 2,1,"now merge the master document's remaining infile addresses"
+11388 DATA 2,2,"_before_ this link's addresses"
+11389 DATA 1,2,"4d1a4c1b4e","0541","BKN","Tue 9 May 2006 07:54:22 GMT+00:00",11
+11390 DATA 2,1,"merge the master document's viewspecs _before_ this links"
+11391 DATA 2,2,"viewspecs"
+11392 DATA 1,1,"4d1a4c1b4f","0542","BKN","Thu 11 May 2006 00:13:21 GMT+00:00",11
+11393 DATA 2,1,"call link.resolve(handler, true, doc)"
+11394 DATA 1,2,"4d1a4c1b4g","0543","BKN","Tue 9 May 2006 07:54:31 GMT+00:00",11
+11395 DATA 2,1,"simply return - we are done, since the indirect link now takes"
+11396 DATA 2,2,"over recursively"
+11397 DATA 1,1,"4d1a4c1b5","0544","BKN","Thu 11 May 2006 00:13:17 GMT+00:00",10
+11398 DATA 2,1,"hs.address.StringPosition.apply - -2w"
+11399 DATA 1,1,"4d1a4c1b5a","0545","BKN","Wed 10 May 2006 00:00:22 GMT+00:00",11
+11400 DATA 2,1,"doc.nodeCtxt.cursor.jumpWord(-2)"
+11401 DATA 1,1,"4d1a4c1b6","0546","BKN","Thu 11 May 2006 00:13:18 GMT+00:00",10
+11402 DATA 2,1,"hs.addressStringSearch.apply - &quot;foo&quot;"
+11403 DATA 1,1,"4d1a4c1b6a","0547","BKN","Thu 11 May 2006 00:05:55 GMT+00:00",11
+11404 DATA 2,1,"make a hs.util.NodeWalker starting at doc.nodeCtxt"
+11405 DATA 1,1,"4d1a4c1b6a1","0548","BKN","Thu 11 May 2006 00:05:55 GMT+00:00",12
+11406 DATA 2,1,"new hs.util.NodeWalker(doc.nodeCtxt)"
+11407 DATA 1,1,"4d1a4c1b6b","0549","BKN","Wed 10 May 2006 00:00:35 GMT+00:00",11
+11408 DATA 2,1,"turn our address into a regular expression"
+11409 DATA 1,1,"4d1a4c1b6b1","0550","BKN","Wed 10 May 2006 00:00:38 GMT+00:00",12
+11410 DATA 2,1,"this.toRegularExpression()"
+11411 DATA 1,1,"4d1a4c1b6c","0551","BKN","Wed 10 May 2006 00:00:43 GMT+00:00",11
+11412 DATA 2,1,"walk the tree, applying our expression at every node"
+11413 DATA 1,1,"4d1a4c1b6c1","0552","BKN","Wed 10 May 2006 00:00:46 GMT+00:00",12
+11414 DATA 2,1,"while walker.hasNext()"
+11415 DATA 1,1,"4d1a4c1b6c1a","0553","BKN","Wed 10 May 2006 00:00:49 GMT+00:00",13
+11416 DATA 2,1,"walker.next().test(regExp)"
+11417 DATA 1,3,"4d1a4d","0554","BKN","Thu 11 May 2006 00:04:44 GMT+00:00",7
+11418 DATA 2,1,"if sequence generators are on"
+11419 DATA 2,2,"(doc.currentViewspecs.runSequenceGenerators()), then run the"
+11420 DATA 2,3,"hs.filter.Transcluder"
+11421 DATA 1,1,"4d1a4d1","0555","BKN","Thu 11 May 2006 00:04:44 GMT+00:00",8
+11422 DATA 2,1,"hs.filter.Transcluder.apply(doc)"
+11423 DATA 1,2,"4d1a4d1a","0654","BKN","Mon 15 May 2006 06:31:12 GMT+00:00",9
+11424 DATA 2,1,"hs.filter.Transcluder uses XPath to find all OPML nodes with"
+11425 DATA 2,2,"'type=include'"
+11426 DATA 1,1,"4d1a4d1b","0559","BKN","Mon 15 May 2006 06:31:23 GMT+00:00",9
+11427 DATA 2,1,"for each matching node"
+11428 DATA 1,1,"4d1a4d1b1","0560","BKN","Mon 15 May 2006 06:31:30 GMT+00:00",10
+11429 DATA 2,1,"extract the transclude type (custom attribute hs:include-type)"
+11430 DATA 1,1,"4d1a4d1b2","0561","BKN","Thu 11 May 2006 00:02:23 GMT+00:00",10
+11431 DATA 2,1,"extract the hs.address.Address"
+11432 DATA 1,2,"4d1a4d1b3","0562","BKN","Wed 10 May 2006 00:01:53 GMT+00:00",10
+11433 DATA 2,1,"merge our current document's viewspecs _before_ the include"
+11434 DATA 2,2,"link's viewspecs"
+11435 DATA 1,2,"4d1a4d1b4","0563","BKN","Wed 10 May 2006 07:46:26 GMT+00:00",10
+11436 DATA 2,1,"address.resolve() is called so as to not replace the current"
+11437 DATA 2,2,"page"
+11438 DATA 1,1,"4d1a4d1b4a","0564","BKN","Thu 11 May 2006 00:13:34 GMT+00:00",11
+11439 DATA 2,1,"include.resolve(handler, false, doc)"
+11440 DATA 1,1,"4d1a4d1b5","0565","BKN","Thu 18 May 2006 05:35:32 GMT+00:00",10
+11441 DATA 2,1,"when address resolver is done and calls our callback"
+11442 DATA 1,2,"4d1a4d1b5a","0567","BKN","Wed 10 May 2006 00:02:09 GMT+00:00",11
+11443 DATA 2,1,"we take the HTML returned and simply write it into the data for"
+11444 DATA 2,2,"this OPML node"
+11445 DATA 1,1,"4d1a4d1b5a1","0568","BKN","Wed 10 May 2006 00:02:12 GMT+00:00",12
+11446 DATA 2,1,"currentNode.domNode.data = includedDoc.render()"
+11447 DATA 1,1,"4d1a4e","0570","BKN","Wed 10 May 2006 00:02:47 GMT+00:00",7
+11448 DATA 2,1,"apply viewspecs"
+11449 DATA 1,1,"4d1a4e1","0571","BKN","Wed 10 May 2006 00:02:54 GMT+00:00",8
+11450 DATA 2,1,"consolidate our viewspecs"
+11451 DATA 1,2,"4d1a4e1a","0572","BKN","Thu 11 May 2006 00:04:31 GMT+00:00",9
+11452 DATA 2,1,"doc.currentViewspecs = new"
+11453 DATA 2,2,"hs.filter.CurrentViewspecs(doc.expandedLocation.viewspecs, doc)"
+11454 DATA 1,1,"4d1a4e2","0573","BKN","Wed 10 May 2006 00:03:02 GMT+00:00",8
+11455 DATA 2,1,"apply the viewspecs"
+11456 DATA 1,1,"4d1a4e2a","0574","BKN","Wed 10 May 2006 00:03:05 GMT+00:00",9
+11457 DATA 2,1,"doc.currentViewspecs.apply(doc)"
+11458 DATA 1,1,"4d1a4e2a1","0575","BKN","Thu 11 May 2006 00:04:31 GMT+00:00",10
+11459 DATA 2,1,"inside hs.filter.CurrentViewspecs.apply"
+11460 DATA 1,5,"4d1a4e2a1a","0576","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",11
+11461 DATA 2,1,"hs.filter.CurrentViewspecs uses its boolean methods, such as"
+11462 DATA 2,2,"showBlankLines(), to set corresponding custom attributes on the"
+11463 DATA 2,3,"OPML root node, such as hs-internal : show-blank-"
+11464 DATA 2,4,"lines=&quot;true&quot;. These will be used in the rendering"
+11465 DATA 2,5,"phase with XSLT to control output"
+11466 DATA 1,1,"4d1a5","0577","BKN","Wed 10 May 2006 00:03:30 GMT+00:00",6
+11467 DATA 2,1,"if content filters are to be shown, apply them"
+11468 DATA 1,1,"4d1a5a","0579","BKN","Wed 10 May 2006 07:46:31 GMT+00:00",7
+11469 DATA 2,1,"address.contentFilter.apply"
+11470 DATA 1,2,"4d1a5a1","0578","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+11471 DATA 2,1,"write hs-internal : content-filtering-type to root OPML node,"
+11472 DATA 2,2,"used to control j and k filtering types"
+11473 DATA 1,1,"4d1a5a2","0580","BKN","Wed 10 May 2006 00:03:55 GMT+00:00",8
+11474 DATA 2,1,"turn our content filter address into a regular expression"
+11475 DATA 1,2,"4d1a5a3","0581","BKN","Thu 11 May 2006 00:05:55 GMT+00:00",8
+11476 DATA 2,1,"create a hs.util.NodeWalker starting at the node after the"
+11477 DATA 2,2,"current document's context node"
+11478 DATA 1,1,"4d1a5a4","0582","BKN","Wed 10 May 2006 00:04:01 GMT+00:00",8
+11479 DATA 2,1,"test each node for passing"
+11480 DATA 1,3,"4d1a5a5","0583","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",8
+11481 DATA 2,1,"if it passes, write out the custom attribute hs-internal :"
+11482 DATA 2,2,"passes-content-filter to this hs.model.Node; this is used in the"
+11483 DATA 2,3,"rendering phase to eliminate other nodes"
+11484 DATA 1,1,"4d1a6","0464","BKN","Thu 18 May 2006 05:35:45 GMT+00:00",6
+11485 DATA 2,1,"render document into HTML"
+11486 DATA 1,1,"4d1a6a","0584","BKN","Wed 10 May 2006 00:04:19 GMT+00:00",7
+11487 DATA 2,1,"doc.render()"
+11488 DATA 1,1,"4d1a6a1","0585","BKN","Wed 10 May 2006 00:04:24 GMT+00:00",8
+11489 DATA 2,1,"applies XSLT script, render.xslt, to OPML DOM"
+11490 DATA 1,1,"4d1a6a1a","0586","BKN","Wed 10 May 2006 00:04:28 GMT+00:00",9
+11491 DATA 2,1,"inside render.xslt"
+11492 DATA 1,1,"4d1a6a1a1","0587","BKN","Wed 10 May 2006 00:04:30 GMT+00:00",10
+11493 DATA 2,1,"draws viewspecs, content filters, OPML data, etc."
+11494 DATA 1,3,"4d1a6a1a2","0588","BKN","Wed 10 May 2006 00:04:37 GMT+00:00",10
+11495 DATA 2,1,"write's out class names to root HTML div element which we can"
+11496 DATA 2,2,"use to toggle different visual things, such as the class .show-"
+11497 DATA 2,3,"signatures to show signatures"
+11498 DATA 1,2,"4d1a6a1a3","0589","BKN","Wed 10 May 2006 00:04:43 GMT+00:00",10
+11499 DATA 2,1,"writes out class info for each node's level, for such things as"
+11500 DATA 2,2,"correct indenting, for example"
+11501 DATA 1,2,"4d1a6a1b","0590","BKN","Thu 11 May 2006 00:05:55 GMT+00:00",9
+11502 DATA 2,1,"do a final hs.util.NodeWalker pass to apply line clipping (if"
+11503 DATA 2,2,"on)"
+11504 DATA 1,2,"4d1a6a1b1","0591","BKN","Wed 10 May 2006 00:04:50 GMT+00:00",10
+11505 DATA 2,1,"for each node, render its data offscreen to determine its line"
+11506 DATA 2,2,"height"
+11507 DATA 1,2,"4d1a6a1b2","0592","BKN","Thu 11 May 2006 00:02:06 GMT+00:00",10
+11508 DATA 2,1,"scale div's height appropriately, using computed line height and"
+11509 DATA 2,2,"setting this hs.model.Node's domNode style manually"
+11510 DATA 1,1,"4e","0695","BKN","Thu 18 May 2006 05:36:56 GMT+00:00",3
+11511 DATA 2,1,"Display our rendered hs.model.Document's rendered HTML in the UI"
+11512 DATA 1,2,"4e1","0593","BKN","Thu 18 May 2006 05:36:22 GMT+00:00",4
+11513 DATA 2,1,"document.write our hs.model.Document's rendered HTML string into"
+11514 DATA 2,2,"our display iframe"
+11515 DATA 1,2,"4f","0615","BKN","Mon 15 May 2006 06:19:43 GMT+00:00",3
+11516 DATA 2,1,"Back to Overview:  <a"
+11517 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"
+11518 DATA 1,1,"5","06","BKN","Tue 9 May 2006 06:44:55 GMT+00:00",2
+11519 DATA 2,1,"File Format"
+11520 DATA 1,2,"5a","0609","BKN","Mon 15 May 2006 06:19:44 GMT+00:00",3
+11521 DATA 2,1,"Back to Overview:  <a"
+11522 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"
+11523 DATA 1,2,"5b","0407","BKN","Mon 15 May 2006 06:33:30 GMT+00:00",3
+11524 DATA 2,1,"Our native file format is OPML 2.0, documented at"
+11525 DATA 2,2,"http://www.opml.org/2006/03/04#a278"
+11526 DATA 1,5,"5c","0409","BKN","Mon 15 May 2006 06:38:46 GMT+00:00",3
+11527 DATA 2,1,"OPML is a simple XML-based file format the has existed for"
+11528 DATA 2,2,"several years, and which can model an outline document with HTML"
+11529 DATA 2,3,"and hyperlinks mixed into the outline nodes. It was created by"
+11530 DATA 2,4,"Dave Weiner, author of RSS and XML-RPC, two successful"
+11531 DATA 2,5,"standards."
+11532 DATA 1,2,"5d","0408","BKN","Tue 9 May 2006 07:38:09 GMT+00:00",3
+11533 DATA 2,1,"OPML is very easy to work with using XPath, XSLT, and the DOM,"
+11534 DATA 2,2,"and is simple and easy."
+11535 DATA 1,1,"5e","0634","BKN","Mon 15 May 2006 06:24:27 GMT+00:00",3
+11536 DATA 2,1,"Public Markup"
+11537 DATA 1,5,"5e1","0410","BKN","Mon 15 May 2006 06:33:49 GMT+00:00",4
+11538 DATA 2,1,"We add a number of custom attributes and tags to OPML 2.0 that"
+11539 DATA 2,2,"are specific to HyperScope; these are all in the namespace"
+11540 DATA 2,3,"http://www.hyperscope.org/hyperscope/opml/public/2006/05/09,"
+11541 DATA 2,4,"usually preceded with the namespace identifier &quot;hs:&quot;,"
+11542 DATA 2,5,"such as &quot;hs:nid&quot;"
+11543 DATA 1,1,"5e1a","0411","BKN","Mon 15 May 2006 06:38:38 GMT+00:00",5
+11544 DATA 2,1,"Custom tags added to the opml:head section"
+11545 DATA 1,1,"5e1a1","0412","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11546 DATA 2,1,"hs:left-label-delim"
+11547 DATA 1,1,"5e1a1a","0413","BKN","Mon 15 May 2006 06:37:59 GMT+00:00",7
+11548 DATA 2,1,"Possible Values: char | the string &quot;null&quot;"
+11549 DATA 1,1,"5e1a2","0414","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11550 DATA 2,1,"hs:right-label-delim"
+11551 DATA 1,1,"5e1a2a","0674","BKN","Mon 15 May 2006 06:37:58 GMT+00:00",7
+11552 DATA 2,1,"Possible Values: char | the string &quot;null&quot;"
+11553 DATA 1,1,"5e1a3","0675","BKN","Mon 15 May 2006 06:38:03 GMT+00:00",6
+11554 DATA 2,1,"hs:markers and hs:marker"
+11555 DATA 1,1,"5e1a3a","0676","BKN","Mon 15 May 2006 06:38:15 GMT+00:00",7
+11556 DATA 2,1,"Possible Values: (see-- 0658)"
+11557 DATA 1,1,"5e1b","0415","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",5
+11558 DATA 2,1,"Custom attributes inside opml : body area"
+11559 DATA 1,1,"5e1b1","0416","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11560 DATA 2,1,"hs:nid"
+11561 DATA 1,1,"5e1b2","0417","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11562 DATA 2,1,"hs:createdBy"
+11563 DATA 1,1,"5e1b3","0418","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11564 DATA 2,1,"hs:createdOn"
+11565 DATA 1,1,"5e1b4","0419","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11566 DATA 2,1,"hs:lastEditedBy"
+11567 DATA 1,1,"5e1b5","0420","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11568 DATA 2,1,"hs:lastEditedOn"
+11569 DATA 1,1,"5e1b6","0421","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11570 DATA 2,1,"hs:transcluded"
+11571 DATA 1,2,"5e1b6a","0422","BKN","Fri 19 May 2006 07:47:34 GMT+00:00",7
+11572 DATA 2,1,"Note: Whether this node had an INCLUDE in it, and it's contents"
+11573 DATA 2,2,"were replaced with the remote include's contents"
+11574 DATA 1,1,"5e1b7","0423","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11575 DATA 2,1,"hs:left-label-delim"
+11576 DATA 1,1,"5e1b8","0424","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11577 DATA 2,1,"hs:right-label-delim"
+11578 DATA 1,1,"5e1b9","0425","BKN","Mon 15 May 2006 06:24:11 GMT+00:00",6
+11579 DATA 2,1,"hs:label"
+11580 DATA 1,1,"5e1b10","0657","BKN","Mon 15 May 2006 06:32:14 GMT+00:00",6
+11581 DATA 2,1,"hs:include-type"
+11582 DATA 1,1,"5f","0638","BKN","Mon 15 May 2006 06:25:01 GMT+00:00",3
+11583 DATA 2,1,"Include Links"
+11584 DATA 1,2,"5f1","0640","BKN","Tue 6 Jun 2006 07:18:30 GMT+00:00",4
+11585 DATA 2,1,"We will use OPML 2.0s 'include' link type for include links. The"
+11586 DATA 2,2,"'text' attribute must be empty."
+11587 DATA 1,2,"5f2","0655","BKN","Tue 6 Jun 2006 07:18:36 GMT+00:00",4
+11588 DATA 2,1,"We will add one custom attribute: hs:include-type, which can be"
+11589 DATA 2,2,"of three values: branch, plex, node"
+11590 DATA 1,1,"5f2a","0656","BKN","Thu 7 Dec 2006 01:32:10 GMT+00:00",5
+11591 DATA 2,1,"If this attribute is left off, it defaults to node."
+11592 DATA 1,2,"5f3","0641","BKN","Mon 15 May 2006 06:29:06 GMT+00:00",4
+11593 DATA 2,1,"See http://www.opml.org/spec2#inclusion for details on how OPML"
+11594 DATA 2,2,"2.0 inclusion works and is specified."
+11595 DATA 1,2,"5f4","0642","BKN","Mon 15 May 2006 06:28:32 GMT+00:00",4
+11596 DATA 2,1,"Server-side transforms will need to convert Augment include"
+11597 DATA 2,2,"links into this OPML type (type=inclusion)"
+11598 DATA 1,1,"5g","0639","BKN","Mon 15 May 2006 06:25:03 GMT+00:00",3
+11599 DATA 2,1,"Embedded Links"
+11600 DATA 1,2,"5g1","0643","BKN","Mon 15 May 2006 06:34:19 GMT+00:00",4
+11601 DATA 2,1,"Augment-style links must be fully transformed when they reach"
+11602 DATA 2,2,"the client-side."
+11603 DATA 1,2,"5g2","0644","BKN","Mon 15 May 2006 06:29:34 GMT+00:00",4
+11604 DATA 2,1,"The Augment server-side transformer must change the following"
+11605 DATA 2,2,"Augment-style links into their full HTML style:"
+11606 DATA 1,1,"5g2a","0645","BKN","Mon 15 May 2006 06:29:37 GMT+00:00",5
+11607 DATA 2,1,"<a href=&quot;#link&quot;>&lt;link&gt;</a>"
+11608 DATA 1,1,"5g2b","0646","BKN","Mon 15 May 2006 06:29:38 GMT+00:00",5
+11609 DATA 2,1,"[link]"
+11610 DATA 1,1,"5g2c","0647","BKN","Mon 15 May 2006 06:29:39 GMT+00:00",5
+11611 DATA 2,1,"(link)"
+11612 DATA 1,1,"5g2d","0648","BKN","Mon 15 May 2006 06:29:41 GMT+00:00",5
+11613 DATA 2,1,"(see--)"
+11614 DATA 1,2,"5g2d1","0649","BKN","Mon 15 May 2006 06:30:38 GMT+00:00",6
+11615 DATA 2,1,"Note: Anything that begins with a word, and is followed by --,"
+11616 DATA 2,2,"is ignored when surrounded by parentheses"
+11617 DATA 1,2,"5g3","0652","BKN","Mon 15 May 2006 06:29:57 GMT+00:00",4
+11618 DATA 2,1,"These must be transformed into embedded HTML links, with their"
+11619 DATA 2,2,"Augment style delimiters left:"
+11620 DATA 1,2,"5g3a","0653","BKN","Mon 15 May 2006 06:30:07 GMT+00:00",5
+11621 DATA 2,1,"<a href=&quot;link&quot;>&amp;lt;link&amp;gt;<a"
+11622 DATA 2,2,"href=&quot;#/a&quot;>&lt;/a&gt;</a>"
+11623 DATA 1,1,"5h","0658","BKN","Mon 15 May 2006 06:35:01 GMT+00:00",3
+11624 DATA 2,1,"Markers"
+11625 DATA 1,1,"5h1","0659","BKN","Mon 15 May 2006 06:35:07 GMT+00:00",4
+11626 DATA 2,1,"We need to support Augment markers in OPML."
+11627 DATA 1,2,"5h2","0760","BKN","Tue 6 Jun 2006 07:19:00 GMT+00:00",4
+11628 DATA 2,1,"This is done simply by using embedded A NAME anchors in our"
+11629 DATA 2,2,"HTML:"
+11630 DATA 1,2,"5h2a","0761","BKN","Tue 6 Jun 2006 07:19:05 GMT+00:00",5
+11631 DATA 2,1,"<a name=&quot;markerFoo&quot;>f<a"
+11632 DATA 2,2,"href=&quot;#/a&quot;>&lt;/a&gt;</a>"
+11633 DATA 1,2,"5h3","0762","BKN","Tue 6 Jun 2006 07:21:45 GMT+00:00",4
+11634 DATA 2,1,"These embedded links must be generated by the server-side"
+11635 DATA 2,2,"transformers, surrounding the letter that was marked."
+11636 DATA 1,1,"5i","0636","BKN","Mon 15 May 2006 06:24:39 GMT+00:00",3
+11637 DATA 2,1,"Private Markup"
+11638 DATA 1,9,"5i1","0426","BKN","Thu 7 Dec 2006 01:19:38 GMT+00:00",4
+11639 DATA 2,1,"We also have a number of private attributes that are added to"
+11640 DATA 2,2,"the OPML DOM during Location resolution, specifically on"
+11641 DATA 2,3,"opml:outline elements; these are used in the final rendering and"
+11642 DATA 2,4,"jumping phases to display a document. These values should never"
+11643 DATA 2,5,"appear in public OPML documents. They are located in the"
+11644 DATA 2,6,"namespace"
+11645 DATA 2,7,"http://www.hyperscope.org/hyperscope/opml/private/2006/05/09,"
+11646 DATA 2,8,"usually preceded with the namespace identifier &quot;hs-"
+11647 DATA 2,9,"internal:&quot;"
+11648 DATA 1,1,"5i1a","0428","BKN","Thu 7 Dec 2006 01:11:14 GMT+00:00",5
+11649 DATA 2,1,"hs-internal:number"
+11650 DATA 1,1,"5i1b","0429","BKN","Thu 7 Dec 2006 01:11:14 GMT+00:00",5
+11651 DATA 2,1,"hs-internal:level"
+11652 DATA 1,1,"5i1c","0430","BKN","Thu 7 Dec 2006 01:11:15 GMT+00:00",5
+11653 DATA 2,1,"hs-internal:passes-content-filter"
+11654 DATA 1,1,"5i1d","0776","BKN","Thu 7 Dec 2006 01:11:15 GMT+00:00",5
+11655 DATA 2,1,"hs-internal:node-offset"
+11656 DATA 1,5,"5i1d1","0777","BKN","Thu 15 Jun 2006 07:04:52 GMT+00:00",6
+11657 DATA 2,1,"Note: This is this nodes offset from the top of the document,"
+11658 DATA 2,2,"starting from 1. If you were to be viewing this document, for"
+11659 DATA 2,3,"example, then this would be the ordering of nodes from top to"
+11660 DATA 2,4,"bottom independent of hierarchy. This is used for implementing"
+11661 DATA 2,5,"jumping back and forward from a given node."
+11662 DATA 1,1,"5i1e","0861","BKN","Thu 7 Dec 2006 01:32:46 GMT+00:00",5
+11663 DATA 2,1,"hs-internal:included"
+11664 DATA 1,1,"5i1e1","0862","BKN","Thu 7 Dec 2006 01:32:57 GMT+00:00",6
+11665 DATA 2,1,"Note: Added to any included nodes; value is &quot;yes&quot;"
+11666 DATA 1,1,"5i1f","0863","BKN","Thu 7 Dec 2006 01:33:02 GMT+00:00",5
+11667 DATA 2,1,"hs-internal:include-failed"
+11668 DATA 1,3,"5i1f1","0864","BKN","Thu 7 Dec 2006 01:33:07 GMT+00:00",6
+11669 DATA 2,1,"Note: Added if an include failed on some node so we can"
+11670 DATA 2,2,"highlight it differently; value will be &quot;yes&quot; if"
+11671 DATA 2,3,"present"
+11672 DATA 1,2,"5j","0616","BKN","Mon 15 May 2006 06:19:44 GMT+00:00",3
+11673 DATA 2,1,"Back to Overview:  <a"
+11674 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"
+11675 DATA 1,1,"6","011","BKN","Tue 9 May 2006 06:45:12 GMT+00:00",2
+11676 DATA 2,1,"Third-Party Libraries"
+11677 DATA 1,2,"6a","0610","BKN","Mon 15 May 2006 06:19:44 GMT+00:00",3
+11678 DATA 2,1,"Back to Overview:  <a"
+11679 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"
+11680 DATA 1,1,"6b","0459","BKN","Thu 11 May 2006 00:10:24 GMT+00:00",3
+11681 DATA 2,1,"We will be using two open source libraries :"
+11682 DATA 1,1,"6b1","0460","BKN","Tue 9 May 2006 07:43:22 GMT+00:00",4
+11683 DATA 2,1,"The Dojo Toolkit - general DHTML framework"
+11684 DATA 1,2,"6b2","0461","BKN","Tue 9 May 2006 07:43:27 GMT+00:00",4
+11685 DATA 2,1,"Sarissa - Utility library for working with XML, XPath, and XSLT"
+11686 DATA 2,2,"in a cross-browser manner"
+11687 DATA 1,2,"6c","0617","BKN","Mon 15 May 2006 06:19:45 GMT+00:00",3
+11688 DATA 2,1,"Back to Overview:  <a"
+11689 DATA 2,2,"href=&quot;#Overview:gwnBy&quot;>&lt;Overview:gwnBy&gt;</a>"

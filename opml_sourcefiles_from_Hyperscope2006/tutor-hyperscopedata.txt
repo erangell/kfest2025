@@ -1,0 +1,537 @@
+10000 DATA 1,3,"","","","",1
+10001 DATA 2,1,"<a href=&quot;#BI5, USER2:HYPERSCOPE, TUTOR-"
+10002 DATA 2,2,"HYPERSCOPE.AUG.6,&quot;>&lt;BI5, USER2:HYPERSCOPE, TUTOR-"
+10003 DATA 2,3,"HYPERSCOPE.AUG.6,&gt;</a>, 7-Sep-2006 22:10-PDT CE ;;;;"
+10004 DATA 1,1,"1","02","THOM","Thu 27 Sep 1979 05:37:33 GMT+00:00",2
+10005 DATA 2,1,"INTRODUCTION"
+10006 DATA 1,6,"1a","03","CE","Fri 1 Sep 2006 06:51:15 GMT+00:00",3
+10007 DATA 2,1,"Welcome to the HyperScope tutorial!  This file is a sort of"
+10008 DATA 2,2,"&quot;programmed text&quot; for new users.  By following the"
+10009 DATA 2,3,"instructions contained in it, you can quickly learn how to"
+10010 DATA 2,4,"navigate using the unique and powerful features of this tool."
+10011 DATA 2,5,"In this lesson you will learn the basics of browsing HyperScope"
+10012 DATA 2,6,"enabled files."
+10013 DATA 1,1,"1b","088","CE","Wed 13 Sep 1995 04:15:32 GMT+00:00",3
+10014 DATA 2,1,"Don't worry if you make a mistake -- you can't hurt anything."
+10015 DATA 1,1,"2","0144","CE","Wed 13 Sep 1995 04:17:42 GMT+00:00",2
+10016 DATA 2,1,"AUGMENTED BROWSING"
+10017 DATA 1,3,"2a","0145","CE","Tue 5 Sep 2006 00:57:16 GMT+00:00",3
+10018 DATA 2,1,"The HyperScope provides enhanced power and efficiency to your"
+10019 DATA 2,2,"internet browser in a simple, easy-to-use format. The simplest"
+10020 DATA 2,3,"form of HyperScope browsing offers these value-added features:"
+10021 DATA 1,1,"2a1","0148","CE","Tue 5 Sep 2006 00:57:17 GMT+00:00",4
+10022 DATA 2,1,"* Zoom buttons for zooming in and out of structure"
+10023 DATA 1,1,"2a2","0149","CE","Fri 17 Apr 1998 06:46:17 GMT+00:00",4
+10024 DATA 2,1,"* automatic numbering of each object for easy reference"
+10025 DATA 1,1,"2a3","0151","CE","Tue 5 Sep 2006 00:57:38 GMT+00:00",4
+10026 DATA 2,1,"* jumping by number"
+10027 DATA 1,1,"2a4","0334","CE","Thu 7 Sep 2006 07:28:42 GMT+00:00",4
+10028 DATA 2,1,"* custom view settings"
+10029 DATA 1,1,"2a5","0280","CE","Fri 17 Apr 1998 06:46:29 GMT+00:00",4
+10030 DATA 2,1,"* use of the numbers and custom view settings inside URL links"
+10031 DATA 1,3,"2b","0150","CE","Thu 7 Sep 2006 07:28:52 GMT+00:00",3
+10032 DATA 2,1,"All designed to provide unified access into a &quot;living&quot;"
+10033 DATA 2,2,"repository of documents, email and other dialog records,"
+10034 DATA 2,3,"intelligence collections, briefings, source code, workflow, etc."
+10035 DATA 1,1,"2c","0251","CE","Thu 19 Oct 1995 04:46:24 GMT+00:00",3
+10036 DATA 2,1,"Let's begin with zooming."
+10037 DATA 1,1,"3","090","CE","Wed 13 Sep 1995 04:15:40 GMT+00:00",2
+10038 DATA 2,1,"ZOOMING"
+10039 DATA 1,9,"3a","0252","CE","Fri 1 Sep 2006 06:52:12 GMT+00:00",3
+10040 DATA 2,1,"Most files in a knowledge repository have a logical structure,"
+10041 DATA 2,2,"be it a document, email, meeting records, source code, work"
+10042 DATA 2,3,"breakdown, briefings, or time logs. For example, this tutor file"
+10043 DATA 2,4,"is structured with the headings, paragraphs, and lists."
+10044 DATA 2,5,"HyperScope actually uses this structure for rapid and efficient"
+10045 DATA 2,6,"browsing. Using the Zoom buttons provided in the left margin"
+10046 DATA 2,7,"(these appear when you pass your cursor over the text), you can"
+10047 DATA 2,8,"quickly zoom in and out of the structure for less or more detail"
+10048 DATA 2,9,"on a particular topic:"
+10049 DATA 1,3,"3a1","0164","CE","Fri 17 Apr 1998 06:47:00 GMT+00:00",4
+10050 DATA 2,1,"FULL VIEW:   The rightmost button provides a &quot;normal&quot;"
+10051 DATA 2,2,"view, or<BR/>                        &quot;full&quot; view (the"
+10052 DATA 2,3,"same view you have now)."
+10053 DATA 1,1,"3a2","0163","CE","Tue 17 Oct 1995 07:31:33 GMT+00:00",4
+10054 DATA 2,1,"ZOOM OUT:  The leftmost button zooms OUT to an outline view."
+10055 DATA 1,2,"3a3","0142","CE","Fri 17 Apr 1998 06:47:21 GMT+00:00",4
+10056 DATA 2,1,"ZOOM IN:     The middle button zooms IN for a more detailed<BR/>"
+10057 DATA 2,2,"outline view."
+10058 DATA 1,3,"3a4","0195","CE","Tue 23 Apr 1996 07:28:44 GMT+00:00",4
+10059 DATA 2,1,"Note that all three buttons will hoist, or &quot;Jump&quot; the"
+10060 DATA 2,2,"associated heading or paragraph to the top of the viewing"
+10061 DATA 2,3,"window."
+10062 DATA 1,1,"3b","0193","CE","Tue 23 Apr 1996 07:28:18 GMT+00:00",3
+10063 DATA 2,1,"Now try it."
+10064 DATA 1,1,"3b1","083","CE","Wed 13 Sep 1995 04:32:22 GMT+00:00",4
+10065 DATA 2,1,"=> Zooming Instructions:"
+10066 DATA 1,4,"3b1a","0196","CE","Fri 8 Sep 2006 01:40:48 GMT+00:00",5
+10067 DATA 2,1,"1.  First, note where you are now so you can find your way"
+10068 DATA 2,2,"back.<BR/>2.  Click on the Zoom Buttons to explore this tutorial"
+10069 DATA 2,3,"file.<BR/>3.  Return to this ZOOMING section with a full view"
+10070 DATA 2,4,"when finished."
+10071 DATA 1,3,"3c","0333","CE","Tue 5 Sep 2006 05:21:41 GMT+00:00",3
+10072 DATA 2,1,"Just for practice, instead of scrolling to the next section,"
+10073 DATA 2,2,"jump to KNOWLEDGE REPOSITORIES using its Zoom button for a full"
+10074 DATA 2,3,"open view."
+10075 DATA 1,1,"4","0199","CE","Tue 17 Oct 1995 07:52:52 GMT+00:00",2
+10076 DATA 2,1,"KNOWLEDGE REPOSITORIES"
+10077 DATA 1,10,"4a","0200","CE","Tue 5 Sep 2006 02:33:50 GMT+00:00",3
+10078 DATA 2,1,"A NOTE ABOUT REPOSITORIES: A knowledge repository is typically a"
+10079 DATA 2,2,"collection of knowledge, such as a web site, a wiki, a project"
+10080 DATA 2,3,"group's documents and memos, or a digital library.  For example,"
+10081 DATA 2,4,"the HyperScope repository is a growing library of documents"
+10082 DATA 2,5,"about HyperScope -- what it is and how it was implemented, plus"
+10083 DATA 2,6,"key articles describing the significant prior work that inspired"
+10084 DATA 2,7,"HyperScope, namely Doug Engelbart's AUGMENT System and its"
+10085 DATA 2,8,"precursor NLS. For more details you can browse the articles at h"
+10086 DATA 2,9,"ttp://blueoxen.net/c/hyperscope/wiki.pl?action=browse&amp;id=His"
+10087 DATA 2,10,"toricalReferences"
+10088 DATA 1,1,"5","0165","CE","Tue 17 Oct 1995 07:52:55 GMT+00:00",2
+10089 DATA 2,1,"&quot;LIVING&quot; KNOWLEDGE REPOSITORIES"
+10090 DATA 1,11,"5a","0166","CE","Wed 24 Apr 1996 04:58:20 GMT+00:00",3
+10091 DATA 2,1,"The browser you are using is part of a suite of tools designed"
+10092 DATA 2,2,"specifically to boost &quot;Collective IQ&quot; of teams,"
+10093 DATA 2,3,"organizations, and communities.  &quot;Collective IQ&quot; is a"
+10094 DATA 2,4,"measure of how quickly and intelligently people can work"
+10095 DATA 2,5,"collectively toward common goals. This goes well beyond getting"
+10096 DATA 2,6,"more information faster, to include leveraging their collective"
+10097 DATA 2,7,"memory, perception, foresight, planning, problem-solving, and so"
+10098 DATA 2,8,"on, into applicable knowledge.  This knowledge goes well beyond"
+10099 DATA 2,9,"the published documents, to include successive drafts,"
+10100 DATA 2,10,"commentary, dialog records, rationale, intelligence collections,"
+10101 DATA 2,11,"and so forth."
+10102 DATA 1,1,"5b","0262","CE","Fri 1 Sep 2006 07:02:34 GMT+00:00",3
+10103 DATA 2,1,"This tool was designed to facilitate"
+10104 DATA 1,1,"5b1","0264","CE","Wed 24 Apr 1996 00:12:05 GMT+00:00",4
+10105 DATA 2,1,"* the collaborative process"
+10106 DATA 1,3,"5b2","0263","CE","Fri 17 Apr 1998 06:50:17 GMT+00:00",4
+10107 DATA 2,1,"* the unified development, capture, integration,"
+10108 DATA 2,2,"management,<BR/>   cross-referencing, and tracking of"
+10109 DATA 2,3,"heterogeneous knowledge"
+10110 DATA 1,1,"5b3","0266","CE","Wed 24 Apr 1996 04:58:50 GMT+00:00",4
+10111 DATA 2,1,"* value-added utilization of this knowledge"
+10112 DATA 1,4,"5c","0265","CE","Tue 5 Sep 2006 01:12:45 GMT+00:00",3
+10113 DATA 2,1,"So instead of an archive of publications, a &quot;living&quot;"
+10114 DATA 2,2,"knowledge repository should be a dynamic work environment, and a"
+10115 DATA 2,3,"vehicle for collaboration across time, space, and organizational"
+10116 DATA 2,4,"boundaries."
+10117 DATA 1,5,"5d","0282","CE","Tue 5 Sep 2006 05:19:05 GMT+00:00",3
+10118 DATA 2,1,"HyperScope was conceived as a tool to support working in the"
+10119 DATA 2,2,"thick of living repositories. The version of HyperScope you are"
+10120 DATA 2,3,"using now is an early prototype for enhanced browsing. Future"
+10121 DATA 2,4,"versions are envisioned to add enhanced editing, publishing, and"
+10122 DATA 2,5,"more."
+10123 DATA 1,2,"5e","0335","CE","Thu 7 Sep 2006 07:31:53 GMT+00:00",3
+10124 DATA 2,1,"Again for practice, please jump to the next heading using its"
+10125 DATA 2,2,"Zoom button for an open view."
+10126 DATA 1,1,"6","0203","CE","Fri 1 Sep 2006 07:23:29 GMT+00:00",2
+10127 DATA 2,1,"BASIC JUMPING AND VIEWING"
+10128 DATA 1,1,"6a","0152","CE","Tue 5 Sep 2006 01:18:07 GMT+00:00",3
+10129 DATA 2,1,"Now you will learn to:"
+10130 DATA 1,2,"6a1","0224","CE","Tue 5 Sep 2006 05:19:17 GMT+00:00",4
+10131 DATA 2,1,"* jump by number<BR/>* change your view<BR/>* create HyperScope"
+10132 DATA 2,2,"links that you can edit, annotate, email, etc."
+10133 DATA 1,3,"6b","0237","CE","Fri 1 Sep 2006 07:08:49 GMT+00:00",3
+10134 DATA 2,1,"These select features add enhanced power and utility to"
+10135 DATA 2,2,"navigating, integrating, and utilizing a dynamic knowledge"
+10136 DATA 2,3,"environment."
+10137 DATA 1,2,"6c","0332","CE","Tue 5 Sep 2006 05:20:58 GMT+00:00",3
+10138 DATA 2,1,"To continue, jump to CHANGING VIEWSPECS using its Zoom button"
+10139 DATA 2,2,"for a full open view."
+10140 DATA 1,1,"7","060","THOM","Thu 27 Sep 1979 07:41:37 GMT+00:00",2
+10141 DATA 2,1,"CHANGING VIEWSPECS"
+10142 DATA 1,3,"7a","0229","CE","Wed 24 Apr 1996 05:08:09 GMT+00:00",3
+10143 DATA 2,1,"The Zoom Buttons changed your view with preset view settings,"
+10144 DATA 2,2,"which we call &quot;viewspecs&quot;.  The Viewspecs button above"
+10145 DATA 2,3,"allows you to select your own settings."
+10146 DATA 1,1,"7b","0230","CE","Wed 18 Oct 1995 06:24:09 GMT+00:00",3
+10147 DATA 2,1,"=> Viewspec Instructions"
+10148 DATA 1,3,"7b1","0231","CE","Fri 8 Sep 2006 01:40:55 GMT+00:00",4
+10149 DATA 2,1,"1.  Click on the Viewspecs button.<BR/>2.  Click to deselect"
+10150 DATA 2,2,"&quot;Blank lines&quot; and &quot;Numbering&quot;<BR/>3.  Click"
+10151 DATA 2,3,"Apply and Cancel"
+10152 DATA 1,2,"7c","0232","CE","Wed 24 Apr 1996 05:08:38 GMT+00:00",3
+10153 DATA 2,1,"Notice how your view has changed. Blank lines and numbering are"
+10154 DATA 2,2,"gone."
+10155 DATA 1,1,"7d","0259","CE","Tue 23 Apr 1996 07:51:30 GMT+00:00",3
+10156 DATA 2,1,"=> More Viewspec Instructions"
+10157 DATA 1,6,"7d1","0260","CE","Fri 8 Sep 2006 01:41:01 GMT+00:00",4
+10158 DATA 2,1,"1.  Click on the Viewspecs button again.<BR/>2.  This time"
+10159 DATA 2,2,"notice the one-letter codes next to each checkbox<BR/>"
+10160 DATA 2,3,"&quot;y&quot; and &quot;z&quot; for Blank Lines ON and OFF<BR/>"
+10161 DATA 2,4,"&quot;m&quot; and &quot;n&quot; for Numbering ON and OFF<BR/>3."
+10162 DATA 2,5,"Click to select &quot;Blank lines&quot; and"
+10163 DATA 2,6,"&quot;Numbering&quot;<BR/>4.  Click Apply and Cancel"
+10164 DATA 1,2,"7e","0258","CE","Wed 24 Apr 1996 00:21:35 GMT+00:00",3
+10165 DATA 2,1,"You can use those one-letter viewspec codes as shortcuts."
+10166 DATA 2,2,"Here's how:"
+10167 DATA 1,1,"7f","0256","CE","Wed 24 Apr 1996 00:18:34 GMT+00:00",3
+10168 DATA 2,1,"=> Viewspec Shortcut Instructions"
+10169 DATA 1,3,"7f1","0272","CE","Fri 8 Sep 2006 01:41:04 GMT+00:00",4
+10170 DATA 2,1,"1.  Click on the Viewspecs button.<BR/>2.  Type the letters nz"
+10171 DATA 2,2,"to turn Numbering and Blank Lines OFF<BR/>3.  Click Apply and"
+10172 DATA 2,3,"Cancel"
+10173 DATA 1,1,"7g","0273","CE","Fri 1 Sep 2006 07:10:55 GMT+00:00",3
+10174 DATA 2,1,"=> Now try clicking or typing in the other Viewspecs choices"
+10175 DATA 1,2,"7h","0234","CE","Fri 1 Sep 2006 07:11:12 GMT+00:00",3
+10176 DATA 2,1,"=> Before you continue, please turn Numbering and Blank Lines ON"
+10177 DATA 2,2,"with All lines and levels showing."
+10178 DATA 1,1,"8","06","THOM","Thu 27 Sep 1979 05:37:49 GMT+00:00",2
+10179 DATA 2,1,"JUMPING"
+10180 DATA 1,5,"8a","0233","CE","Thu 7 Sep 2006 07:33:09 GMT+00:00",3
+10181 DATA 2,1,"You have already learned to &quot;jump&quot; to a particular"
+10182 DATA 2,2,"heading or paragraph using the Zoom buttons. Now you can jump"
+10183 DATA 2,3,"directly to any heading or paragraph using its number. For"
+10184 DATA 2,4,"example, in the following exercise you will jump to the first"
+10185 DATA 2,5,"section in this file (Item 1), then back here (Item 8)."
+10186 DATA 1,2,"8b","0274","CE","Thu 7 Sep 2006 07:32:20 GMT+00:00",3
+10187 DATA 2,1,"=> Jump by Number Instructions  (review all the steps before you"
+10188 DATA 2,2,"begin)"
+10189 DATA 1,4,"8b1","0275","CE","Fri 8 Sep 2006 01:41:12 GMT+00:00",4
+10190 DATA 2,1,"1.  Make a note to jump back here when finished (Item 8).<BR/>2."
+10191 DATA 2,2,"Click on the Jump button above <BR/>3.  Type the number"
+10192 DATA 2,3,"1.<BR/>4.  Click OK.<BR/>5.  Repeat the jump, this time entering"
+10193 DATA 2,4,"8 instead of 1."
+10194 DATA 1,3,"8c","0268","CE","Thu 7 Sep 2006 07:34:00 GMT+00:00",3
+10195 DATA 2,1,"Note that you can jump to any item in this file by its number."
+10196 DATA 2,2,"Go ahead and try jumping around some more by number, and return"
+10197 DATA 2,3,"here (Item 8c)"
+10198 DATA 1,3,"8d","0277","CE","Thu 7 Sep 2006 07:34:09 GMT+00:00",3
+10199 DATA 2,1,"You can also click on the item you want to jump to instead of"
+10200 DATA 2,2,"typing in its number. With the Jump and Click feature, clicking"
+10201 DATA 2,3,"on the item will fill in its number for you."
+10202 DATA 1,2,"8e","0235","CE","Thu 7 Sep 2006 07:32:22 GMT+00:00",3
+10203 DATA 2,1,"=> Jump and Click Instructions  (review all the steps before you"
+10204 DATA 2,2,"begin)"
+10205 DATA 1,6,"8e1","0236","CE","Fri 8 Sep 2006 01:41:21 GMT+00:00",4
+10206 DATA 2,1,"1.  Make a note to jump back here when finished (Item"
+10207 DATA 2,2,"8e).<BR/>2.  Click on the Jump button <BR/>3.  Click on the item"
+10208 DATA 2,3,"you want to jump to (notice that HyperScope then supplies the"
+10209 DATA 2,4,"number automatically).<BR/>4.  Click OK.<BR/>5.  Repeat again,"
+10210 DATA 2,5,"and again to get the hang of it.<BR/>6.  Jump back here when"
+10211 DATA 2,6,"finished (Item 8e).<BR/>7. Click Cancel to close the Jump box."
+10212 DATA 1,1,"9","0279","CE","Fri 1 Sep 2006 07:23:34 GMT+00:00",2
+10213 DATA 2,1,"MORE VIEWSPECS"
+10214 DATA 1,3,"9a","0283","CE","Tue 5 Sep 2006 01:23:33 GMT+00:00",3
+10215 DATA 2,1,"Now let's get into some more interesting viewspecs. For example,"
+10216 DATA 2,2,"when you have numbering turned on, you can controlou can control"
+10217 DATA 2,3,"whether you want numbers shown on the right or the left."
+10218 DATA 1,1,"9b","0284","CE","Tue 5 Sep 2006 01:22:50 GMT+00:00",3
+10219 DATA 2,1,"=> Number Placement"
+10220 DATA 1,5,"9b1","0285","CE","Fri 8 Sep 2006 01:41:25 GMT+00:00",4
+10221 DATA 2,1,"1.  Click on the Viewspecs button above.<BR/>2.  Click on the"
+10222 DATA 2,2,"More button in the Viewspecs box. <BR/>3.  Click on the"
+10223 DATA 2,3,"&quot;Left&quot; radio dial.<BR/>4.  Click Apply and"
+10224 DATA 2,4,"Cancel.<BR/>5.  Repeat, this time placing the numbers on the"
+10225 DATA 2,5,"Right."
+10226 DATA 1,1,"9c","0286","CE","Tue 5 Sep 2006 01:27:03 GMT+00:00",3
+10227 DATA 2,1,"=> Outline levels and lines"
+10228 DATA 1,5,"9c1","0287","CE","Fri 8 Sep 2006 01:41:31 GMT+00:00",4
+10229 DATA 2,1,"1.  Click on the Viewspecs button above.<BR/>2.  Select viewspec"
+10230 DATA 2,2,"x (1st line and level). <BR/>3.  Now click b and a to add and"
+10231 DATA 2,3,"subtract levels in the outline.<BR/>4.  Click Apply and"
+10232 DATA 2,4,"Cancel.<BR/>5.  Repeat, this time selecting r and q to add and"
+10233 DATA 2,5,"subtract the number of lines showing."
+10234 DATA 1,2,"9d","0288","CE","Tue 5 Sep 2006 01:26:53 GMT+00:00",3
+10235 DATA 2,1,"Set viewspec w for all lines and levels showing before"
+10236 DATA 2,2,"continuing."
+10237 DATA 1,1,"10","0209","CE","Fri 1 Sep 2006 07:23:38 GMT+00:00",2
+10238 DATA 2,1,"FILTERED VIEWS"
+10239 DATA 1,5,"10a","0247","CE","Wed 24 Apr 1996 05:14:03 GMT+00:00",3
+10240 DATA 2,1,"You can get a filtered view of the file using the Filter button."
+10241 DATA 2,2,"When you enter the text to be searched, and turn the filter ON,"
+10242 DATA 2,3,"your view will contain only those items which contain that text."
+10243 DATA 2,4,"When you turn the filter OFF, you will get your previous view"
+10244 DATA 2,5,"back."
+10245 DATA 1,1,"10b","0269","CE","Tue 5 Sep 2006 01:28:44 GMT+00:00",3
+10246 DATA 2,1,"=> Filtering Instructions (read all steps before you begin)"
+10247 DATA 1,7,"10b1","0270","CE","Fri 8 Sep 2006 01:41:39 GMT+00:00",4
+10248 DATA 2,1,"1.  Make a note to jump back here when finished (Item 10b with"
+10249 DATA 2,2,"viewspec j).<BR/>2.  Click on the Viewspecs button.<BR/>3."
+10250 DATA 2,3,"Select Apply filter.<BR/>4.  In the typein box enter the word"
+10251 DATA 2,4,"Instructions.<BR/>5.  Select Numbering to be sure numbers are on"
+10252 DATA 2,5,"for this.<BR/>6.  Click Apply and Cancel.  <BR/>7.  When"
+10253 DATA 2,6,"finished, click on the Viewspecs button and deselect Apply"
+10254 DATA 2,7,"filter"
+10255 DATA 1,5,"10c","0289","CE","Tue 5 Sep 2006 01:31:08 GMT+00:00",3
+10256 DATA 2,1,"When you enter the filter text, HyperScope will find all items"
+10257 DATA 2,2,"with an exact word match for that text. For the computer buffs"
+10258 DATA 2,3,"out there, you also have the option of entering a &quot;regular"
+10259 DATA 2,4,"expression&quot; instead of a search string, encased in slash"
+10260 DATA 2,5,"marks -- for example: /foo/"
+10261 DATA 1,3,"10d","0271","CE","Tue 5 Sep 2006 01:29:59 GMT+00:00",3
+10262 DATA 2,1,"Note that once a certain filter is set, you can turn it On or"
+10263 DATA 2,2,"Off by entering viewspec i or j respectively using the Viewspecs"
+10264 DATA 2,3,"button."
+10265 DATA 1,1,"11","0114","CE","Sun 19 Mar 1995 00:48:28 GMT+00:00",2
+10266 DATA 2,1,"JUMPING WITH VIEWSPECS"
+10267 DATA 1,6,"11a","0241","CE","Tue 5 Sep 2006 01:32:12 GMT+00:00",3
+10268 DATA 2,1,"Now you will learn how to combine Jump and Viewspecs for"
+10269 DATA 2,2,"&quot;on-the-fly&quot; view control using the viewspec codes you"
+10270 DATA 2,3,"learned above. Using the Jump button, after you indicate which"
+10271 DATA 2,4,"item you wish to jump to you can add a colon &quot;:&quot;"
+10272 DATA 2,5,"followed by as many viewspec codes as you want. The viewspecs"
+10273 DATA 2,6,"will take effect when you OK the Jump."
+10274 DATA 1,1,"11b","0242","CE","Wed 18 Oct 1995 06:58:26 GMT+00:00",3
+10275 DATA 2,1,"=> Instructions  (review all the steps before you begin)"
+10276 DATA 1,7,"11b1","0243","CE","Fri 8 Sep 2006 01:41:46 GMT+00:00",4
+10277 DATA 2,1,"1.  Make a note to jump back here when finished (Item"
+10278 DATA 2,2,"11b).<BR/>2.  Click on the Jump button.<BR/>3.  Type the number"
+10279 DATA 2,3,"3 into the Jump typein field.<BR/>4.  Add a colon&quot;:&quot;"
+10280 DATA 2,4,"followed by the viewspecs xbz.<BR/>5.  You should now see"
+10281 DATA 2,5,"&quot;Click on the item or enter its address: 3:xbz<BR/>6."
+10282 DATA 2,6,"Click OK.<BR/>7.  Repeat the jump to return here, this time"
+10283 DATA 2,7,"entering 11b instead of 3, and viewspecs yw instead of zxb."
+10284 DATA 1,1,"11c","0255","CE","Wed 24 Apr 1996 00:21:45 GMT+00:00",3
+10285 DATA 2,1,"You are now on your way to becoming a high-performance user."
+10286 DATA 1,1,"12","0210","CE","Fri 1 Sep 2006 07:24:58 GMT+00:00",2
+10287 DATA 2,1,"CREATING LINKS &amp; CUSTOM &quot;BOOKMARKS&quot;"
+10288 DATA 1,10,"12a","0246","CE","Fri 8 Sep 2006 01:37:19 GMT+00:00",3
+10289 DATA 2,1,"HyperScope supports two different ways you can quickly create"
+10290 DATA 2,2,"links to specific items in the document you are browsing. One is"
+10291 DATA 2,3,"using the Bookmarks icon above, and the other is using the"
+10292 DATA 2,4,"purple numbering. The purple numbering contains a complete link"
+10293 DATA 2,5,"to each numbered item in the file. The Bookmarks icon keeps"
+10294 DATA 2,6,"track of which item you last jumped to and which viewspecs and"
+10295 DATA 2,7,"filter are currently in effect. You can access this link info"
+10296 DATA 2,8,"and paste it into your own custom bookmarks file. Or you can"
+10297 DATA 2,9,"paste it into a document you are authoring, a forum posting, or"
+10298 DATA 2,10,"an email to a friend or coworker. For examples see:"
+10299 DATA 1,3,"12a1","0356","CE","Fri 8 Sep 2006 01:37:36 GMT+00:00",4
+10300 DATA 2,1,"http://codinginparadise.org/hyperscope/src/demos/sample_word_fil"
+10301 DATA 2,2,"e.doc (MS Word Version) http://codinginparadise.org/hyperscope/s"
+10302 DATA 2,3,"rc/demos/sample_word_file.pdf (PDF Version)"
+10303 DATA 1,13,"12b","0329","CE","Tue 5 Sep 2006 04:48:34 GMT+00:00",3
+10304 DATA 2,1,"To create a link to an item in a HyperScope browser window,"
+10305 DATA 2,2,"right click on either the Hyperscope bookmark icon, or the"
+10306 DATA 2,3,"purple number for the item you want to link to, select Copy Link"
+10307 DATA 2,4,"Location (or equivalent), and then switch to your editor, email"
+10308 DATA 2,5,"draft, or forum posting and paste it in. To make a hotlink,"
+10309 DATA 2,6,"first copy and paste the text you are referencing, and then"
+10310 DATA 2,7,"paste in the link using the Paste Link command or icon. The"
+10311 DATA 2,8,"difference between copying from the HyperScope bookmark icon and"
+10312 DATA 2,9,"the purple number is, the icon provides the full link to the"
+10313 DATA 2,10,"item you last jumped to including whatever viewspecs and filter"
+10314 DATA 2,11,"are in effect, whereas the purple number provides just the link"
+10315 DATA 2,12,"to the item whose purple number you right click on with no"
+10316 DATA 2,13,"viewspecs."
+10317 DATA 1,1,"12c","0290","CE","Fri 8 Sep 2006 01:37:47 GMT+00:00",3
+10318 DATA 2,1,"=> Instructions for using Bookmark Icon"
+10319 DATA 1,9,"12c1","0291","CE","Tue 5 Sep 2006 04:49:38 GMT+00:00",4
+10320 DATA 2,1,"1)  Right click on the Bookmark icon next to the Viewspecs"
+10321 DATA 2,2,"button.<BR/>2)  Select Copy Link Location (or"
+10322 DATA 2,3,"equivalent).<BR/>3)  Open your word processor, web editor, or"
+10323 DATA 2,4,"email with a file or draft email where you can paste some"
+10324 DATA 2,5,"links.<BR/>4)  Paste or insert the HyperScope bookmark you"
+10325 DATA 2,6,"copied in step 2.<BR/>5)  Jump or zoom around with different"
+10326 DATA 2,7,"viewspecs and copy more bookmarks into your new bookmarks file"
+10327 DATA 2,8,"or email.<BR/>6)  In your new bookmarks file, click on the links"
+10328 DATA 2,9,"you created and see what you get"
+10329 DATA 1,3,"12d","0331","CE","Tue 5 Sep 2006 04:50:07 GMT+00:00",3
+10330 DATA 2,1,"Now try the same procedure, this time copying from some purple"
+10331 DATA 2,2,"numbers (be sure the numbering viewspecs are turned on before"
+10332 DATA 2,3,"you start)."
+10333 DATA 1,3,"12e","0330","CE","Tue 5 Sep 2006 04:49:10 GMT+00:00",3
+10334 DATA 2,1,"Note there is nothing magic about the link you've just copied -"
+10335 DATA 2,2,"once you paste it you can change the item number, add or change"
+10336 DATA 2,3,"the viewspec codes or content filter."
+10337 DATA 1,1,"13","0126","CE","Sun 19 Mar 1995 05:34:48 GMT+00:00",2
+10338 DATA 2,1,"PRECISION BROWSING"
+10339 DATA 1,18,"13a","0136","CE","Fri 8 Sep 2006 01:42:16 GMT+00:00",3
+10340 DATA 2,1,"You have just experienced the tip of the iceberg in the powerful"
+10341 DATA 2,2,"combination of jumping, viewspecs, numbering, and outline"
+10342 DATA 2,3,"structuring -- which were first conceived in the AUGMENT System"
+10343 DATA 2,4,"and its precursor NLS, in full operational use in Doug"
+10344 DATA 2,5,"Engelbart's pioneering computer lab at SRI by 1968! In fact, the"
+10345 DATA 2,6,"NLS/Augment System is an even more powerful system which"
+10346 DATA 2,7,"includes cross-window jumping and editing, integrated email, a"
+10347 DATA 2,8,"rich command language, user programmable macros, and more."
+10348 DATA 2,9,"Unfortunately it is written in an archaic software language and"
+10349 DATA 2,10,"runs on a now obsolete operating system. HyperScope was designed"
+10350 DATA 2,11,"to migrate the powerful functionality and lessons learned into"
+10351 DATA 2,12,"mainstream browsers, and to be extended with these additional"
+10352 DATA 2,13,"features in mind.  Together these features form a foundation for"
+10353 DATA 2,14,"a very powerful living knowledge environment designed"
+10354 DATA 2,15,"specifically to boost our Collective IQ. This includes not only"
+10355 DATA 2,16,"the highly efficient navigation through the knowledge space, but"
+10356 DATA 2,17,"the development, integration, and application of that knowledge"
+10357 DATA 2,18,"as well."
+10358 DATA 1,4,"14","0292","CE","Tue 5 Sep 2006 01:42:47 GMT+00:00",2
+10359 DATA 2,1,"Congratulations! This completes your lesson on the basics of"
+10360 DATA 2,2,"HyperScope browsing. If you are feeling adventurous and have a"
+10361 DATA 2,3,"bit more time, you can now advance to Turbo Mode."
+10362 DATA 2,4,"<BR/>______________________________________________"
+10363 DATA 1,1,"15","073","CE","Tue 5 Sep 2006 01:40:16 GMT+00:00",2
+10364 DATA 2,1,"TURBO MODE"
+10365 DATA 1,7,"15a","0250","CE","Thu 7 Sep 2006 07:36:20 GMT+00:00",3
+10366 DATA 2,1,"HyperScope was designed to support a wide range of users -- from"
+10367 DATA 2,2,"the simplest point and click browser users, all the way up to"
+10368 DATA 2,3,"professional high performance knowledge developers and"
+10369 DATA 2,4,"harvestors, plus everyone in between. For the power user, we"
+10370 DATA 2,5,"offer Turbo Mode, where you can enter command key equivalents"
+10371 DATA 2,6,"for a wide variety of Jump and Set Viewspecs commands on the"
+10372 DATA 2,7,"fly, without stopping to click on buttons and radio dials."
+10373 DATA 1,1,"15b","0294","CE","Thu 7 Sep 2006 07:36:52 GMT+00:00",3
+10374 DATA 2,1,"=> Morphing to Turbo Mode Instructions"
+10375 DATA 1,1,"15b1","0295","CE","Fri 8 Sep 2006 01:40:40 GMT+00:00",4
+10376 DATA 2,1,"1.  Click on the Turbo Mode button above."
+10377 DATA 1,1,"16","0339","CE","Thu 7 Sep 2006 07:40:37 GMT+00:00",2
+10378 DATA 2,1,"TURBO MODE JUMP COMMANDS"
+10379 DATA 1,4,"16a","0297","CE","Fri 8 Sep 2006 01:38:33 GMT+00:00",3
+10380 DATA 2,1,"In place of your Jump and Viewspecs buttons you now see the"
+10381 DATA 2,2,"HyperScope command center homebase. The &quot;C:&quot; is a"
+10382 DATA 2,3,"prompt awaiting your command (&quot;C&quot; for"
+10383 DATA 2,4,"&quot;Command&quot;)."
+10384 DATA 1,11,"16b","0357","CE","Fri 8 Sep 2006 01:38:33 GMT+00:00",3
+10385 DATA 2,1,"Let's start with a Jump command. The first Jump command you'll"
+10386 DATA 2,2,"learn is the Jump (to) Item command which is similar to the Jump"
+10387 DATA 2,3,"button you are already familiar with. All you have to enter is a"
+10388 DATA 2,4,"&quot;j&quot; for &quot;Jump&quot; and an &quot;i&quot; for"
+10389 DATA 2,5,"&quot;Item&quot; and HyperScope will fill out the command words"
+10390 DATA 2,6,"for you and prompt you for what to do next. A &quot;M/A:&quot;"
+10391 DATA 2,7,"prompts you to mark (click) or enter the address number of the"
+10392 DATA 2,8,"item. A &quot;V:&quot; prompts you to enter any viewspecs you"
+10393 DATA 2,9,"want for this jump. If you mess up hit the Backspace key on your"
+10394 DATA 2,10,"keyboard to back up, or just hit Escape to start the command"
+10395 DATA 2,11,"over. Now try it:"
+10396 DATA 1,1,"16c","0298","CE","Tue 5 Sep 2006 01:53:12 GMT+00:00",3
+10397 DATA 2,1,"=> &quot;Jump (to) Item&quot; Command"
+10398 DATA 1,9,"16c1","0299","CE","Fri 8 Sep 2006 01:40:39 GMT+00:00",4
+10399 DATA 2,1,"1.  Make a note to return here when finished (16C)<BR/>2.  Type"
+10400 DATA 2,2,"&quot;ji&quot; -- you will see &quot;Jump (to) Item M/A:&quot;"
+10401 DATA 2,3,"filled out<BR/>3.  Type a &quot;3&quot; and hit Enter -- you"
+10402 DATA 2,4,"will see &quot;3! V:&quot; filled out<BR/>4.  Type"
+10403 DATA 2,5,"&quot;mxb&quot; for numbering and outline view and hit"
+10404 DATA 2,6,"Enter<BR/>5.  Repeat the command, and try clicking on an item"
+10405 DATA 2,7,"instead of typing in its number, and try different viewspec"
+10406 DATA 2,8,"codes; if you want to pass on the viewspecs simply hit Enter at"
+10407 DATA 2,9,"the V: prompt."
+10408 DATA 1,2,"16d","0328","CE","Tue 5 Sep 2006 02:09:53 GMT+00:00",3
+10409 DATA 2,1,"To return to the browser mode at any time, just click the"
+10410 DATA 2,2,"Browser Mode button."
+10411 DATA 1,4,"16e","0327","CE","Tue 5 Sep 2006 02:09:28 GMT+00:00",3
+10412 DATA 2,1,"There are many more Jump and Viewspecs commands. For now they"
+10413 DATA 2,2,"are simply listed below for you to try. The next revision of"
+10414 DATA 2,3,"this tutorial will include more complete explanations and"
+10415 DATA 2,4,"rationale."
+10416 DATA 1,1,"16f","0302","CE","Thu 7 Sep 2006 07:37:46 GMT+00:00",3
+10417 DATA 2,1,"Jump commands for navigating based on context:"
+10418 DATA 1,1,"16f1","0303","CE","Tue 5 Sep 2006 02:06:10 GMT+00:00",4
+10419 DATA 2,1,"Jump (to) Content First"
+10420 DATA 1,1,"16f2","0304","CE","Tue 5 Sep 2006 02:06:15 GMT+00:00",4
+10421 DATA 2,1,"Jump (to) Content Next"
+10422 DATA 1,1,"16f3","0305","CE","Tue 5 Sep 2006 02:06:17 GMT+00:00",4
+10423 DATA 2,1,"Jump (to) Word First"
+10424 DATA 1,1,"16f4","0306","CE","Tue 5 Sep 2006 02:06:18 GMT+00:00",4
+10425 DATA 2,1,"Jump (to) Word Next"
+10426 DATA 1,1,"16f5","0308","CE","Tue 5 Sep 2006 02:06:32 GMT+00:00",4
+10427 DATA 2,1,"Jump (to) Name First [note Name as in anchor name or label]"
+10428 DATA 1,1,"16f6","0307","CE","Tue 5 Sep 2006 02:06:23 GMT+00:00",4
+10429 DATA 2,1,"Jump (to) Name Next"
+10430 DATA 1,1,"16g","0301","CE","Thu 7 Sep 2006 07:37:47 GMT+00:00",3
+10431 DATA 2,1,"Jump commands for navigating the structure of a file:"
+10432 DATA 1,1,"16g1","0309","CE","Tue 5 Sep 2006 02:06:58 GMT+00:00",4
+10433 DATA 2,1,"Jump (to) Origin (of file)"
+10434 DATA 1,1,"16g2","0311","CE","Tue 5 Sep 2006 02:07:07 GMT+00:00",4
+10435 DATA 2,1,"Jump (to) Next (from)"
+10436 DATA 1,1,"16g3","0312","CE","Tue 5 Sep 2006 02:07:10 GMT+00:00",4
+10437 DATA 2,1,"Jump (to) Back (from)"
+10438 DATA 1,1,"16g4","0313","CE","Tue 5 Sep 2006 02:07:12 GMT+00:00",4
+10439 DATA 2,1,"Jump (to) Down (from)"
+10440 DATA 1,1,"16g5","0314","CE","Tue 5 Sep 2006 02:07:13 GMT+00:00",4
+10441 DATA 2,1,"Jump (to) Up (from)"
+10442 DATA 1,1,"16g6","0315","CE","Tue 5 Sep 2006 02:07:17 GMT+00:00",4
+10443 DATA 2,1,"Jump (to) Successor (of)"
+10444 DATA 1,1,"16g7","0316","CE","Tue 5 Sep 2006 02:07:21 GMT+00:00",4
+10445 DATA 2,1,"Jump (to) Predecessor (of)"
+10446 DATA 1,1,"16g8","0317","CE","Tue 5 Sep 2006 02:07:25 GMT+00:00",4
+10447 DATA 2,1,"Jump (to) Head (of plex at)"
+10448 DATA 1,1,"16g9","0318","CE","Tue 5 Sep 2006 02:07:27 GMT+00:00",4
+10449 DATA 2,1,"Jump (to) Tail (of plex at)"
+10450 DATA 1,1,"16g10","0319","CE","Tue 5 Sep 2006 02:07:32 GMT+00:00",4
+10451 DATA 2,1,"Jump (to) End (of) Branch (at)"
+10452 DATA 1,1,"16g11","0320","CE","Tue 5 Sep 2006 02:07:33 GMT+00:00",4
+10453 DATA 2,1,"Jump (to) End (of) Plex (at)"
+10454 DATA 1,1,"16h","0336","CE","Thu 7 Sep 2006 07:38:14 GMT+00:00",3
+10455 DATA 2,1,"Jump command for jumping to another file in this directory:"
+10456 DATA 1,1,"16h1","0310","CE","Tue 5 Sep 2006 02:07:03 GMT+00:00",4
+10457 DATA 2,1,"Jump (to) File (named)"
+10458 DATA 1,3,"16i","0322","CE","Thu 7 Sep 2006 07:38:32 GMT+00:00",3
+10459 DATA 2,1,"Jump command for following a link. Note: In HyperScope to follow"
+10460 DATA 2,2,"a link you can simply click on the link as you normally would,"
+10461 DATA 2,3,"or use the following command and then click on the link:"
+10462 DATA 1,1,"16i1","0323","CE","Tue 5 Sep 2006 02:07:59 GMT+00:00",4
+10463 DATA 2,1,"Jump (to) Link"
+10464 DATA 1,1,"17","0340","CE","Thu 7 Sep 2006 07:40:50 GMT+00:00",2
+10465 DATA 2,1,"TURBO MODE VIEWSPEC COMMANDS"
+10466 DATA 1,9,"17a","0324","CE","Thu 7 Sep 2006 07:39:15 GMT+00:00",3
+10467 DATA 2,1,"To change viewspecs use the Set Viewspecs command -- note that"
+10468 DATA 2,2,"the Set verb requires that you type a space (hit the space bar)"
+10469 DATA 2,3,"followed by &quot;se&quot; to fill out the command word Set and"
+10470 DATA 2,4,"then &quot;v&quot; for Viewspecs. At the V: prompt you type in"
+10471 DATA 2,5,"as many viewspecs codes as you want and press Enter. A complete"
+10472 DATA 2,6,"list of viewspec codes follows. To restore your viewspecs to the"
+10473 DATA 2,7,"initial default viewspecs use the Reset Viewspecs command --"
+10474 DATA 2,8,"note that the Reset verb requires a space followed by"
+10475 DATA 2,9,"&quot;res&quot; to fill out the command."
+10476 DATA 1,1,"17a1","0325","CE","Tue 5 Sep 2006 02:09:01 GMT+00:00",4
+10477 DATA 2,1,"<a href=&quot;#SPACE&quot;>&lt;SPACE&gt;</a>SEt Viewspecs"
+10478 DATA 1,1,"17a2","0326","CE","Tue 5 Sep 2006 02:09:02 GMT+00:00",4
+10479 DATA 2,1,"<a href=&quot;#SPACE&quot;>&lt;SPACE&gt;</a>RESet Viewspecs"
+10480 DATA 1,1,"18","0342","CE","Thu 7 Sep 2006 07:48:11 GMT+00:00",2
+10481 DATA 2,1,"VIEWSPECS CHART"
+10482 DATA 1,2,"18a","0343","CE","Thu 7 Sep 2006 07:48:57 GMT+00:00",3
+10483 DATA 2,1,"Blank lines            Blank lines between items on/off"
+10484 DATA 2,2,"y/z"
+10485 DATA 1,4,"18b","0344","CE","Thu 7 Sep 2006 07:49:12 GMT+00:00",3
+10486 DATA 2,1,"Numbering              Numbering on/off"
+10487 DATA 2,2,"m/n<BR/>                       Numbering right/left"
+10488 DATA 2,3,"G/H<BR/>                       Show permanent/hierarchical"
+10489 DATA 2,4,"numbers      I/J"
+10490 DATA 1,7,"18c","0347","CE","Fri 8 Sep 2006 00:02:08 GMT+00:00",3
+10491 DATA 2,1,"Level clipping         Show first/+1/-1/all levels"
+10492 DATA 2,2,"d/b/a/c<BR/>                       Show levels down to level of"
+10493 DATA 2,3,"item        e<BR/>                        jumped to top of"
+10494 DATA 2,4,"window<BR/>Line clipping          Show first/+1/-1/all lines"
+10495 DATA 2,5,"t/r/q/s<BR/>Outline/normal         Show first level and first"
+10496 DATA 2,6,"line only     x<BR/>                       Show all levels and"
+10497 DATA 2,7,"all lines            w"
+10498 DATA 1,4,"18d","0348","ROSE","Wed 29 Oct 1980 07:19:33 GMT+00:00",3
+10499 DATA 2,1,"Structure clipping     Show branch only"
+10500 DATA 2,2,"g<BR/>                       Show all branches"
+10501 DATA 2,3,"h <BR/>                       Show plex only"
+10502 DATA 2,4,"l"
+10503 DATA 1,4,"18e","0349","CE","Fri 8 Sep 2006 00:04:08 GMT+00:00",3
+10504 DATA 2,1,"Content filtering      Filtering on based on the filter set*"
+10505 DATA 2,2,"i<BR/>                       Filtering off"
+10506 DATA 2,3,"j<BR/>                       Show next filtered item"
+10507 DATA 2,4,"k"
+10508 DATA 1,5,"18f","0350","CE","Fri 8 Sep 2006 00:03:42 GMT+00:00",3
+10509 DATA 2,1,"Indenting              Level indenting on/off"
+10510 DATA 2,2,"A/B<BR/>                       Offsets indenting, with viewspec"
+10511 DATA 2,3,"l or    Q<BR/>                       g, starting from level of"
+10512 DATA 2,4,"item jumped<BR/>                       to; turn off with"
+10513 DATA 2,5,"viewspec h or A"
+10514 DATA 1,6,"18g","0353","CE","Fri 8 Sep 2006 00:05:17 GMT+00:00",3
+10515 DATA 2,1,"______<BR/>*Setting the Filter: use the Set Viewspecs command"
+10516 DATA 2,2,"and at the V: enter the viewspec codes followed by semicolon"
+10517 DATA 2,3,"{FILTER} and semicolon where {FILTER} is either a regular"
+10518 DATA 2,4,"expression such as /foo/ or a literal search string such as"
+10519 DATA 2,5,"&quot;Filterthistext&quot; -- for example: Browser Mode"
+10520 DATA 2,6,"Viewspecs More"
+10521 DATA 1,1,"18g1","0354","CE","Fri 8 Sep 2006 00:05:16 GMT+00:00",4
+10522 DATA 2,1,"Set Viewspecs V: im;&quot;Filterthistext&quot;;"
+10523 DATA 1,1,"18g2","0355","CE","Fri 8 Sep 2006 00:05:25 GMT+00:00",4
+10524 DATA 2,1,"Set Viewspecs V: im;/foo/;"
+10525 DATA 1,1,"19","0341","CE","Thu 7 Sep 2006 07:40:55 GMT+00:00",2
+10526 DATA 2,1,"THANK YOU!"
+10527 DATA 1,6,"19a","0338","CE","Thu 7 Sep 2006 07:40:27 GMT+00:00",3
+10528 DATA 2,1,"To practice what you've learned, click on this link (or use the"
+10529 DATA 2,2,"Jump Link command and click on the link) for Historical"
+10530 DATA 2,3,"References http://blueoxen.net/c/hyperscope/wiki.pl?action=brows"
+10531 DATA 2,4,"e&amp;id=HistoricalReferences to browse key articles by Doug"
+10532 DATA 2,5,"Engelbart describing the significant prior work that inspired"
+10533 DATA 2,6,"HyperScope, and that HyperScope will continue to aspire to."
+10534 DATA 1,2,"19b","0337","CE","Thu 7 Sep 2006 07:39:26 GMT+00:00",3
+10535 DATA 2,1,"Thank you for trying HyperScope! We hope you enjoyed your"
+10536 DATA 2,2,"journey."

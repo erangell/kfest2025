@@ -1,0 +1,392 @@
+10000 DATA 1,1,"","","","",1
+10001 DATA 2,1,"It's XML, of course"
+10002 DATA 1,1,"1","","","",2
+10003 DATA 2,1,"This page documents the file formats used by Radio UserLand."
+10004 DATA 1,1,"2","","","",2
+10005 DATA 2,1,"There are two formats, outlineDocument and songList."
+10006 DATA 1,2,"3","","","",2
+10007 DATA 2,1,"There's a simple XML-RPC interface that allows a user to"
+10008 DATA 2,2,"register with an aggregator."
+10009 DATA 1,2,"4","","","",2
+10010 DATA 2,1,"All formats are open and public and may be used for any purpose"
+10011 DATA 2,2,"whatsoever."
+10012 DATA 1,6,"1","","","",2
+10013 DATA 2,1,"All playlists are outlineDocuments. This is the main file format"
+10014 DATA 2,2,"for Radio UserLand. When you create a new file it's saved as an"
+10015 DATA 2,3,"outlineDocument. Because users can save them into the www"
+10016 DATA 2,4,"folder, they can be accessed over the Web, either from a script"
+10017 DATA 2,5,"or a Web browser such as MSIE. (Of course they could be served"
+10018 DATA 2,6,"by any HTTP server, not just the Radio UserLand server.)"
+10019 DATA 1,10,"2","","","",2
+10020 DATA 2,1,"The outlineDocument format is <a href=&quot;http://backend.userl"
+10021 DATA 2,2,"and.com/stories/storyReader$53&quot;>documented</a> on"
+10022 DATA 2,3,"backend.userland.com. There will no doubt be changes and"
+10023 DATA 2,4,"refinements to the format. One area that needs work is the"
+10024 DATA 2,5,"format for the data attribute on a headline. Currently there are"
+10025 DATA 2,6,"bugs in the way Radio UserLand uses this attribute. (Every"
+10026 DATA 2,7,"headline gets a data attribute, whether or not it links to a"
+10027 DATA 2,8,"song. We need to XMLize this and fit in data not as an attribute"
+10028 DATA 2,9,"but as a legal sub-item. Shouldn't be hard to do, and with this"
+10029 DATA 2,10,"caveat, breakage should be expected.)"
+10030 DATA 1,4,"3","","","",2
+10031 DATA 2,1,"Radio UserLand can be used to write any kind of document, not"
+10032 DATA 2,2,"just a music playlist. Outlines are great for all kinds of"
+10033 DATA 2,3,"structured documents, specifications, legal briefs, product"
+10034 DATA 2,4,"plans, presentations and stories."
+10035 DATA 1,2,"4","","","",2
+10036 DATA 2,1,"Several examples of outlineDocuments created with Radio"
+10037 DATA 2,2,"UserLand: play list, specification, presentation."
+10038 DATA 1,5,"1","","","",2
+10039 DATA 2,1,"As you're listening to music, Radio UserLand keeps track of what"
+10040 DATA 2,2,"you listen to. Here's a <a href=&quot;http://static.userland.com"
+10041 DATA 2,3,"/images/radiodiscuss/userPlaylistSongs.gif&quot;>screen shot</a>"
+10042 DATA 2,4,"of the table, user.playlist.songs, that keeps track of the"
+10043 DATA 2,5,"stuff."
+10044 DATA 1,7,"2","","","",2
+10045 DATA 2,1,"ctPlays is the number of times the song has been played."
+10046 DATA 2,2,"ctSeconds is the duration of the song, determined by a heuristic"
+10047 DATA 2,3,"that's pretty accurate. f is the file that contains the MP3, on"
+10048 DATA 2,4,"the local file system. whenFirstPlayed is the time/date the song"
+10049 DATA 2,5,"was played for the first time, whenLastPlayed is the most recent"
+10050 DATA 2,6,"time/date. whenLoaded is when Radio UserLand discovered the file"
+10051 DATA 2,7,"in your MP3 folder."
+10052 DATA 1,4,"3","","","",2
+10053 DATA 2,1,"Every hour on the hour Radio UserLand generates an XMLization of"
+10054 DATA 2,2,"this table and places it in the userland folder of your www"
+10055 DATA 2,3,"folder, making it available over the Web. (There's no way to"
+10056 DATA 2,4,"turn this feature off, there should be.)"
+10057 DATA 1,3,"4","","","",2
+10058 DATA 2,1,"Here's an <a href=&quot;http://static.userland.com/gems/radiodis"
+10059 DATA 2,2,"cuss/songs.xml&quot;>example</a> of the XML file. The mapping"
+10060 DATA 2,3,"between the table and the XMLization should be fairly clear."
+10061 DATA 1,5,"1","","","",2
+10062 DATA 2,1,"Rules of the road will be determined later, since many of these"
+10063 DATA 2,2,"files will be on users' machines, we want to provide guidelines"
+10064 DATA 2,3,"for bots, aggregators and content systems; and whatever other"
+10065 DATA 2,4,"kinds of applications people think of. Feel free to use the"
+10066 DATA 2,5,"discussion group here to raise issues."
+10067 DATA 1,1,"1","","","",2
+10068 DATA 2,1,"This page documents the file formats used by Radio UserLand."
+10069 DATA 1,1,"2","","","",2
+10070 DATA 2,1,"There are two formats, outlineDocument and songList."
+10071 DATA 1,2,"3","","","",2
+10072 DATA 2,1,"There's a simple XML-RPC interface that allows a user to"
+10073 DATA 2,2,"register with an aggregator."
+10074 DATA 1,2,"4","","","",2
+10075 DATA 2,1,"All formats are open and public and may be used for any purpose"
+10076 DATA 2,2,"whatsoever."
+10077 DATA 1,6,"1","","","",2
+10078 DATA 2,1,"All playlists are outlineDocuments. This is the main file format"
+10079 DATA 2,2,"for Radio UserLand. When you create a new file it's saved as an"
+10080 DATA 2,3,"outlineDocument. Because users can save them into the www"
+10081 DATA 2,4,"folder, they can be accessed over the Web, either from a script"
+10082 DATA 2,5,"or a Web browser such as MSIE. (Of course they could be served"
+10083 DATA 2,6,"by any HTTP server, not just the Radio UserLand server.)"
+10084 DATA 1,10,"2","","","",2
+10085 DATA 2,1,"The outlineDocument format is <a href=&quot;http://backend.userl"
+10086 DATA 2,2,"and.com/stories/storyReader$53&quot;>documented</a> on"
+10087 DATA 2,3,"backend.userland.com. There will no doubt be changes and"
+10088 DATA 2,4,"refinements to the format. One area that needs work is the"
+10089 DATA 2,5,"format for the data attribute on a headline. Currently there are"
+10090 DATA 2,6,"bugs in the way Radio UserLand uses this attribute. (Every"
+10091 DATA 2,7,"headline gets a data attribute, whether or not it links to a"
+10092 DATA 2,8,"song. We need to XMLize this and fit in data not as an attribute"
+10093 DATA 2,9,"but as a legal sub-item. Shouldn't be hard to do, and with this"
+10094 DATA 2,10,"caveat, breakage should be expected.)"
+10095 DATA 1,4,"3","","","",2
+10096 DATA 2,1,"Radio UserLand can be used to write any kind of document, not"
+10097 DATA 2,2,"just a music playlist. Outlines are great for all kinds of"
+10098 DATA 2,3,"structured documents, specifications, legal briefs, product"
+10099 DATA 2,4,"plans, presentations and stories."
+10100 DATA 1,2,"4","","","",2
+10101 DATA 2,1,"Several examples of outlineDocuments created with Radio"
+10102 DATA 2,2,"UserLand: play list, specification, presentation."
+10103 DATA 1,5,"1","","","",2
+10104 DATA 2,1,"As you're listening to music, Radio UserLand keeps track of what"
+10105 DATA 2,2,"you listen to. Here's a <a href=&quot;http://static.userland.com"
+10106 DATA 2,3,"/images/radiodiscuss/userPlaylistSongs.gif&quot;>screen shot</a>"
+10107 DATA 2,4,"of the table, user.playlist.songs, that keeps track of the"
+10108 DATA 2,5,"stuff."
+10109 DATA 1,7,"2","","","",2
+10110 DATA 2,1,"ctPlays is the number of times the song has been played."
+10111 DATA 2,2,"ctSeconds is the duration of the song, determined by a heuristic"
+10112 DATA 2,3,"that's pretty accurate. f is the file that contains the MP3, on"
+10113 DATA 2,4,"the local file system. whenFirstPlayed is the time/date the song"
+10114 DATA 2,5,"was played for the first time, whenLastPlayed is the most recent"
+10115 DATA 2,6,"time/date. whenLoaded is when Radio UserLand discovered the file"
+10116 DATA 2,7,"in your MP3 folder."
+10117 DATA 1,4,"3","","","",2
+10118 DATA 2,1,"Every hour on the hour Radio UserLand generates an XMLization of"
+10119 DATA 2,2,"this table and places it in the userland folder of your www"
+10120 DATA 2,3,"folder, making it available over the Web. (There's no way to"
+10121 DATA 2,4,"turn this feature off, there should be.)"
+10122 DATA 1,3,"4","","","",2
+10123 DATA 2,1,"Here's an <a href=&quot;http://static.userland.com/gems/radiodis"
+10124 DATA 2,2,"cuss/songs.xml&quot;>example</a> of the XML file. The mapping"
+10125 DATA 2,3,"between the table and the XMLization should be fairly clear."
+10126 DATA 1,5,"1","","","",2
+10127 DATA 2,1,"Rules of the road will be determined later, since many of these"
+10128 DATA 2,2,"files will be on users' machines, we want to provide guidelines"
+10129 DATA 2,3,"for bots, aggregators and content systems; and whatever other"
+10130 DATA 2,4,"kinds of applications people think of. Feel free to use the"
+10131 DATA 2,5,"discussion group here to raise issues."
+10132 DATA 1,1,"1","","","",2
+10133 DATA 2,1,"This page documents the file formats used by Radio UserLand."
+10134 DATA 1,1,"2","","","",2
+10135 DATA 2,1,"There are two formats, outlineDocument and songList."
+10136 DATA 1,2,"3","","","",2
+10137 DATA 2,1,"There's a simple XML-RPC interface that allows a user to"
+10138 DATA 2,2,"register with an aggregator."
+10139 DATA 1,2,"4","","","",2
+10140 DATA 2,1,"All formats are open and public and may be used for any purpose"
+10141 DATA 2,2,"whatsoever."
+10142 DATA 1,6,"1","","","",2
+10143 DATA 2,1,"All playlists are outlineDocuments. This is the main file format"
+10144 DATA 2,2,"for Radio UserLand. When you create a new file it's saved as an"
+10145 DATA 2,3,"outlineDocument. Because users can save them into the www"
+10146 DATA 2,4,"folder, they can be accessed over the Web, either from a script"
+10147 DATA 2,5,"or a Web browser such as MSIE. (Of course they could be served"
+10148 DATA 2,6,"by any HTTP server, not just the Radio UserLand server.)"
+10149 DATA 1,10,"2","","","",2
+10150 DATA 2,1,"The outlineDocument format is <a href=&quot;http://backend.userl"
+10151 DATA 2,2,"and.com/stories/storyReader$53&quot;>documented</a> on"
+10152 DATA 2,3,"backend.userland.com. There will no doubt be changes and"
+10153 DATA 2,4,"refinements to the format. One area that needs work is the"
+10154 DATA 2,5,"format for the data attribute on a headline. Currently there are"
+10155 DATA 2,6,"bugs in the way Radio UserLand uses this attribute. (Every"
+10156 DATA 2,7,"headline gets a data attribute, whether or not it links to a"
+10157 DATA 2,8,"song. We need to XMLize this and fit in data not as an attribute"
+10158 DATA 2,9,"but as a legal sub-item. Shouldn't be hard to do, and with this"
+10159 DATA 2,10,"caveat, breakage should be expected.)"
+10160 DATA 1,4,"3","","","",2
+10161 DATA 2,1,"Radio UserLand can be used to write any kind of document, not"
+10162 DATA 2,2,"just a music playlist. Outlines are great for all kinds of"
+10163 DATA 2,3,"structured documents, specifications, legal briefs, product"
+10164 DATA 2,4,"plans, presentations and stories."
+10165 DATA 1,2,"4","","","",2
+10166 DATA 2,1,"Several examples of outlineDocuments created with Radio"
+10167 DATA 2,2,"UserLand: play list, specification, presentation."
+10168 DATA 1,5,"1","","","",2
+10169 DATA 2,1,"As you're listening to music, Radio UserLand keeps track of what"
+10170 DATA 2,2,"you listen to. Here's a <a href=&quot;http://static.userland.com"
+10171 DATA 2,3,"/images/radiodiscuss/userPlaylistSongs.gif&quot;>screen shot</a>"
+10172 DATA 2,4,"of the table, user.playlist.songs, that keeps track of the"
+10173 DATA 2,5,"stuff."
+10174 DATA 1,7,"2","","","",2
+10175 DATA 2,1,"ctPlays is the number of times the song has been played."
+10176 DATA 2,2,"ctSeconds is the duration of the song, determined by a heuristic"
+10177 DATA 2,3,"that's pretty accurate. f is the file that contains the MP3, on"
+10178 DATA 2,4,"the local file system. whenFirstPlayed is the time/date the song"
+10179 DATA 2,5,"was played for the first time, whenLastPlayed is the most recent"
+10180 DATA 2,6,"time/date. whenLoaded is when Radio UserLand discovered the file"
+10181 DATA 2,7,"in your MP3 folder."
+10182 DATA 1,4,"3","","","",2
+10183 DATA 2,1,"Every hour on the hour Radio UserLand generates an XMLization of"
+10184 DATA 2,2,"this table and places it in the userland folder of your www"
+10185 DATA 2,3,"folder, making it available over the Web. (There's no way to"
+10186 DATA 2,4,"turn this feature off, there should be.)"
+10187 DATA 1,3,"4","","","",2
+10188 DATA 2,1,"Here's an <a href=&quot;http://static.userland.com/gems/radiodis"
+10189 DATA 2,2,"cuss/songs.xml&quot;>example</a> of the XML file. The mapping"
+10190 DATA 2,3,"between the table and the XMLization should be fairly clear."
+10191 DATA 1,5,"1","","","",2
+10192 DATA 2,1,"Rules of the road will be determined later, since many of these"
+10193 DATA 2,2,"files will be on users' machines, we want to provide guidelines"
+10194 DATA 2,3,"for bots, aggregators and content systems; and whatever other"
+10195 DATA 2,4,"kinds of applications people think of. Feel free to use the"
+10196 DATA 2,5,"discussion group here to raise issues."
+10197 DATA 1,1,"1","","","",2
+10198 DATA 2,1,"This page documents the file formats used by Radio UserLand."
+10199 DATA 1,1,"2","","","",2
+10200 DATA 2,1,"There are two formats, outlineDocument and songList."
+10201 DATA 1,2,"3","","","",2
+10202 DATA 2,1,"There's a simple XML-RPC interface that allows a user to"
+10203 DATA 2,2,"register with an aggregator."
+10204 DATA 1,2,"4","","","",2
+10205 DATA 2,1,"All formats are open and public and may be used for any purpose"
+10206 DATA 2,2,"whatsoever."
+10207 DATA 1,6,"1","","","",2
+10208 DATA 2,1,"All playlists are outlineDocuments. This is the main file format"
+10209 DATA 2,2,"for Radio UserLand. When you create a new file it's saved as an"
+10210 DATA 2,3,"outlineDocument. Because users can save them into the www"
+10211 DATA 2,4,"folder, they can be accessed over the Web, either from a script"
+10212 DATA 2,5,"or a Web browser such as MSIE. (Of course they could be served"
+10213 DATA 2,6,"by any HTTP server, not just the Radio UserLand server.)"
+10214 DATA 1,10,"2","","","",2
+10215 DATA 2,1,"The outlineDocument format is <a href=&quot;http://backend.userl"
+10216 DATA 2,2,"and.com/stories/storyReader$53&quot;>documented</a> on"
+10217 DATA 2,3,"backend.userland.com. There will no doubt be changes and"
+10218 DATA 2,4,"refinements to the format. One area that needs work is the"
+10219 DATA 2,5,"format for the data attribute on a headline. Currently there are"
+10220 DATA 2,6,"bugs in the way Radio UserLand uses this attribute. (Every"
+10221 DATA 2,7,"headline gets a data attribute, whether or not it links to a"
+10222 DATA 2,8,"song. We need to XMLize this and fit in data not as an attribute"
+10223 DATA 2,9,"but as a legal sub-item. Shouldn't be hard to do, and with this"
+10224 DATA 2,10,"caveat, breakage should be expected.)"
+10225 DATA 1,4,"3","","","",2
+10226 DATA 2,1,"Radio UserLand can be used to write any kind of document, not"
+10227 DATA 2,2,"just a music playlist. Outlines are great for all kinds of"
+10228 DATA 2,3,"structured documents, specifications, legal briefs, product"
+10229 DATA 2,4,"plans, presentations and stories."
+10230 DATA 1,2,"4","","","",2
+10231 DATA 2,1,"Several examples of outlineDocuments created with Radio"
+10232 DATA 2,2,"UserLand: play list, specification, presentation."
+10233 DATA 1,5,"1","","","",2
+10234 DATA 2,1,"As you're listening to music, Radio UserLand keeps track of what"
+10235 DATA 2,2,"you listen to. Here's a <a href=&quot;http://static.userland.com"
+10236 DATA 2,3,"/images/radiodiscuss/userPlaylistSongs.gif&quot;>screen shot</a>"
+10237 DATA 2,4,"of the table, user.playlist.songs, that keeps track of the"
+10238 DATA 2,5,"stuff."
+10239 DATA 1,7,"2","","","",2
+10240 DATA 2,1,"ctPlays is the number of times the song has been played."
+10241 DATA 2,2,"ctSeconds is the duration of the song, determined by a heuristic"
+10242 DATA 2,3,"that's pretty accurate. f is the file that contains the MP3, on"
+10243 DATA 2,4,"the local file system. whenFirstPlayed is the time/date the song"
+10244 DATA 2,5,"was played for the first time, whenLastPlayed is the most recent"
+10245 DATA 2,6,"time/date. whenLoaded is when Radio UserLand discovered the file"
+10246 DATA 2,7,"in your MP3 folder."
+10247 DATA 1,4,"3","","","",2
+10248 DATA 2,1,"Every hour on the hour Radio UserLand generates an XMLization of"
+10249 DATA 2,2,"this table and places it in the userland folder of your www"
+10250 DATA 2,3,"folder, making it available over the Web. (There's no way to"
+10251 DATA 2,4,"turn this feature off, there should be.)"
+10252 DATA 1,3,"4","","","",2
+10253 DATA 2,1,"Here's an <a href=&quot;http://static.userland.com/gems/radiodis"
+10254 DATA 2,2,"cuss/songs.xml&quot;>example</a> of the XML file. The mapping"
+10255 DATA 2,3,"between the table and the XMLization should be fairly clear."
+10256 DATA 1,5,"1","","","",2
+10257 DATA 2,1,"Rules of the road will be determined later, since many of these"
+10258 DATA 2,2,"files will be on users' machines, we want to provide guidelines"
+10259 DATA 2,3,"for bots, aggregators and content systems; and whatever other"
+10260 DATA 2,4,"kinds of applications people think of. Feel free to use the"
+10261 DATA 2,5,"discussion group here to raise issues."
+10262 DATA 1,1,"1","","","",2
+10263 DATA 2,1,"This page documents the file formats used by Radio UserLand."
+10264 DATA 1,1,"2","","","",2
+10265 DATA 2,1,"There are two formats, outlineDocument and songList."
+10266 DATA 1,2,"3","","","",2
+10267 DATA 2,1,"There's a simple XML-RPC interface that allows a user to"
+10268 DATA 2,2,"register with an aggregator."
+10269 DATA 1,2,"4","","","",2
+10270 DATA 2,1,"All formats are open and public and may be used for any purpose"
+10271 DATA 2,2,"whatsoever."
+10272 DATA 1,6,"1","","","",2
+10273 DATA 2,1,"All playlists are outlineDocuments. This is the main file format"
+10274 DATA 2,2,"for Radio UserLand. When you create a new file it's saved as an"
+10275 DATA 2,3,"outlineDocument. Because users can save them into the www"
+10276 DATA 2,4,"folder, they can be accessed over the Web, either from a script"
+10277 DATA 2,5,"or a Web browser such as MSIE. (Of course they could be served"
+10278 DATA 2,6,"by any HTTP server, not just the Radio UserLand server.)"
+10279 DATA 1,10,"2","","","",2
+10280 DATA 2,1,"The outlineDocument format is <a href=&quot;http://backend.userl"
+10281 DATA 2,2,"and.com/stories/storyReader$53&quot;>documented</a> on"
+10282 DATA 2,3,"backend.userland.com. There will no doubt be changes and"
+10283 DATA 2,4,"refinements to the format. One area that needs work is the"
+10284 DATA 2,5,"format for the data attribute on a headline. Currently there are"
+10285 DATA 2,6,"bugs in the way Radio UserLand uses this attribute. (Every"
+10286 DATA 2,7,"headline gets a data attribute, whether or not it links to a"
+10287 DATA 2,8,"song. We need to XMLize this and fit in data not as an attribute"
+10288 DATA 2,9,"but as a legal sub-item. Shouldn't be hard to do, and with this"
+10289 DATA 2,10,"caveat, breakage should be expected.)"
+10290 DATA 1,4,"3","","","",2
+10291 DATA 2,1,"Radio UserLand can be used to write any kind of document, not"
+10292 DATA 2,2,"just a music playlist. Outlines are great for all kinds of"
+10293 DATA 2,3,"structured documents, specifications, legal briefs, product"
+10294 DATA 2,4,"plans, presentations and stories."
+10295 DATA 1,2,"4","","","",2
+10296 DATA 2,1,"Several examples of outlineDocuments created with Radio"
+10297 DATA 2,2,"UserLand: play list, specification, presentation."
+10298 DATA 1,5,"1","","","",2
+10299 DATA 2,1,"As you're listening to music, Radio UserLand keeps track of what"
+10300 DATA 2,2,"you listen to. Here's a <a href=&quot;http://static.userland.com"
+10301 DATA 2,3,"/images/radiodiscuss/userPlaylistSongs.gif&quot;>screen shot</a>"
+10302 DATA 2,4,"of the table, user.playlist.songs, that keeps track of the"
+10303 DATA 2,5,"stuff."
+10304 DATA 1,7,"2","","","",2
+10305 DATA 2,1,"ctPlays is the number of times the song has been played."
+10306 DATA 2,2,"ctSeconds is the duration of the song, determined by a heuristic"
+10307 DATA 2,3,"that's pretty accurate. f is the file that contains the MP3, on"
+10308 DATA 2,4,"the local file system. whenFirstPlayed is the time/date the song"
+10309 DATA 2,5,"was played for the first time, whenLastPlayed is the most recent"
+10310 DATA 2,6,"time/date. whenLoaded is when Radio UserLand discovered the file"
+10311 DATA 2,7,"in your MP3 folder."
+10312 DATA 1,4,"3","","","",2
+10313 DATA 2,1,"Every hour on the hour Radio UserLand generates an XMLization of"
+10314 DATA 2,2,"this table and places it in the userland folder of your www"
+10315 DATA 2,3,"folder, making it available over the Web. (There's no way to"
+10316 DATA 2,4,"turn this feature off, there should be.)"
+10317 DATA 1,3,"4","","","",2
+10318 DATA 2,1,"Here's an <a href=&quot;http://static.userland.com/gems/radiodis"
+10319 DATA 2,2,"cuss/songs.xml&quot;>example</a> of the XML file. The mapping"
+10320 DATA 2,3,"between the table and the XMLization should be fairly clear."
+10321 DATA 1,5,"1","","","",2
+10322 DATA 2,1,"Rules of the road will be determined later, since many of these"
+10323 DATA 2,2,"files will be on users' machines, we want to provide guidelines"
+10324 DATA 2,3,"for bots, aggregators and content systems; and whatever other"
+10325 DATA 2,4,"kinds of applications people think of. Feel free to use the"
+10326 DATA 2,5,"discussion group here to raise issues."
+10327 DATA 1,1,"1","","","",2
+10328 DATA 2,1,"This page documents the file formats used by Radio UserLand."
+10329 DATA 1,1,"2","","","",2
+10330 DATA 2,1,"There are two formats, outlineDocument and songList."
+10331 DATA 1,2,"3","","","",2
+10332 DATA 2,1,"There's a simple XML-RPC interface that allows a user to"
+10333 DATA 2,2,"register with an aggregator."
+10334 DATA 1,2,"4","","","",2
+10335 DATA 2,1,"All formats are open and public and may be used for any purpose"
+10336 DATA 2,2,"whatsoever."
+10337 DATA 1,6,"1","","","",2
+10338 DATA 2,1,"All playlists are outlineDocuments. This is the main file format"
+10339 DATA 2,2,"for Radio UserLand. When you create a new file it's saved as an"
+10340 DATA 2,3,"outlineDocument. Because users can save them into the www"
+10341 DATA 2,4,"folder, they can be accessed over the Web, either from a script"
+10342 DATA 2,5,"or a Web browser such as MSIE. (Of course they could be served"
+10343 DATA 2,6,"by any HTTP server, not just the Radio UserLand server.)"
+10344 DATA 1,10,"2","","","",2
+10345 DATA 2,1,"The outlineDocument format is <a href=&quot;http://backend.userl"
+10346 DATA 2,2,"and.com/stories/storyReader$53&quot;>documented</a> on"
+10347 DATA 2,3,"backend.userland.com. There will no doubt be changes and"
+10348 DATA 2,4,"refinements to the format. One area that needs work is the"
+10349 DATA 2,5,"format for the data attribute on a headline. Currently there are"
+10350 DATA 2,6,"bugs in the way Radio UserLand uses this attribute. (Every"
+10351 DATA 2,7,"headline gets a data attribute, whether or not it links to a"
+10352 DATA 2,8,"song. We need to XMLize this and fit in data not as an attribute"
+10353 DATA 2,9,"but as a legal sub-item. Shouldn't be hard to do, and with this"
+10354 DATA 2,10,"caveat, breakage should be expected.)"
+10355 DATA 1,4,"3","","","",2
+10356 DATA 2,1,"Radio UserLand can be used to write any kind of document, not"
+10357 DATA 2,2,"just a music playlist. Outlines are great for all kinds of"
+10358 DATA 2,3,"structured documents, specifications, legal briefs, product"
+10359 DATA 2,4,"plans, presentations and stories."
+10360 DATA 1,2,"4","","","",2
+10361 DATA 2,1,"Several examples of outlineDocuments created with Radio"
+10362 DATA 2,2,"UserLand: play list, specification, presentation."
+10363 DATA 1,5,"1","","","",2
+10364 DATA 2,1,"As you're listening to music, Radio UserLand keeps track of what"
+10365 DATA 2,2,"you listen to. Here's a <a href=&quot;http://static.userland.com"
+10366 DATA 2,3,"/images/radiodiscuss/userPlaylistSongs.gif&quot;>screen shot</a>"
+10367 DATA 2,4,"of the table, user.playlist.songs, that keeps track of the"
+10368 DATA 2,5,"stuff."
+10369 DATA 1,7,"2","","","",2
+10370 DATA 2,1,"ctPlays is the number of times the song has been played."
+10371 DATA 2,2,"ctSeconds is the duration of the song, determined by a heuristic"
+10372 DATA 2,3,"that's pretty accurate. f is the file that contains the MP3, on"
+10373 DATA 2,4,"the local file system. whenFirstPlayed is the time/date the song"
+10374 DATA 2,5,"was played for the first time, whenLastPlayed is the most recent"
+10375 DATA 2,6,"time/date. whenLoaded is when Radio UserLand discovered the file"
+10376 DATA 2,7,"in your MP3 folder."
+10377 DATA 1,4,"3","","","",2
+10378 DATA 2,1,"Every hour on the hour Radio UserLand generates an XMLization of"
+10379 DATA 2,2,"this table and places it in the userland folder of your www"
+10380 DATA 2,3,"folder, making it available over the Web. (There's no way to"
+10381 DATA 2,4,"turn this feature off, there should be.)"
+10382 DATA 1,3,"4","","","",2
+10383 DATA 2,1,"Here's an <a href=&quot;http://static.userland.com/gems/radiodis"
+10384 DATA 2,2,"cuss/songs.xml&quot;>example</a> of the XML file. The mapping"
+10385 DATA 2,3,"between the table and the XMLization should be fairly clear."
+10386 DATA 1,5,"1","","","",2
+10387 DATA 2,1,"Rules of the road will be determined later, since many of these"
+10388 DATA 2,2,"files will be on users' machines, we want to provide guidelines"
+10389 DATA 2,3,"for bots, aggregators and content systems; and whatever other"
+10390 DATA 2,4,"kinds of applications people think of. Feel free to use the"
+10391 DATA 2,5,"discussion group here to raise issues."
