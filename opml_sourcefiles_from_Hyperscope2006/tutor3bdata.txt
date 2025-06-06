@@ -1,0 +1,574 @@
+10000 DATA 1,2,"","","","",1
+10580 DATA 1,1,"4d14","047","ROSE","Thu 8 Jan 1981 00:40:17 GMT+00:00",4
+10581 DATA 2,1,"QUIZ"
+10582 DATA 1,1,"4d14a","048","THOM","Wed 19 Dec 1979 02:07:44 GMT+00:00",5
+10583 DATA 2,1,1
+10584 DATA 1,1,"4d14a1","053","THOM","Wed 19 Dec 1979 02:07:52 GMT+00:00",6
+10585 DATA 2,1,"1c1"
+10586 DATA 1,1,"4d14a1a","054","THOM","Wed 19 Dec 1979 02:07:54 GMT+00:00",7
+10587 DATA 2,1,"1c1a"
+10588 DATA 1,1,"4d14a2","050","THOM","Wed 19 Dec 1979 02:07:47 GMT+00:00",6
+10589 DATA 2,1,"1a1"
+10590 DATA 1,1,"4d14a3","051","THOM","Wed 19 Dec 1979 02:07:49 GMT+00:00",6
+10591 DATA 2,1,"1b"
+10592 DATA 1,1,"4d14a4","055","THOM","Wed 19 Dec 1979 02:07:55 GMT+00:00",6
+10593 DATA 2,1,"1d"
+10594 DATA 1,1,"4d14b","065","THOM","Wed 19 Dec 1979 02:08:11 GMT+00:00",5
+10595 DATA 2,1,"extra"
+10596 DATA 1,1,"4d14b1","056","THOM","Wed 19 Dec 1979 02:07:57 GMT+00:00",6
+10597 DATA 2,1,2
+10598 DATA 1,1,"4d14b1a","060","THOM","Wed 19 Dec 1979 02:08:03 GMT+00:00",7
+10599 DATA 2,1,"2c"
+10600 DATA 1,1,"4d14b1a1","061","THOM","Wed 19 Dec 1979 02:08:04 GMT+00:00",8
+10601 DATA 2,1,"2c1"
+10602 DATA 1,1,"4d14b1a1a","062","THOM","Wed 19 Dec 1979 02:08:07 GMT+00:00",9
+10603 DATA 2,1,"2c1a"
+10604 DATA 1,1,"4d14b1b","064","THOM","Wed 19 Dec 1979 02:08:09 GMT+00:00",7
+10605 DATA 2,1,"2d"
+10606 DATA 1,1,"4d14c","059","THOM","Wed 19 Dec 1979 02:08:01 GMT+00:00",5
+10607 DATA 2,1,"extra"
+10608 DATA 1,1,"4d14c1","057","THOM","Wed 19 Dec 1979 02:07:58 GMT+00:00",6
+10609 DATA 2,1,"2a"
+10610 DATA 1,1,"4d14c1a","066","THOM","Wed 19 Dec 1979 02:08:12 GMT+00:00",7
+10611 DATA 2,1,3
+10612 DATA 1,1,"4d14c1a1","049","THOM","Wed 19 Dec 1979 02:07:46 GMT+00:00",8
+10613 DATA 2,1,"1a"
+10614 DATA 1,1,"4d14c1a1a","052","THOM","Wed 19 Dec 1979 02:07:50 GMT+00:00",9
+10615 DATA 2,1,"1c"
+10616 DATA 1,1,"4d14c1a1a1","058","THOM","Wed 19 Dec 1979 02:07:59 GMT+00:00",10
+10617 DATA 2,1,"2b"
+10618 DATA 1,1,"4d14d","063","THOM","Wed 19 Dec 1979 02:08:09 GMT+00:00",5
+10619 DATA 2,1,"2c1b"
+10620 DATA 1,1,"4d15","067","THOM","Wed 19 Dec 1979 02:10:06 GMT+00:00",4
+10621 DATA 2,1,"ANSWER"
+10622 DATA 1,1,"4d15a","069","THOM","Wed 19 Dec 1979 02:07:44 GMT+00:00",5
+10623 DATA 2,1,1
+10624 DATA 1,1,"4d15a1","070","THOM","Wed 19 Dec 1979 02:07:46 GMT+00:00",6
+10625 DATA 2,1,"1a"
+10626 DATA 1,1,"4d15a1a","071","THOM","Wed 19 Dec 1979 02:07:47 GMT+00:00",7
+10627 DATA 2,1,"1a1"
+10628 DATA 1,1,"4d15a2","072","THOM","Wed 19 Dec 1979 02:07:49 GMT+00:00",6
+10629 DATA 2,1,"1b"
+10630 DATA 1,1,"4d15a3","073","THOM","Wed 19 Dec 1979 02:07:50 GMT+00:00",6
+10631 DATA 2,1,"1c"
+10632 DATA 1,1,"4d15a3a","074","THOM","Wed 19 Dec 1979 02:07:52 GMT+00:00",7
+10633 DATA 2,1,"1c1"
+10634 DATA 1,1,"4d15a3a1","075","THOM","Wed 19 Dec 1979 02:07:54 GMT+00:00",8
+10635 DATA 2,1,"1c1a"
+10636 DATA 1,1,"4d15a4","076","THOM","Wed 19 Dec 1979 02:07:55 GMT+00:00",6
+10637 DATA 2,1,"1d"
+10638 DATA 1,1,"4d15b","077","THOM","Wed 19 Dec 1979 02:07:57 GMT+00:00",5
+10639 DATA 2,1,2
+10640 DATA 1,1,"4d15b1","078","THOM","Wed 19 Dec 1979 02:07:58 GMT+00:00",6
+10641 DATA 2,1,"2a"
+10642 DATA 1,1,"4d15b2","079","THOM","Wed 19 Dec 1979 02:07:59 GMT+00:00",6
+10643 DATA 2,1,"2b"
+10644 DATA 1,1,"4d15b3","080","THOM","Wed 19 Dec 1979 02:08:03 GMT+00:00",6
+10645 DATA 2,1,"2c"
+10646 DATA 1,1,"4d15b3a","081","THOM","Wed 19 Dec 1979 02:08:04 GMT+00:00",7
+10647 DATA 2,1,"2c1"
+10648 DATA 1,1,"4d15b3a1","082","THOM","Wed 19 Dec 1979 02:08:07 GMT+00:00",8
+10649 DATA 2,1,"2c1a"
+10650 DATA 1,1,"4d15b3a2","083","THOM","Wed 19 Dec 1979 02:08:09 GMT+00:00",8
+10651 DATA 2,1,"2c1b"
+10652 DATA 1,1,"4d15b4","084","THOM","Wed 19 Dec 1979 02:08:09 GMT+00:00",6
+10653 DATA 2,1,"2d"
+10654 DATA 1,1,"4d15c","085","THOM","Wed 19 Dec 1979 02:08:12 GMT+00:00",5
+10655 DATA 2,1,3
+10656 DATA 1,11,"4d16","086","ROSE","Sat 10 Jan 1981 00:34:00 GMT+00:00",4
+10657 DATA 2,1,"This is not really much of an answer, because it does not show"
+10658 DATA 2,2,"you how to get there, but if you did succeed, you now have a"
+10659 DATA 2,3,"good understanding of structure.  If you had trouble, read the"
+10660 DATA 2,4,"rest of this paragraph, and go back and try to finish up."
+10661 DATA 2,5,"Otherwise, go on.  First, you cannot delete a statement with"
+10662 DATA 2,6,"structure under it.  The statements under any &quot;extra&quot;"
+10663 DATA 2,7,"statement should first be moved out (Move Branch can move a"
+10664 DATA 2,8,"number of statements at the same time).  One possible method to"
+10665 DATA 2,9,"approach the problem might be to get statements 1, 2, and 3 in"
+10666 DATA 2,10,"the right positions.  Then concentrate on getting 1a, 1b, and so"
+10667 DATA 2,11,"on.  Eventually, everything will be put in order."
+10668 DATA 1,7,"4d17","096","THOM","Wed 19 Dec 1979 02:14:29 GMT+00:00",4
+10669 DATA 2,1,"There are a few things that many people find confusing about the"
+10670 DATA 2,2,"concept of a branch.  The main thing to remember is that"
+10671 DATA 2,3,"branches can be different sizes.  Absolutely every statement in"
+10672 DATA 2,4,"your file defines a branch of some sort -- some of those"
+10673 DATA 2,5,"branches are large (if they have a lot of statements under"
+10674 DATA 2,6,"them), and some are only a single statement (if they have no"
+10675 DATA 2,7,"statements under them)."
+10676 DATA 1,8,"4d18","097","THOM","Wed 19 Dec 1979 02:16:06 GMT+00:00",4
+10677 DATA 2,1,"Remember also that statements under a statement in some sense"
+10678 DATA 2,2,"belong to that statement.  This allows a statement and all the"
+10679 DATA 2,3,"statements under it (those having to do with it) to be moved,"
+10680 DATA 2,4,"deleted, and so on as one unit.  You are also prevented from"
+10681 DATA 2,5,"unintentionally altering the structure of a file by simply"
+10682 DATA 2,6,"inserting new information.  If you want material to be moved out"
+10683 DATA 2,7,"from under one statement to be under another, you must"
+10684 DATA 2,8,"specifically command the machine to do so."
+10685 DATA 1,1,"4e","0141","ROSE","Sat 10 Jan 1981 00:34:10 GMT+00:00",3
+10686 DATA 2,1,"The group"
+10687 DATA 1,4,"4e1","0142","ROSE","Sat 10 Jan 1981 00:34:08 GMT+00:00",4
+10688 DATA 2,1,"The &quot;group&quot; is another large structural entity in"
+10689 DATA 2,2,"AUGMENT.  It consists of a number of consecutive branches"
+10690 DATA 2,3,"(remember that a branch includes all the statements below a"
+10691 DATA 2,4,"given statement)."
+10692 DATA 1,10,"4e2","0143","ROSE","Mon 12 Jan 1981 07:40:58 GMT+00:00",4
+10693 DATA 2,1,"Probably the best way to make the concept of a group clear is by"
+10694 DATA 2,2,"way of the example below.  A group might consist of the three"
+10695 DATA 2,3,"statements POACHED through SCRAMBLED, or just the two statements"
+10696 DATA 2,4,"FRIED through SCRAMBLED.  The group from CEREAL through BEVERAGE"
+10697 DATA 2,5,"consists of four statements, and the group from EGGS through"
+10698 DATA 2,6,"CEREAL has seven statements (EGGS, POACHED, FRIED, SCRAMBLED,"
+10699 DATA 2,7,"CEREAL, WHEATIES, and GRANOLA).  Remember that the group is made"
+10700 DATA 2,8,"up of the entire branches.  The large group from BREAKFAST"
+10701 DATA 2,9,"through LUNCH consists of all the statements (11 total).  Study"
+10702 DATA 2,10,"these examples carefully, and then go on."
+10703 DATA 1,1,"4e2a","0148","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",5
+10704 DATA 2,1,"BREAKFAST"
+10705 DATA 1,1,"4e2a1","0149","THOM","Thu 20 Dec 1979 02:05:36 GMT+00:00",6
+10706 DATA 2,1,"EGGS"
+10707 DATA 1,1,"4e2a1a","0150","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",7
+10708 DATA 2,1,"POACHED"
+10709 DATA 1,1,"4e2a1b","0151","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",7
+10710 DATA 2,1,"FRIED"
+10711 DATA 1,1,"4e2a1c","0152","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",7
+10712 DATA 2,1,"SCRAMBLED"
+10713 DATA 1,1,"4e2a2","0153","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",6
+10714 DATA 2,1,"CEREAL"
+10715 DATA 1,1,"4e2a2a","0154","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",7
+10716 DATA 2,1,"WHEATIES"
+10717 DATA 1,1,"4e2a2b","0155","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",7
+10718 DATA 2,1,"GRANOLA"
+10719 DATA 1,1,"4e2a3","0158","THOM","Thu 20 Dec 1979 02:06:03 GMT+00:00",6
+10720 DATA 2,1,"BEVERAGE"
+10721 DATA 1,1,"4e2b","0156","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",5
+10722 DATA 2,1,"LUNCH"
+10723 DATA 1,1,"4e2b1","0157","THOM","Thu 20 Dec 1979 02:05:35 GMT+00:00",6
+10724 DATA 2,1,"NO LUNCH - YOU'RE ON A DIET!"
+10725 DATA 1,10,"4e3","0159","ROSE","Thu 8 Jan 1981 00:41:07 GMT+00:00",4
+10726 DATA 2,1,"Two marks will be needed to identify a group, and the statements"
+10727 DATA 2,2,"marked must be at the same level and under a common statement."
+10728 DATA 2,3,"The actual group is all the statements between and including"
+10729 DATA 2,4,"these two marked statements, and all of the statements under any"
+10730 DATA 2,5,"of them.  In our example of an online book, chapters 3, 4, and 5"
+10731 DATA 2,6,"would make a group.  This group would consist of the chapter"
+10732 DATA 2,7,"headings for all three of those chapters, as well as the"
+10733 DATA 2,8,"complete contents of the chapters.  Smaller groups can consist"
+10734 DATA 2,9,"of sets of sections of a given chapter, or of a set of one or"
+10735 DATA 2,10,"more paragraphs in a row, all at the same level."
+10736 DATA 1,3,"4e4","0160","ROSE","Thu 8 Jan 1981 00:41:11 GMT+00:00",4
+10737 DATA 2,1,"To continue with the tree analogy, the deletion of a group would"
+10738 DATA 2,2,"be similar to cutting off a set of consecutive sublimbs from a"
+10739 DATA 2,3,"given limb."
+10740 DATA 1,7,"4e5","0161","ROSE","Mon 12 Jan 1981 07:41:05 GMT+00:00",4
+10741 DATA 2,1,"Go back to one of the menus in this file (you might try to get"
+10742 DATA 2,2,"there using the &quot;Jump (to) Return&quot; command -- remember"
+10743 DATA 2,3,"it?), and try out various of the usual editing commands on"
+10744 DATA 2,4,"Groups -- Delete Group, Move Group, Replace Group, etc. -- and"
+10745 DATA 2,5,"then come back here.  Remember that a group is like text in that"
+10746 DATA 2,6,"two marks are needed to identify it -- you must identify both"
+10747 DATA 2,7,"the beginning and the end of the group."
+10748 DATA 1,1,"4f","0162","ROSE","Sat 10 Jan 1981 00:34:20 GMT+00:00",3
+10749 DATA 2,1,"The plex"
+10750 DATA 1,13,"4f1","0163","ROSE","Mon 12 Jan 1981 07:41:14 GMT+00:00",4
+10751 DATA 2,1,"This section can safely be skipped (by jumping to the successor"
+10752 DATA 2,2,"of &quot;The plex&quot;, above), but for intermediate and"
+10753 DATA 2,3,"advanced users, the concept of a plex can be extremely powerful."
+10754 DATA 2,4,"It is quite easy to state what a plex is -- it is simply the"
+10755 DATA 2,5,"largest possible group containing a given statement.  It"
+10756 DATA 2,6,"requires only one mark, and this mark identifies all of the"
+10757 DATA 2,7,"statements at the same level as the marked statement, together"
+10758 DATA 2,8,"with all of the substructure below them.  The idea is extremely"
+10759 DATA 2,9,"useful for large sections of a file that are too big to fit on"
+10760 DATA 2,10,"one screen -- you could call it a group, but it is inconvenient"
+10761 DATA 2,11,"(or impossible!) to mark both ends of it.  Go back to one of the"
+10762 DATA 2,12,"menu files, and try out some of the editing commands using the"
+10763 DATA 2,13,"Plex noun."
+10764 DATA 1,7,"4f2","0166","ROSE","Sat 10 Jan 1981 00:34:56 GMT+00:00",4
+10765 DATA 2,1,"As was the case with Branches and Groups, plexes can come in all"
+10766 DATA 2,2,"different sizes.  The plex gotten by pointing to statement 1"
+10767 DATA 2,3,"includes the entire file except the origin statement.  The plex"
+10768 DATA 2,4,"at 1b1  would consist of all statements with numbers beginning"
+10769 DATA 2,5,"with &quot;1b&quot;, and having at least one more number in"
+10770 DATA 2,6,"them.  Possible statement numbers belonging to the plex at 1b1"
+10771 DATA 2,7,"might include:  1b1c, 1b12, 1b1c12w, 1b5a, and so on."
+10772 DATA 1,5,"4f3","0222","ROSE","Mon 12 Jan 1981 07:41:26 GMT+00:00",4
+10773 DATA 2,1,"Again, considering the analogy of an AUGMENT file with a tree,"
+10774 DATA 2,2,"deleting a plex is the same as stripping off all the branches"
+10775 DATA 2,3,"connected to a given branch.  If you use the Delete Plex"
+10776 DATA 2,4,"command, you point to any of those branches that are to be"
+10777 DATA 2,5,"deleted."
+10778 DATA 1,1,"4g","0164","THOM","Thu 20 Dec 1979 02:13:17 GMT+00:00",3
+10779 DATA 2,1,"Editing using addresses"
+10780 DATA 1,15,"4g1","0165","ROSE","Mon 12 Jan 1981 07:41:23 GMT+00:00",4
+10781 DATA 2,1,"Up to now, the only method we have used to point to statements"
+10782 DATA 2,2,"for the purposes of inserting new statements or deleting old"
+10783 DATA 2,3,"ones is the MARK.  If the statement is visible on the screen,"
+10784 DATA 2,4,"this is by far the easiest way to do it, but often the chunk of"
+10785 DATA 2,5,"textual information you are interested in is far bigger than"
+10786 DATA 2,6,"what would fit on a screen (imagine an entire group of chapters"
+10787 DATA 2,7,"of a book, for example).  You may have noticed that after you"
+10788 DATA 2,8,"type &quot;is&quot; for &quot;Insert Statement&quot;, the prompt"
+10789 DATA 2,9,"is &quot;M/A:&quot;, where &quot;M&quot; meant &quot;mark&quot;."
+10790 DATA 2,10,"The &quot;A&quot; means that you can alternatively type in an"
+10791 DATA 2,11,"address.  An address can be many things, but for now, you can"
+10792 DATA 2,12,"think of it simply as a statement number.  When you need to"
+10793 DATA 2,13,"identify a statement and you are presented with the"
+10794 DATA 2,14,"&quot;M/A:&quot; prompt, you may either mark the appropriate"
+10795 DATA 2,15,"statement, or type the address followed by <OK>."
+10796 DATA 1,11,"4g2","0167","ROSE","Thu 8 Jan 1981 00:42:33 GMT+00:00",4
+10797 DATA 2,1,"Jump to this statement, turn on the statement numbers, and take"
+10798 DATA 2,2,"a look at the menu below.  If you haven't made any major changes"
+10799 DATA 2,3,"to this file, BREAKFAST should be numbered 4G2A.  Try inserting"
+10800 DATA 2,4,"a new beverage (statement) to follow 4G2A3, and do it without"
+10801 DATA 2,5,"using a MARK.  (You don't need to worry about capitalizing the"
+10802 DATA 2,6,"&quot;G&quot; and &quot;A&quot; in the address.)  Try deleting"
+10803 DATA 2,7,"the group from EGGS to CEREAL as follows:  MARK the EGGS"
+10804 DATA 2,8,"statement, and give the address of CEREAL (4G2A2).  Notice that"
+10805 DATA 2,9,"you can mix up addresses and marks in any way.  Whenever an"
+10806 DATA 2,10,"&quot;A&quot; appears in a prompt, you can give the address as"
+10807 DATA 2,11,"well as mark the statement."
+10808 DATA 1,1,"4g2a","0168","THOM","Thu 20 Dec 1979 02:20:46 GMT+00:00",5
+10809 DATA 2,1,"BREAKFAST"
+10810 DATA 1,1,"4g2a1","0169","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",6
+10811 DATA 2,1,"EGGS"
+10812 DATA 1,1,"4g2a1a","0170","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",7
+10813 DATA 2,1,"POACHED"
+10814 DATA 1,1,"4g2a1b","0171","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",7
+10815 DATA 2,1,"SCRAMBLED"
+10816 DATA 1,1,"4g2a1c","0172","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",7
+10817 DATA 2,1,"FRIED"
+10818 DATA 1,1,"4g2a2","0173","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",6
+10819 DATA 2,1,"CEREAL"
+10820 DATA 1,1,"4g2a2a","0174","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",7
+10821 DATA 2,1,"WHEATIES"
+10822 DATA 1,1,"4g2a2b","0175","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",7
+10823 DATA 2,1,"GRANOLA"
+10824 DATA 1,1,"4g2a3","0176","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",6
+10825 DATA 2,1,"BEVERAGE"
+10826 DATA 1,1,"4g2a3a","0177","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",7
+10827 DATA 2,1,"COFFEE"
+10828 DATA 1,1,"4g2a3b","0178","THOM","Thu 20 Dec 1979 02:21:00 GMT+00:00",7
+10829 DATA 2,1,"MILK"
+10830 DATA 1,7,"4g3","0179","ROSE","Thu 8 Jan 1981 00:42:49 GMT+00:00",4
+10831 DATA 2,1,"This form of identifying statements and groups of statements is"
+10832 DATA 2,2,"extremely useful when you are editing a large file.  Typically,"
+10833 DATA 2,3,"you will have a listing of the file printed out (with the"
+10834 DATA 2,4,"statement numbers on), and you will mark up the paper with"
+10835 DATA 2,5,"edits.  You can then move around large chunks of the file"
+10836 DATA 2,6,"without having them on the screen.  It's a good thing, too;"
+10837 DATA 2,7,"suppose you had to move statement 1 to follow statement 100!"
+10838 DATA 1,1,"5","07","THOM","Thu 7 Aug 1980 06:01:20 GMT+00:00",2
+10839 DATA 2,1,"Getting help"
+10840 DATA 1,1,"5a","0199","ROSE","Thu 8 Jan 1981 00:42:52 GMT+00:00",3
+10841 DATA 2,1,"Question mark"
+10842 DATA 1,11,"5a1","0202","ROSE","Mon 12 Jan 1981 07:41:33 GMT+00:00",4
+10843 DATA 2,1,"At any point in any command, except when you are typing text,"
+10844 DATA 2,2,"you may type a question mark.  Do so now, and after you take a"
+10845 DATA 2,3,"look, type a command delete.  What you saw was a listing of all"
+10846 DATA 2,4,"the possible command words that you could have typed at that"
+10847 DATA 2,5,"time.  Many of them were probably familiar to you, and probably"
+10848 DATA 2,6,"quite a few of them you have never heard of.  Some of the"
+10849 DATA 2,7,"possibilities had <> in front of them -- this means that you"
+10850 DATA 2,8,"must first type a space before beginning the command.  The"
+10851 DATA 2,9,"question mark feature is very useful if you remember that there"
+10852 DATA 2,10,"is a command to do such and such but you don't remember the"
+10853 DATA 2,11,"exact command word."
+10854 DATA 1,13,"5a2","0203","ROSE","Mon 12 Jan 1981 07:41:37 GMT+00:00",4
+10855 DATA 2,1,"Now type &quot;j&quot; (for &quot;Jump&quot;), and then type a"
+10856 DATA 2,2,"question mark.  What will appear on the screen is a list of all"
+10857 DATA 2,3,"the possible things to which you can jump.  There is no need to"
+10858 DATA 2,4,"type a command delete after typing the question mark -- you can"
+10859 DATA 2,5,"continue with the command as if nothing had happened.  Suppose"
+10860 DATA 2,6,"that you had forgotten the name &quot;Link&quot;.  You know that"
+10861 DATA 2,7,"you want to move somewhere in the file, so you know that the"
+10862 DATA 2,8,"command should begin with &quot;Jump&quot;, so you type"
+10863 DATA 2,9,"&quot;j&quot;.  Then you type a question mark, and as soon as"
+10864 DATA 2,10,"the word &quot;Link&quot; appears on the screen, you say to"
+10865 DATA 2,11,"yourself, &quot;Oh yes -- that's it&quot;, and type"
+10866 DATA 2,12,"&quot;l&quot;.  The command can then be completed as if the"
+10867 DATA 2,13,"question mark had never been typed."
+10868 DATA 1,13,"5a3","0204","RVR","Mon 15 Nov 1982 06:44:54 GMT+00:00",4
+10869 DATA 2,1,"The question mark is extremely useful as a quick reminder, when"
+10870 DATA 2,2,"you already know how the command works but have forgotten the"
+10871 DATA 2,3,"exact command word.  The question mark can also be useful to you"
+10872 DATA 2,4,"later for learning new commands.  Suppose that you want to sort"
+10873 DATA 2,5,"something, and you have heard somewhere that there is a way to"
+10874 DATA 2,6,"do so using AUGMENT.  Type a question mark, looking for likely"
+10875 DATA 2,7,"candidates, and sure enough, there is a Sort command listed."
+10876 DATA 2,8,"After you type &quot;s&quot;, the word &quot;Sort&quot; appears"
+10877 DATA 2,9,"in your command window, and there is another &quot;C:&quot;"
+10878 DATA 2,10,"prompt.  Another question mark will show you the kinds of things"
+10879 DATA 2,11,"you can sort.  When you get experienced with AUGMENT, you can"
+10880 DATA 2,12,"often learn enough by this method to learn to do completely new"
+10881 DATA 2,13,"tasks."
+10882 DATA 1,6,"5a4","0205","THOM","Thu 20 Dec 1979 02:33:00 GMT+00:00",4
+10883 DATA 2,1,"At this point, it should be mentioned that the fastest way to"
+10884 DATA 2,2,"learn new things is to make mistakes.  The faster you can make"
+10885 DATA 2,3,"all your mistakes, the faster you will learn.  If you are"
+10886 DATA 2,4,"experimenting with a new command, be sure to Update your file"
+10887 DATA 2,5,"first, and then no matter what you do, you can return to the"
+10888 DATA 2,6,"previous state using the Delete Modifications command."
+10889 DATA 1,1,"5b","0200","THOM","Thu 20 Dec 1979 02:27:59 GMT+00:00",3
+10890 DATA 2,1,"Help"
+10891 DATA 1,5,"5b1","0206","ROSE","Sat 10 Jan 1981 00:35:50 GMT+00:00",4
+10892 DATA 2,1,"Question mark, as described above, can be used throughout"
+10893 DATA 2,2,"AUGMENT, even in subsystems that you have never heard of."
+10894 DATA 2,3,"Unfortunately, it only gives you information about the syntax of"
+10895 DATA 2,4,"the command -- that is, it only tells you valid command words"
+10896 DATA 2,5,"that can be typed -- it does not tell you at all how they work."
+10897 DATA 1,14,"5b2","0207","ROSE","Mon 12 Jan 1981 07:41:44 GMT+00:00",4
+10898 DATA 2,1,"There is a very large set of files online, called &quot;Help"
+10899 DATA 2,2,"files&quot;, which contain information about how all the"
+10900 DATA 2,3,"features of AUGMENT work.  These files can be accessed at any"
+10901 DATA 2,4,"point by typing &quot;h&quot; for the universal Help command."
+10902 DATA 2,5,"Before you type it, remember that to exit, you need only type a"
+10903 DATA 2,6,"command delete, and you will be right back where you started."
+10904 DATA 2,7,"To use the command, type &quot;h&quot; followed by a word or"
+10905 DATA 2,8,"phrase about which you want help.  For example, if you wish to"
+10906 DATA 2,9,"find out the details about how to sort, type"
+10907 DATA 2,10,"&quot;hsort<OK>&quot;.  If you do not get the response you need,"
+10908 DATA 2,11,"try typing in a synonym for the word.  The writers of the Help"
+10909 DATA 2,12,"files have tried to guess what people might ask about, but they"
+10910 DATA 2,13,"are only human.  Go ahead now, and type &quot;hsort<OK>&quot;,"
+10911 DATA 2,14,"take a look at what you see, and then type a command delete."
+10912 DATA 1,10,"5b3","0208","RVR","Mon 15 Nov 1982 06:58:51 GMT+00:00",4
+10913 DATA 2,1,"You probably got a short description of the Sort command,"
+10914 DATA 2,2,"followed by a &quot;menu&quot; that was made up of two numbered"
+10915 DATA 2,3,"statements.  To get more detailed information (suppose you"
+10916 DATA 2,4,"wished to find out about &quot;sorttypes&quot;, for example),"
+10917 DATA 2,5,"you would simply type &quot;1&quot;, followed by <OK>.  You also"
+10918 DATA 2,6,"have the option of typing another word for help on it (as if you"
+10919 DATA 2,7,"were starting the command anew).  For example, suppose you read"
+10920 DATA 2,8,"the description of Sort, and wonder what the word STRUCTURE"
+10921 DATA 2,9,"means.  Simply type &quot;structure<OK>&quot;, and you will get"
+10922 DATA 2,10,"help on that."
+10923 DATA 1,6,"5b4","0209","ROSE","Sat 10 Jan 1981 00:36:09 GMT+00:00",4
+10924 DATA 2,1,"The information in the Help files can be quite terse, so you may"
+10925 DATA 2,2,"need to reread the description a few times before you understand"
+10926 DATA 2,3,"it, but it is probably the most complete documentation of the"
+10927 DATA 2,4,"system available.  The Help command is actually quite powerful,"
+10928 DATA 2,5,"but you can find out how it works by asking for help about Help"
+10929 DATA 2,6,"(type &quot;hhelp<OK>&quot; and continue from there)."
+10930 DATA 1,1,"5c","0201","ROSE","Thu 8 Jan 1981 00:45:36 GMT+00:00",3
+10931 DATA 2,1,"Online documentation"
+10932 DATA 1,8,"5c1","0210","ROSE","Mon 12 Jan 1981 07:41:58 GMT+00:00",4
+10933 DATA 2,1,"In addition to the Help files, there are online versions of many"
+10934 DATA 2,2,"of the documents about the system that are usually distributed"
+10935 DATA 2,3,"in printed form.  These include the AUGMENT textbook, short"
+10936 DATA 2,4,"tutorials on how to use various of the specialized subsystems,"
+10937 DATA 2,5,"and many other things including such esoteric documents as"
+10938 DATA 2,6,"programmer's documentation on how to write your own system code."
+10939 DATA 2,7,"Most of the relevant information is stored in a directory named"
+10940 DATA 2,8,"USERGUIDES."
+10941 DATA 1,5,"5c2","0211","ROSE","Sat 10 Jan 1981 00:36:22 GMT+00:00",4
+10942 DATA 2,1,"At this point, it is probably a good idea to talk about how you"
+10943 DATA 2,2,"can look at files in a different directory other than your own."
+10944 DATA 2,3,"Up to now, whenever you have typed a file name (to Jump (to)"
+10945 DATA 2,4,"Link to), the computer has assumed that you own the file, that"
+10946 DATA 2,5,"is, that the file is in your directory."
+10947 DATA 1,12,"5c3","0212","ROSE","Fri 9 Jan 1981 06:23:41 GMT+00:00",4
+10948 DATA 2,1,"You are not the only person using the computer.  Twenty or"
+10949 DATA 2,2,"thirty other people may be using the machine at the same time,"
+10950 DATA 2,3,"and when you first &quot;logged into&quot; the system, you told"
+10951 DATA 2,4,"it your name, and gave it a secret password to let the machine"
+10952 DATA 2,5,"know that you are in fact you.  For the purposes of the rest of"
+10953 DATA 2,6,"this discussion, suppose that when you logged in, you used the"
+10954 DATA 2,7,"name SMITH.  This means that you have logged into the SMITH"
+10955 DATA 2,8,"directory.  Other people may have logged into the JONES"
+10956 DATA 2,9,"directory or the DAVIS directory.  One way to think of your"
+10957 DATA 2,10,"directory is as a filing cabinet, with the files in it being the"
+10958 DATA 2,11,"folders in your cabinet.  Inserting text into a file is like"
+10959 DATA 2,12,"adding information to the appropriate folder."
+10960 DATA 1,12,"5c4","0213","ROSE","Sat 10 Jan 1981 00:36:48 GMT+00:00",4
+10961 DATA 2,1,"The nice thing is that both you (SMITH) and JONES can have a"
+10962 DATA 2,2,"file with the same name (both of you, for example, can have a"
+10963 DATA 2,3,"file named CALENDAR or PERSONNEL or LETTER).  The computer knows"
+10964 DATA 2,4,"that your calendar is different from JONES' calendar; it knows"
+10965 DATA 2,5,"that when you are logged in, you want to look at the SMITH"
+10966 DATA 2,6,"calendar, and when JONES is logged in, she wants to look at the"
+10967 DATA 2,7,"JONES calendar.  It may be, however, that you may want to look"
+10968 DATA 2,8,"at the JONES calendar.  How do you do this?  If you type"
+10969 DATA 2,9,"&quot;Jump (to) Link calendar,<OK>&quot;, you will get to your"
+10970 DATA 2,10,"own.  The solution is to type &quot;Jump (to) Link"
+10971 DATA 2,11,"jones,calendar,<OK>&quot;.  (Note that there is still a comma"
+10972 DATA 2,12,"after &quot;calendar&quot;, the file name)."
+10973 DATA 1,6,"5c5","0214","ROSE","Fri 9 Jan 1981 06:24:00 GMT+00:00",4
+10974 DATA 2,1,"Of course, JONES may have set her file to be secret from you, in"
+10975 DATA 2,2,"which case you would get some kind of error message when you try"
+10976 DATA 2,3,"to do this, but if not, her file named CALENDAR would appear on"
+10977 DATA 2,4,"your screen.  Later, in TUTOR4, you will learn a little more"
+10978 DATA 2,5,"about file protection, and how to protect your files from other"
+10979 DATA 2,6,"users, or to make them so that other users can write on them."
+10980 DATA 1,8,"5c6","0219","ROSE","Mon 12 Jan 1981 07:51:10 GMT+00:00",4
+10981 DATA 2,1,"Anyway, suppose you wanted to look at the file named LOCATOR in"
+10982 DATA 2,2,"the USERGUIDES directory.  To look at it, you could use the"
+10983 DATA 2,3,"command &quot;Jump (to) Link userguides,locator,<OK>&quot;;"
+10984 DATA 2,4,"however, there is another AUGMENT command that does this for"
+10985 DATA 2,5,"you.  You just type &quot;Jump (to) Locator <OK>&quot;."
+10986 DATA 2,6,"Remember to type a space before the command word"
+10987 DATA 2,7,"&quot;Locator&quot;, or AUGMENT will think you mean &quot;Jump"
+10988 DATA 2,8,"(to) Link&quot;.  Don't do this now."
+10989 DATA 1,9,"5c7","0220","RVR","Mon 15 Nov 1982 06:20:26 GMT+00:00",4
+10990 DATA 2,1,"There is a command to find out the names of the files in another"
+10991 DATA 2,2,"directory.  It is the Show Directory command.  Since"
+10992 DATA 2,3,"&quot;s&quot; will get you &quot;Sort&quot; type"
+10993 DATA 2,4,"<SP>&quot;sh&quot; to get &quot;Show&quot;, and then"
+10994 DATA 2,5,"&quot;d&quot; for &quot;Directory&quot;, followed by the name of"
+10995 DATA 2,6,"the directory you wish to see.  If you then type two <OK>s, a"
+10996 DATA 2,7,"list of all the files (that you are allowed to see) appears on"
+10997 DATA 2,8,"your screen.  When the screen fills up, simply type <OK> to see"
+10998 DATA 2,9,"another screenful."
+10999 DATA 1,4,"5c8","0251","ROSE","Sat 10 Jan 1981 00:37:01 GMT+00:00",4
+11000 DATA 2,1,"Another shortcut -- if you want to see the files in your own"
+11001 DATA 2,2,"directory, you do not need to type your own directory name --"
+11002 DATA 2,3,"simply type <OK> when you are asked for the name of the"
+11003 DATA 2,4,"directory."
+11004 DATA 1,12,"5c9","0221","ROSE","Sat 10 Jan 1981 00:37:50 GMT+00:00",4
+11005 DATA 2,1,"You can learn a lot by exploring the files in the USERGUIDES"
+11006 DATA 2,2,"directory, but we recommend that you do so not by jumping to the"
+11007 DATA 2,3,"files directly, but rather by getting to them through the file"
+11008 DATA 2,4,"named LOCATOR, which contains pointers to much more online"
+11009 DATA 2,5,"information.  Type the &quot;Jump (to) Locator&quot; command and"
+11010 DATA 2,6,"look around now if you wish.  There are instructions for using"
+11011 DATA 2,7,"it at the beginning.  If you want to jump to the files directly"
+11012 DATA 2,8,"to practice using links to files in other directories, you can"
+11013 DATA 2,9,"do that, too.  If you have trouble, you should perhaps read the"
+11014 DATA 2,10,"section (in this file) about advanced links, and then try again."
+11015 DATA 2,11,"When you are tired of looking at the USERGUIDES files, use the"
+11016 DATA 2,12,"Jump (to) Return File command to come back here."
+11017 DATA 1,1,"5d","0489","ROSE","Fri 16 Jan 1981 07:38:41 GMT+00:00",3
+11018 DATA 2,1,"Feedback"
+11019 DATA 1,11,"5d1","0490","WBD","Sat 9 Jul 1988 00:21:20 GMT+00:00",4
+11020 DATA 2,1,"Any time you have a problem that you simply cannot figure out,"
+11021 DATA 2,2,"you can send a message to Feedback (use &quot;FEEDBACK&quot; as"
+11022 DATA 2,3,"the name or FEED.MDC as the ident).  The message will be sent"
+11023 DATA 2,4,"via the AUGMENT Mail system, or the Journal.  Within 24 hours"
+11024 DATA 2,5,"during the work week, you should receive a response.  Feedback"
+11025 DATA 2,6,"can also be contacted for such things as setting up new"
+11026 DATA 2,7,"directories, deleting old ones, and other special requests.  In"
+11027 DATA 2,8,"fact, you are welcome to send almost any question at all"
+11028 DATA 2,9,"concerning the system to Feedback, and even if you do not find"
+11029 DATA 2,10,"out exactly what you need to know, Feedback may at least point"
+11030 DATA 2,11,"you in the right direction."
+11031 DATA 1,1,"6","0182","THOM","Thu 7 Aug 1980 06:01:21 GMT+00:00",2
+11032 DATA 2,1,"Intermediate editing"
+11033 DATA 1,1,"6a","0184","THOM","Thu 20 Dec 1979 02:24:13 GMT+00:00",3
+11034 DATA 2,1,"Verbs"
+11035 DATA 1,1,"6a1","0185","THOM","Thu 20 Dec 1979 02:24:17 GMT+00:00",4
+11036 DATA 2,1,"Copy"
+11037 DATA 1,7,"6a1a","0246","ROSE","Mon 12 Jan 1981 07:42:10 GMT+00:00",5
+11038 DATA 2,1,"The Copy verb does just what you think.  It copies an object to"
+11039 DATA 2,2,"somewhere else.  The objects that can be copied include all of"
+11040 DATA 2,3,"the ones you have used before, such as Character, Word, Text,"
+11041 DATA 2,4,"Statement, Branch, etc.  As with the commands Insert, Move, and"
+11042 DATA 2,5,"so on, the Copy command copies a character to follow a"
+11043 DATA 2,6,"character, a word to follow a word, a statement to follow a"
+11044 DATA 2,7,"statement, and so on."
+11045 DATA 1,11,"6a1b","01234","ROSE","Fri 9 Jan 1981 06:32:11 GMT+00:00",5
+11046 DATA 2,1,"Another important use of the Copy verb is for copying entire"
+11047 DATA 2,2,"files.  The command is &quot;Copy File (named) oldname<OK> (to a"
+11048 DATA 2,3,"new file to be named) newname<OK><OK>&quot;.  This command does"
+11049 DATA 2,4,"not alter the information inside the file at all, and sometimes"
+11050 DATA 2,5,"this is a little surprising.  For example, if you copy the file"
+11051 DATA 2,6,"named &quot;tutor,tutor4,&quot; to a new file named"
+11052 DATA 2,7,"&quot;tutor4,&quot; in your own directory, and then jump to that"
+11053 DATA 2,8,"file, you will note that the origin statement still identifies"
+11054 DATA 2,9,"that file as being in the TUTOR directory.  After you have made"
+11055 DATA 2,10,"any change to the file and updated it, the origin statement will"
+11056 DATA 2,11,"change to indicate the new location of the file."
+11057 DATA 1,1,"6a2","0186","THOM","Thu 20 Dec 1979 02:24:19 GMT+00:00",4
+11058 DATA 2,1,"Transpose"
+11059 DATA 1,10,"6a2a","0247","ROSE","Mon 12 Jan 1981 07:42:16 GMT+00:00",5
+11060 DATA 2,1,"The Transpose verb is another verb, which, like Copy, operates"
+11061 DATA 2,2,"on the usual editing entities.  The Transpose command exchanges"
+11062 DATA 2,3,"two objects of the kind that you specify.  For example, if you"
+11063 DATA 2,4,"type &quot;Transpose Character&quot;, you will be given the"
+11064 DATA 2,5,"option of marking two different characters, and after you type"
+11065 DATA 2,6,"the final <OK>, the two characters will be exchanged."
+11066 DATA 2,7,"Transposing text requires four marks -- you must identify both"
+11067 DATA 2,8,"the beginning and end of each piece of text.  To exchange"
+11068 DATA 2,9,"chapters 1 and 2 in an online book, you might use the Transpose"
+11069 DATA 2,10,"Branch command, and mark the two chapter headers."
+11070 DATA 1,1,"6a3","0187","THOM","Mon 9 Jun 1980 06:44:35 GMT+00:00",4
+11071 DATA 2,1,"Replace All"
+11072 DATA 1,10,"6a3a","0309","ROSE","Fri 9 Jan 1981 06:32:51 GMT+00:00",5
+11073 DATA 2,1,"There are often times when it would be nice to be able to do a"
+11074 DATA 2,2,"replacement not once, but every time it occurred in a certain"
+11075 DATA 2,3,"piece of text.  I am sure that you have seen form letters that"
+11076 DATA 2,4,"begin &quot;Dear Capt. Ahab,&quot;, and then later have a line"
+11077 DATA 2,5,"containing something like: &quot;I am sure, Capt. Ahab, that you"
+11078 DATA 2,6,"would love to be a benefactor to our 'Save The Whales'"
+11079 DATA 2,7,"organization ...&quot;.  This could have been done by making a"
+11080 DATA 2,8,"letter template with &quot;XXX&quot; wherever &quot;Capt."
+11081 DATA 2,9,"Ahab&quot; appears above, and the same letter can be customized"
+11082 DATA 2,10,"by substituting other names for the XXX in subsequent mailings."
+11083 DATA 1,6,"6a3b","0310","ROSE","Fri 9 Jan 1981 06:33:11 GMT+00:00",5
+11084 DATA 2,1,"In any case, there is an AUGMENT command to do just this -- the"
+11085 DATA 2,2,"&quot;Replace All&quot; command.  The wholesale replacement may"
+11086 DATA 2,3,"take place in a single statement only, a branch, a group, or"
+11087 DATA 2,4,"even a plex or the entire file.  The Replace All command has"
+11088 DATA 2,5,"many forms, but in its simplest form, it works something like"
+11089 DATA 2,6,"this:"
+11090 DATA 1,7,"6a3c","0311","ROSE","Mon 12 Jan 1981 07:42:25 GMT+00:00",5
+11091 DATA 2,1,"&quot;Replace All (occurrances in) Branch (at) MARK (of old)"
+11092 DATA 2,2,"Word oldword<OK> (by word) newword<OK> <OK>&quot;.  In this"
+11093 DATA 2,3,"example, all occurrances of the word oldword will be replaced by"
+11094 DATA 2,4,"newword.  In this paragraph (statement), notice that"
+11095 DATA 2,5,"&quot;occurrences&quot; has been misspelled throughout (as"
+11096 DATA 2,6,"&quot;occurrances&quot;).  Correct all of the misspellings now"
+11097 DATA 2,7,"with a single Replace All command."
+11098 DATA 1,10,"6a3d","0312","RVR","Mon 15 Nov 1982 07:03:16 GMT+00:00",5
+11099 DATA 2,1,"In the previous example, we replaced words by words; we can also"
+11100 DATA 2,2,"replace for arbitrary text.  There are some dangers, however."
+11101 DATA 2,3,"If we substitute the text &quot;dog&quot; for &quot;cat&quot;,"
+11102 DATA 2,4,"all the words &quot;cat&quot; will be changed to"
+11103 DATA 2,5,"&quot;dog&quot;, but the word &quot;catalog&quot; will be"
+11104 DATA 2,6,"changed to &quot;dogalog&quot;.  Let the user beware.  If you"
+11105 DATA 2,7,"are not sure about exactly what a Replace All command will do,"
+11106 DATA 2,8,"update your file first, then try it.  If all goes well, fine."
+11107 DATA 2,9,"If not, (you get 2000 replacements instead of the 20 you"
+11108 DATA 2,10,"expected), you can just Delete Modifications, and try again."
+11109 DATA 1,5,"6a3e","0313","RVR","Mon 15 Nov 1982 07:03:23 GMT+00:00",5
+11110 DATA 2,1,"Try a few strange replacements on a small part of this file."
+11111 DATA 2,2,"&quot;Replace All&quot; for characters, words, and text.  Try to"
+11112 DATA 2,3,"figure out what will happen each time before you press the final"
+11113 DATA 2,4,"<OK>.  You might want to update the file first, as was mentioned"
+11114 DATA 2,5,"earlier, so that you can delete modifications when you are done."
+11115 DATA 1,8,"6a3f","0314","ROSE","Mon 12 Jan 1981 07:42:31 GMT+00:00",5
+11116 DATA 2,1,"Notice that at the end of the command, you were presented with a"
+11117 DATA 2,2,"&quot;C/OK:&quot; prompt, and until now you have answered <OK>."
+11118 DATA 2,3,"Your other options include typing &quot;a&quot; (for additional"
+11119 DATA 2,4,"replacements in the same structure), and &quot;s&quot; (to show"
+11120 DATA 2,5,"the status of the current command).  Try doing more than one"
+11121 DATA 2,6,"global replacement at the same time, and before you give the"
+11122 DATA 2,7,"final <OK>, type &quot;s&quot; (for &quot;Status&quot;) to see"
+11123 DATA 2,8,"how the command works."
+11124 DATA 1,1,"6a4","0197","THOM","Thu 20 Dec 1979 02:25:20 GMT+00:00",4
+11125 DATA 2,1,"Append and Break"
+11126 DATA 1,7,"6a4a","0302","THOM","Wed 5 Mar 1980 07:52:46 GMT+00:00",5
+11127 DATA 2,1,"The basic structural entity of an AUGMENT file is the statement,"
+11128 DATA 2,2,"and it very often corresponds to a paragraph of text."
+11129 DATA 2,3,"Sometimes, after you have written a paragraph, you notice that"
+11130 DATA 2,4,"the text you have written really deals with two different ideas,"
+11131 DATA 2,5,"and should be broken apart into two different statements."
+11132 DATA 2,6,"Sometimes the opposite is the case -- two paragraphs should be"
+11133 DATA 2,7,"joined to make one."
+11134 DATA 1,4,"6a4b","0303","THOM","Mon 9 Jun 1980 06:48:04 GMT+00:00",5
+11135 DATA 2,1,"AUGMENT has two commands to perform these operations:  Break and"
+11136 DATA 2,2,"Append, respectively.  Let us try the Break command on the"
+11137 DATA 2,3,"following paragraph (which obviously discusses two different"
+11138 DATA 2,4,"ideas)."
+11139 DATA 1,13,"6a4c","0304","ROSE","Fri 9 Jan 1981 06:34:44 GMT+00:00",5
+11140 DATA 2,1,"For millions of years, dinosaurs roamed the earth.  One of the"
+11141 DATA 2,2,"largest was Tyrannosaurus Rex.  To use the break statement"
+11142 DATA 2,3,"command, type &quot;bs&quot; (for &quot;Break Statement&quot;),"
+11143 DATA 2,4,"and MARK the last word you want to remain in the first of the"
+11144 DATA 2,5,"two parts.  Actually, &quot;last word&quot; is not precisely"
+11145 DATA 2,6,"correct -- all characters up to a space or <TAB> or <RET> will"
+11146 DATA 2,7,"remain.  In the case of this paragraph, marking anywhere in the"
+11147 DATA 2,8,"word &quot;Rex&quot; above will cause &quot;Rex.&quot;"
+11148 DATA 2,9,"(including the period) to remain in the first statement.  After"
+11149 DATA 2,10,"marking the breaking point, you may simply type <OK> to complete"
+11150 DATA 2,11,"the action, or you may specify the level of the newly-created"
+11151 DATA 2,12,"second statement relative to the present one (up, down, same"
+11152 DATA 2,13,"level).  Do this now."
