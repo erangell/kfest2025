@@ -19,4 +19,5 @@ Useful References:
 - https://youtu.be/qisaqiysp2s?si=p-aebXnLL1HD7Ros
 - https://www.youtube.com/watch?v=4WxHC85rvcs
 - https://www.youtube.com/watch?v=8Ymoo5_gNU8
+- https://www.youtube.com/watch?v=yzq3kCyak_I
 - https://dougengelbart.org/
