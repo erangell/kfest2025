@@ -21,4 +21,5 @@ Useful References:
 - https://www.youtube.com/watch?v=8Ymoo5_gNU8
 - https://www.youtube.com/watch?v=yzq3kCyak_I
 - https://www.youtube.com/watch?v=S5ZJtZ98laY
+- https://www.youtube.com/watch?v=FR68crgr8vE
 - https://dougengelbart.org/
