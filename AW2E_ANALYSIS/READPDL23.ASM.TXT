@@ -1,0 +1,32 @@
+; PADDLE 2 AND 3 READ SUBROUTINE
+;
+CURRX    EQU $06
+CURRY    EQU $07
+;
+         ORG $300
+;
+JOY      LDX #$00
+         LDY #$00
+         LDA #$80
+         SEC
+         BIT $C070
+JOY1     BIT $C066 ; PDL 2
+         BPL JOY2
+         INX
+         BNE JOY3
+JOY2     NOP
+         NOP
+JOY3     BIT $C067 ; PDL 3
+         BPL JOY4
+         INY
+         BNE JOY5
+JOY4     NOP
+         NOP
+JOY5     SBC #$01
+         BCS JOY1
+;
+         STX CURRX
+         STY CURRY
+;
+         RTS
+;
