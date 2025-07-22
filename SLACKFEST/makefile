@@ -1,0 +1,3 @@
+main = "main.s"
+; uncomment if you want to write to disk...
+; output = "myprog"
