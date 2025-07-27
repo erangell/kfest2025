@@ -1,5 +1,5 @@
 # Kansasfest 2025: FujiNLS
-Youtube Playlist: https://www.youtube.com/watch?v=ZiWuFPASIDA&list=PLOW4_Hp8_911gjbvySdVJ6hSFpxeeLMr-
+Youtube Playlist: https://www.youtube.com/watch?v=dFmY7ubuRuE&list=PLOW4_Hp8_911gjbvySdVJ6hSFpxeeLMr-
 
 - KFEST2025.hdv = hard disk image.  Documents can be viewed in emulation.  Client/server code requires Apple #Fujinet devices.
 - weeguifujinls.dsk = standalone demo of NLS shopping list - can execute a few viewspecs, but not maintained going forward
